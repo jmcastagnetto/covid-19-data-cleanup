@@ -50,22 +50,6 @@ ts_deaths <- read_csv(
   pivot_longer(
     -c("Province/State", "Country/Region", "Lat", "Long"),
     names_to = "ts",
-    values_to = "confirmed"
-  ) %>%
-  mutate(
-    ts = lubridate::mdy_hm(ts),
-    confirmed = as.integer(confirmed)
-  ) %>%
-  janitor::clean_names() %>%
-  select(2, 1, 3, 4, 5, 6)
-
-ts_deaths <- read_csv(
-  tsfiles_df[2,]$download_url,
-  col_types = cols(.default = col_character())
-  ) %>%
-  pivot_longer(
-    -c("Province/State", "Country/Region", "Lat", "Long"),
-    names_to = "ts",
     values_to = "deaths"
   ) %>%
   mutate(
