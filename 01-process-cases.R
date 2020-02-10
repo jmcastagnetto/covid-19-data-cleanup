@@ -45,6 +45,7 @@ get_data <- function(csv) {
     strptime(format = "%m-%d-%Y %H%M") %>%
     strftime()
   # parse only first 6 columns
+  # these are consisent over the CSV files
   col_spec <- list(
     province_state = col_character(),
     country_region = col_character(),
