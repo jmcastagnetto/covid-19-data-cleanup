@@ -41,7 +41,8 @@ ts_confirmed <- read_csv(
   mutate(
     ts = lubridate::mdy_hm(ts)
   ) %>%
-  janitor::clean_names()
+  janitor::clean_names() %>%
+  select(2, 1, 3, 4, 5, 6)
 
 ts_deaths <- read_csv(
   tsfiles_df[2,]$download_url,
