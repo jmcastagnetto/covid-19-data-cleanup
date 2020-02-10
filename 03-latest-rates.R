@@ -4,6 +4,7 @@ ts_confirmed <- readRDS("data/2019ncov_ts_confirmed.rds")
 ts_deaths <- readRDS("data/2019ncov_ts_deaths.rds")
 ts_recovered <- readRDS("data/2019ncov_ts_recovered.rds")
 
+# Naive rates, need to account for lag ~ 14d (estimated)
 latest_rates <- ts_confirmed %>%
   filter(ts == max(ts)) %>%
   select(-lat, -long, -ts) %>%
