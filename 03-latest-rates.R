@@ -48,3 +48,7 @@ capture.output(
   file = "latest_not_china_rates.md"
 )
 
+max(ts_confirmed$ts)
+# [1] "2020-02-10 10:30:00 UTC"
+sum(china$confirmed_pct)
+# [1] 99.06837
