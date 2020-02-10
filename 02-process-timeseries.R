@@ -39,7 +39,8 @@ ts_confirmed <- read_csv(
     values_to = "confirmed"
   ) %>%
   mutate(
-    ts = lubridate::mdy_hm(ts)
+    ts = lubridate::mdy_hm(ts),
+    confirmed = as.integer(confirmed)
   ) %>%
   janitor::clean_names() %>%
   select(2, 1, 3, 4, 5, 6)
