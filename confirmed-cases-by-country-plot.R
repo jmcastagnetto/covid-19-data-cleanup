@@ -1,3 +1,7 @@
+library(tidyverse)
+
+ts_combined <- readRDS("data/2019ncov_ts_combined.rds")
+
 # df <- ts_combined %>%
 #   mutate(
 #     place = glue::glue("{country}\n{province}",
