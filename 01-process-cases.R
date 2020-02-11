@@ -29,7 +29,7 @@ cases_df <- cases %>%
     str_detect(name, "\\.csv")
   )
 
-raw_data <- list()
+# raw_data <- list()
 
 # for (r in cases_df$download_url) {
 #   fn = r
@@ -44,6 +44,7 @@ get_data <- function(csv) {
     str_replace("_", " ") %>%
     strptime(format = "%m-%d-%Y %H%M") %>%
     strftime()
+
   # parse only first 6 columns
   # these are consisent over the CSV files
   col_spec <- list(
@@ -58,6 +59,7 @@ get_data <- function(csv) {
            col_types = col_spec, skip = 1,
            col_names = names(col_spec)) %>%
     mutate(
+      # update = lubridate::dmy_hm(update)
       update = ts
     )
 }
@@ -77,6 +79,9 @@ cases_raw <- cases_raw %>%
     dead,
     recovered,
     update
+  ) %>%
+  mutate(
+    update = lubridate::as_datetime(update)
   )
 
 saveRDS(
