@@ -5,17 +5,17 @@ ts_deaths <- readRDS("data/2019ncov_ts_deaths.rds")
 ts_recovered <- readRDS("data/2019ncov_ts_recovered.rds")
 
 # Naive rates, need to account for lag ~ 14d (estimated)
-latest_rates <- ts_confirmed %>%
+latest_rates <- as_tibble(ts_confirmed) %>%
   filter(ts == max(ts)) %>%
   select(-lat, -long, -ts) %>%
   left_join(
-    ts_deaths %>%
+    as_tibble(ts_deaths) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -long, -ts),
     by = c("country_region", "province_state")
   ) %>%
   left_join(
-    ts_recovered %>%
+    as_tibble(ts_recovered) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -long, -ts),
     by = c("country_region", "province_state")
@@ -50,6 +50,6 @@ capture.output(
 )
 
 max(ts_confirmed$ts)
-# [1] "2020-02-10 10:30:00 UTC"
+# [1] "2020-02-10 19:30:00 UTC"
 sum(china$confirmed_pct)
-# [1] 99.06837
+# [1] 98.93142

@@ -38,12 +38,12 @@ get_tsdata <- function(csv_url) {
     pivot_longer(
       -c("Province/State", "Country/Region", "Lat", "Long"),
       names_to = "ts",
-      values_to = "confirmed"
+      values_to = "var"
     ) %>%
     janitor::clean_names() %>%
     mutate(
       ts = lubridate::mdy_hm(ts),
-      confirmed = as.integer(confirmed),
+      var = as.integer(var),
       lat = round(as.double(lat), 5),
       long = round(as.double(long), 5)
     ) %>%
@@ -59,9 +59,12 @@ mk_tsibble <- function(df) {
 }
 
 #-- get the data
-ts_confirmed <- get_tsdata(tsfiles_df[1,]$download_url)
-ts_deaths <- get_tsdata(tsfiles_df[2,]$download_url)
-ts_recovered <- get_tsdata(tsfiles_df[3,]$download_url)
+ts_confirmed <- get_tsdata(tsfiles_df[1,]$download_url) %>%
+  rename(confirmed = var)
+ts_deaths <- get_tsdata(tsfiles_df[2,]$download_url) %>%
+  rename(deaths = var)
+ts_recovered <- get_tsdata(tsfiles_df[3,]$download_url) %>%
+  rename(recovered = var)
 
 #-- extract places
 places <- bind_rows(
@@ -113,7 +116,4 @@ saveRDS(
   ts_combined,
   file = "data/2019ncov_ts_combined.rds"
 )
-
-
-
 
