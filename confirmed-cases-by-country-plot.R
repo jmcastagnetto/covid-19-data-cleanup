@@ -42,7 +42,7 @@ ggplot(country_df,
   labs(
     y = "",
     x = "",
-    title = "2019-ncov: Confirmed cases by Country",
+    title = "COVID-19: Confirmed cases by Country",
     subtitle = "Data source: https://github.com/CSSEGISandData/2019-nCoV",
     caption = paste(format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
   ) +
@@ -54,7 +54,7 @@ ggplot(country_df,
   )
 
 ggsave(
-  filename = "2019ncov-confirmed-cases-by-country.png",
+  filename = "covid19-confirmed-cases-by-country.png",
   width = 14,
   height = 10
 )

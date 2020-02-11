@@ -9,4 +9,4 @@ There are couple of quick tables:
 
 An a plot of confirmed cases by country:
 
-![Confirmed cases by country](2019ncov-confirmed-cases-by-country.png)
+![COVID-19 Confirmed cases by country](covid19-confirmed-cases-by-country.png)
