@@ -50,6 +50,6 @@ capture.output(
 )
 
 max(ts_confirmed$ts)
-# [1] "2020-02-10 19:30:00 UTC"
+# [1] "2020-02-11 10:50:00 UTC"
 sum(china$confirmed_pct)
-# [1] 98.93142
+# [1] 98.90823
