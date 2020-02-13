@@ -4,7 +4,7 @@ library(gh)
 #-- get the list of CSV files with the timeseries
 tsfiles <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
-            repo = "2019-nCoV",
+            repo = "COVID-19",
             path = "/time_series",
             branch = "master")
 
@@ -99,21 +99,21 @@ ts_recovered <- mk_tsibble(ts_recovered)
 #-- save timeseries
 saveRDS(
   ts_confirmed,
-  file = "data/2019ncov_ts_confirmed.rds"
+  file = "data/covid-19_ts_confirmed.rds"
 )
 
 saveRDS(
   ts_deaths,
-  file = "data/2019ncov_ts_deaths.rds"
+  file = "data/covid-19_ts_deaths.rds"
 )
 
 saveRDS(
   ts_recovered,
-  file = "data/2019ncov_ts_recovered.rds"
+  file = "data/covid-19_ts_recovered.rds"
 )
 
 saveRDS(
   ts_combined,
-  file = "data/2019ncov_ts_combined.rds"
+  file = "data/covid-19_ts_combined.rds"
 )
 

@@ -1,8 +1,8 @@
 library(tidyverse)
 
-ts_confirmed <- readRDS("data/2019ncov_ts_confirmed.rds")
-ts_deaths <- readRDS("data/2019ncov_ts_deaths.rds")
-ts_recovered <- readRDS("data/2019ncov_ts_recovered.rds")
+ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds")
+ts_deaths <- readRDS("data/covid-19_ts_deaths.rds")
+ts_recovered <- readRDS("data/covid-19_ts_recovered.rds")
 
 # Naive rates, need to account for lag ~ 14d (estimated)
 latest_rates <- as_tibble(ts_confirmed) %>%

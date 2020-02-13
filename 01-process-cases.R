@@ -3,7 +3,7 @@ library(gh)
 
 cases <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
-            repo = "2019-nCoV",
+            repo = "COVID-19",
             path = "/daily_case_updates",
             branch = "master")
 
@@ -86,5 +86,5 @@ cases_raw <- cases_raw %>%
 
 saveRDS(
   cases_raw,
-  file = "data/2019ncov_cases_raw.rds"
+  file = "data/covid-19_cases_raw.rds"
 )

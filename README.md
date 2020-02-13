@@ -6,8 +6,8 @@ Data source commit reference: https://github.com/CSSEGISandData/COVID-19/commit/
 
 There are couple of quick tables (with naive rate estimates):
 
-- For cases in China: https://github.com/jmcastagnetto/2019ncov-data-cleanup/blob/master/latest_china_rates.md 
-- For cases outside China: https://github.com/jmcastagnetto/2019ncov-data-cleanup/blob/master/latest_not_china_rates.md
+- For cases in China: https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md 
+- For cases outside China: https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_not_china_rates.md
 
 An a plot of confirmed cases by country:
 
