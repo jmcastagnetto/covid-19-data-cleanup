@@ -1,10 +1,18 @@
 library(tidyverse)
 library(gh)
 
+meta <- gh("GET /repos/:owner/:repo/git/refs",
+           owner = "CSSEGISandData",
+           repo = "COVID-19")
+
+foo <- unlist(meta)
+
+TO DO: finish
+
 cases <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
             repo = "COVID-19",
-            path = "/daily_case_updates",
+            path = "/csse_covid_19_data/csse_covid_19_daily_reports", # path changed
             branch = "master")
 
 cases_df <- cases %>%
@@ -41,12 +49,11 @@ get_data <- function(csv) {
   fname <- csv
   ts <- basename(fname) %>%
     str_remove(".csv") %>%
-    str_replace("_", " ") %>%
-    strptime(format = "%m-%d-%Y %H%M") %>%
+    #str_replace("_", " ") %>%
+    strptime(format = "%m-%d-%Y") %>%
     strftime()
 
   # parse only first 6 columns
-  # these are consisent over the CSV files
   col_spec <- list(
     province_state = col_character(),
     country_region = col_character(),
@@ -81,7 +88,7 @@ cases_raw <- cases_raw %>%
     update
   ) %>%
   mutate(
-    update = lubridate::as_datetime(update)
+    update = lubridate::as_date(update)
   )
 
 saveRDS(

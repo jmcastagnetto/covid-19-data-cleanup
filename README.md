@@ -1,6 +1,8 @@
 R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandData/COVID-19
 
-Data source commit reference: https://github.com/CSSEGISandData/COVID-19/commit/284f4c8bb5ceb32f342af9e0fa30f84396a25831
+*Note of 2020-02-14*: the original data source has changed its data structure, the timeseries data is empty as of the commit referred below.
+
+Data source commit reference: https://github.com/CSSEGISandData/COVID-19/commit/ec22a9197125f68961dae5907f8badc1d95ee621 
 
 - For the cases, I've used the filename to to get the timestamp, because that is more reliable
 
