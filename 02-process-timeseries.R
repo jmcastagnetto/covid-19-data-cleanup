@@ -5,7 +5,7 @@ library(gh)
 tsfiles <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
             repo = "COVID-19",
-            path = "/time_series",
+            path = "/csse_covid_19_data/csse_covid_19_time_series",
             branch = "master")
 
 tsfiles_df <- tsfiles %>%
@@ -31,7 +31,6 @@ tsfiles_df <- tsfiles %>%
   )
 
 #-- utility functions
-
 get_tsdata <- function(csv_url) {
   read_csv(csv_url,
            col_types = cols(.default = col_character())) %>%
@@ -42,7 +41,7 @@ get_tsdata <- function(csv_url) {
     ) %>%
     janitor::clean_names() %>%
     mutate(
-      ts = lubridate::mdy_hm(ts),
+      ts = lubridate::mdy(ts),
       var = as.integer(var),
       lat = round(as.double(lat), 5),
       long = round(as.double(long), 5)

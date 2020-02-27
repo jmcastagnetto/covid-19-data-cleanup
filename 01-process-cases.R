@@ -5,9 +5,7 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
            owner = "CSSEGISandData",
            repo = "COVID-19")
 
-foo <- unlist(meta)
-
-TO DO: finish
+latest_commit_sha <- meta[[1]]$object$sha
 
 cases <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
@@ -45,11 +43,24 @@ cases_df <- cases %>%
 #   download.file(fn, destfile = localfn)
 # }
 
+
+dt <- "1/22/2020 17:00"
+dt <- "2020-02-04T23:43:01"
+
+parse_timestamp <- function(dt) {
+  # try using m/d/y h:m first
+  ts <- lubridate::mdy_hm(dt)
+  if(is.na(ts)) {
+    # try using ymd h:m:s
+    ts <- lubridate::ymd_hms(dt)
+  }
+  return(ts)
+}
+
 get_data <- function(csv) {
   fname <- csv
   ts <- basename(fname) %>%
     str_remove(".csv") %>%
-    #str_replace("_", " ") %>%
     strptime(format = "%m-%d-%Y") %>%
     strftime()
 
@@ -66,8 +77,8 @@ get_data <- function(csv) {
            col_types = col_spec, skip = 1,
            col_names = names(col_spec)) %>%
     mutate(
-      # update = lubridate::dmy_hm(update)
-      update = ts
+      update = parse_timestamp(update),
+      data_update = ts
     )
 }
 
@@ -78,6 +89,7 @@ for (fn in cases_df$download_url) {
   cases_raw <- bind_rows(cases_raw, d)
 }
 
+# reorder
 cases_raw <- cases_raw %>%
   select(
     country_region,
@@ -85,12 +97,11 @@ cases_raw <- cases_raw %>%
     confirmed,
     dead,
     recovered,
-    update
-  ) %>%
-  mutate(
-    update = lubridate::as_date(update)
+    update,
+    data_update
   )
 
+# save data
 saveRDS(
   cases_raw,
   file = "data/covid-19_cases_raw.rds"
