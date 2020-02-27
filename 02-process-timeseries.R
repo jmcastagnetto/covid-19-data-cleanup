@@ -30,7 +30,7 @@ tsfiles_df <- tsfiles %>%
     str_detect(name, "\\.csv")
   )
 
-#-- utility functions
+#-- utility function to parse the timeseries files
 get_tsdata <- function(csv_url) {
   read_csv(csv_url,
            col_types = cols(.default = col_character())) %>%
@@ -49,6 +49,7 @@ get_tsdata <- function(csv_url) {
     select(2, 1, 3, 4, 5, 6)
 }
 
+#-- convert df to tsibble
 mk_tsibble <- function(df) {
   tsibble::as_tsibble(
     df,

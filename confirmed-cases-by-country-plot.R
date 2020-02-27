@@ -2,25 +2,6 @@ library(tidyverse)
 
 ts_combined <- readRDS("data/covid-19_ts_combined.rds")
 
-# df <- ts_combined %>%
-#   mutate(
-#     place = glue::glue("{country}\n{province}",
-#                        country = country_region,
-#                        province = ifelse(
-#                          is.na(province_state),
-#                          "",
-#                          province_state)
-#     )
-#   )
-#
-# ggplot(df,
-#        aes(x = ts, y = confirmed,
-#            color = place)) +
-#   geom_line(show.legend = FALSE) +
-#   facet_wrap(~place, scales = "free_y") +
-#   scale_y_continuous(breaks = scales::pretty_breaks()) +
-#   theme_minimal()
-
 country_df <- as_tibble(ts_combined) %>%
   group_by(country_region, ts) %>%
   summarise(
@@ -44,7 +25,7 @@ ggplot(country_df,
     x = "",
     title = "COVID-19: Confirmed cases by Country",
     subtitle = "Data source: https://github.com/CSSEGISandData/2019-nCoV",
-    caption = paste(format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
+    caption = paste("Last update: ", format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
   ) +
   ggdark::dark_theme_minimal(16) +
   theme(
@@ -56,5 +37,5 @@ ggplot(country_df,
 ggsave(
   filename = "covid19-confirmed-cases-by-country.png",
   width = 14,
-  height = 10
+  height = 12
 )

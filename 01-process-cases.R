@@ -1,12 +1,7 @@
 library(tidyverse)
 library(gh)
 
-meta <- gh("GET /repos/:owner/:repo/git/refs",
-           owner = "CSSEGISandData",
-           repo = "COVID-19")
-
-latest_commit_sha <- meta[[1]]$object$sha
-
+#-- get the list of daily reports
 cases <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
             repo = "COVID-19",
@@ -35,18 +30,8 @@ cases_df <- cases %>%
     str_detect(name, "\\.csv")
   )
 
-# raw_data <- list()
-
-# for (r in cases_df$download_url) {
-#   fn = r
-#   localfn = paste0("data/raw/", basename(r))
-#   download.file(fn, destfile = localfn)
-# }
-
-
-dt <- "1/22/2020 17:00"
-dt <- "2020-02-04T23:43:01"
-
+#-- attempt two ways of parsing the timestamp
+#   because some files have m/d/y h:m, and others y-m-d h:m:s
 parse_timestamp <- function(dt) {
   # try using m/d/y h:m first
   ts <- lubridate::mdy_hm(dt)
@@ -57,6 +42,7 @@ parse_timestamp <- function(dt) {
   return(ts)
 }
 
+#-- get the data from the CSV files and parse it
 get_data <- function(csv) {
   fname <- csv
   ts <- basename(fname) %>%
@@ -82,6 +68,7 @@ get_data <- function(csv) {
     )
 }
 
+#-- get all cases in one data frame
 cases_raw <- data.frame()
 
 for (fn in cases_df$download_url) {
