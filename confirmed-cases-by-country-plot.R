@@ -1,6 +1,6 @@
 library(tidyverse)
 
-ts_combined <- readRDS("data/2019ncov_ts_combined.rds")
+ts_combined <- readRDS("data/covid-19_ts_combined.rds")
 
 # df <- ts_combined %>%
 #   mutate(

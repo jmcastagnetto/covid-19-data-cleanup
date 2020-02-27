@@ -54,6 +54,7 @@ max(ts_confirmed$ts)
 sum(china$confirmed_pct)
 # [1] 95.90648
 
+# regenerate README.md
 rmarkdown::render(
   input = "README.Rmd",
   output_format = "md_document",
