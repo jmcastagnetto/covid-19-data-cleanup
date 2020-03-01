@@ -31,11 +31,11 @@ ggplot(country_df,
   theme(
     plot.margin = unit(rep(1, 4), "cm"),
     axis.text.x = element_text(angle = 90),
-    strip.text = element_text(size = 11)
+    strip.text = element_text(size = 9)
   )
 
 ggsave(
   filename = "covid19-confirmed-cases-by-country.png",
-  width = 14,
+  width = 16,
   height = 12
 )

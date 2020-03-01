@@ -2,34 +2,34 @@
 
 |country_region |province_state | confirmed| deaths| recovered| confirmed_pct| death_rate| recovery_rate|
 |:--------------|:--------------|---------:|------:|---------:|-------------:|----------:|-------------:|
-|Mainland China |Hubei          |     65187|   2615|     20969|         80.09|       4.01|         32.17|
-|Mainland China |Guangdong      |      1347|      7|       851|          1.65|       0.52|         63.18|
-|Mainland China |Henan          |      1271|     19|      1033|          1.56|       1.49|         81.27|
-|Mainland China |Zhejiang       |      1205|      1|       867|          1.48|       0.08|         71.95|
-|Mainland China |Hunan          |      1016|      4|       783|          1.25|       0.39|         77.07|
-|Mainland China |Anhui          |       989|      6|       744|          1.22|       0.61|         75.23|
-|Mainland China |Jiangxi        |       934|      1|       719|          1.15|       0.11|         76.98|
-|Mainland China |Shandong       |       756|      6|       377|          0.93|       0.79|         49.87|
-|Mainland China |Jiangsu        |       631|      0|       478|          0.78|       0.00|         75.75|
-|Mainland China |Chongqing      |       576|      6|       384|          0.71|       1.04|         66.67|
-|Mainland China |Sichuan        |       531|      3|       307|          0.65|       0.56|         57.82|
-|Mainland China |Heilongjiang   |       480|     12|       249|          0.59|       2.50|         51.88|
-|Mainland China |Beijing        |       400|      4|       235|          0.49|       1.00|         58.75|
-|Mainland China |Shanghai       |       337|      3|       272|          0.41|       0.89|         80.71|
-|Mainland China |Hebei          |       312|      6|       261|          0.38|       1.92|         83.65|
-|Mainland China |Fujian         |       294|      1|       218|          0.36|       0.34|         74.15|
-|Mainland China |Guangxi        |       252|      2|       147|          0.31|       0.79|         58.33|
-|Mainland China |Shaanxi        |       245|      1|       192|          0.30|       0.41|         78.37|
-|Mainland China |Yunnan         |       174|      2|       144|          0.21|       1.15|         82.76|
-|Mainland China |Hainan         |       168|      5|       129|          0.21|       2.98|         76.79|
-|Mainland China |Guizhou        |       146|      2|       104|          0.18|       1.37|         71.23|
-|Mainland China |Tianjin        |       135|      3|        96|          0.17|       2.22|         71.11|
-|Mainland China |Shanxi         |       133|      0|       104|          0.16|       0.00|         78.20|
-|Mainland China |Liaoning       |       121|      1|        88|          0.15|       0.83|         72.73|
-|Mainland China |Jilin          |        93|      1|        65|          0.11|       1.08|         69.89|
-|Mainland China |Gansu          |        91|      2|        81|          0.11|       2.20|         89.01|
-|Mainland China |Xinjiang       |        76|      2|        34|          0.09|       2.63|         44.74|
-|Mainland China |Inner Mongolia |        75|      0|        38|          0.09|       0.00|         50.67|
-|Mainland China |Ningxia        |        71|      0|        65|          0.09|       0.00|         91.55|
+|Mainland China |Hubei          |     66337|   2727|     28993|         77.12|       4.11|         43.71|
+|Mainland China |Guangdong      |      1349|      7|       983|          1.57|       0.52|         72.87|
+|Mainland China |Henan          |      1272|     21|      1170|          1.48|       1.65|         91.98|
+|Mainland China |Zhejiang       |      1205|      1|      1016|          1.40|       0.08|         84.32|
+|Mainland China |Hunan          |      1018|      4|       846|          1.18|       0.39|         83.10|
+|Mainland China |Anhui          |       990|      6|       868|          1.15|       0.61|         87.68|
+|Mainland China |Jiangxi        |       935|      1|       811|          1.09|       0.11|         86.74|
+|Mainland China |Shandong       |       756|      6|       421|          0.88|       0.79|         55.69|
+|Mainland China |Jiangsu        |       631|      0|       523|          0.73|       0.00|         82.88|
+|Mainland China |Chongqing      |       576|      6|       438|          0.67|       1.04|         76.04|
+|Mainland China |Sichuan        |       538|      3|       351|          0.63|       0.56|         65.24|
+|Mainland China |Heilongjiang   |       480|     13|       301|          0.56|       2.71|         62.71|
+|Mainland China |Beijing        |       411|      8|       271|          0.48|       1.95|         65.94|
+|Mainland China |Shanghai       |       337|      3|       287|          0.39|       0.89|         85.16|
+|Mainland China |Hebei          |       318|      6|       282|          0.37|       1.89|         88.68|
+|Mainland China |Fujian         |       296|      1|       243|          0.34|       0.34|         82.09|
+|Mainland China |Guangxi        |       252|      2|       176|          0.29|       0.79|         69.84|
+|Mainland China |Shaanxi        |       245|      1|       207|          0.28|       0.41|         84.49|
+|Mainland China |Yunnan         |       174|      2|       157|          0.20|       1.15|         90.23|
+|Mainland China |Hainan         |       168|      5|       148|          0.20|       2.98|         88.10|
+|Mainland China |Guizhou        |       146|      2|       112|          0.17|       1.37|         76.71|
+|Mainland China |Tianjin        |       136|      3|       109|          0.16|       2.21|         80.15|
+|Mainland China |Shanxi         |       133|      0|       114|          0.15|       0.00|         85.71|
+|Mainland China |Liaoning       |       121|      1|        96|          0.14|       0.83|         79.34|
+|Mainland China |Jilin          |        93|      1|        75|          0.11|       1.08|         80.65|
+|Mainland China |Gansu          |        91|      2|        82|          0.11|       2.20|         90.11|
+|Mainland China |Xinjiang       |        76|      3|        62|          0.09|       3.95|         81.58|
+|Mainland China |Inner Mongolia |        75|      0|        49|          0.09|       0.00|         65.33|
+|Mainland China |Ningxia        |        73|      0|        69|          0.08|       0.00|         94.52|
 |Mainland China |Qinghai        |        18|      0|        18|          0.02|       0.00|        100.00|
 |Mainland China |Tibet          |         1|      0|         1|          0.00|       0.00|        100.00|
