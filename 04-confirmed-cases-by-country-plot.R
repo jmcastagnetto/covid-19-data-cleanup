@@ -1,4 +1,11 @@
 library(tidyverse)
+library(gh)
+
+meta <- gh("GET /repos/:owner/:repo/git/refs",
+           owner = "CSSEGISandData",
+           repo = "COVID-19")
+
+latest_commit_sha <- str_sub(meta[[1]]$object$sha, 1, 7)
 
 ts_combined <- readRDS("data/covid-19_ts_combined.rds")
 
@@ -24,7 +31,7 @@ ggplot(country_df,
     y = "",
     x = "",
     title = "COVID-19: Confirmed cases by Country",
-    subtitle = "Data source: https://github.com/CSSEGISandData/2019-nCoV",
+    subtitle = paste0("Data source: https://github.com/CSSEGISandData/2019-nCoV (commit: ", latest_commit_sha, ")"),
     caption = paste("Last update: ", format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
   ) +
   ggdark::dark_theme_minimal(16) +
