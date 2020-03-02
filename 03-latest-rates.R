@@ -50,9 +50,9 @@ capture.output(
 )
 
 max(ts_confirmed$ts)
-# [1] "2020-02-26"
+# [1] "2020-03-01"
 sum(china$confirmed_pct)
-# [1] 95.90648
+# [1] 90.33054
 
 # regenerate README.md
 rmarkdown::render(
