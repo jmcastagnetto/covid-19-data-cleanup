@@ -1,7 +1,7 @@
 R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 
-**Last updated on** 2020-03-04 09:10:48
+**Last updated on** 2020-03-04 09:23:42
 
 **Data source commit reference**:
 [05e55a9feb57e4af431d50f933c57192c0509a0a](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/05e55a9feb57e4af431d50f933c57192c0509a0a)
@@ -12,6 +12,45 @@ has changed its data structure, the timeseries data is empty as of the
 commit referred below. - **2020-02-27**: changed code to reflect changes
 in source data files. - **2020-03-04**: added Continents and ISO-3
 country codes, using the `countrycode` R package.
+
+------------------------------------------------------------------------
+
+Confirmed cases by country (Worldwide):
+
+![COVID-19 Confirmed cases by country
+(Worldwide)](covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Africa):
+
+![COVID-19 Confirmed cases by country
+(Africa)](africa-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Americas):
+
+![COVID-19 Confirmed cases by country
+(Americas)](americas-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Asia):
+
+![COVID-19 Confirmed cases by country
+(Asia)](asia-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Europe):
+
+![COVID-19 Confirmed cases by country
+(Europe)](europe-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Oceania):
+
+![COVID-19 Confirmed cases by country
+(Oceania)](oceania-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Others):
+
+![COVID-19 Confirmed cases by country
+(Others)](others-covid19-confirmed-cases-by-country.png)
+
+------------------------------------------------------------------------
 
 Here are couple of quick tables (with naive rate estimates):
 
@@ -1894,38 +1933,3 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 </tbody>
 </table>
-
-Confirmed cases by country (Worldwide):
-
-![COVID-19 Confirmed cases by country
-(Worldwide)](covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Africa):
-
-![COVID-19 Confirmed cases by country
-(Africa)](africa-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Americas):
-
-![COVID-19 Confirmed cases by country
-(Americas)](americas-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Asia):
-
-![COVID-19 Confirmed cases by country
-(Asia)](asia-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Europe):
-
-![COVID-19 Confirmed cases by country
-(Europe)](europe-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Oceania):
-
-![COVID-19 Confirmed cases by country
-(Oceania)](oceania-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Others):
-
-![COVID-19 Confirmed cases by country
-(Others)](others-covid19-confirmed-cases-by-country.png)

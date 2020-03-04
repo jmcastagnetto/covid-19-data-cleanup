@@ -22,6 +22,37 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
 latest_commit_sha <- meta[[1]]$object$sha
 latest_commit_url <- meta[[1]]$object$url
 ```
+-----
+
+Confirmed cases by country (Worldwide):
+
+![COVID-19 Confirmed cases by country (Worldwide)](covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Africa):
+
+![COVID-19 Confirmed cases by country (Africa)](africa-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Americas):
+
+![COVID-19 Confirmed cases by country (Americas)](americas-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Asia):
+
+![COVID-19 Confirmed cases by country (Asia)](asia-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Europe):
+
+![COVID-19 Confirmed cases by country (Europe)](europe-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Oceania):
+
+![COVID-19 Confirmed cases by country (Oceania)](oceania-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Others):
+
+![COVID-19 Confirmed cases by country (Others)](others-covid19-confirmed-cases-by-country.png)
+
+-----
 
 Here are couple of quick tables (with naive rate estimates):
 
@@ -77,32 +108,4 @@ knitr::kable(not_china,
                caption = paste("Latest rates outside China:", max(ts_confirmed$ts))
                )
 ```
-
-Confirmed cases by country (Worldwide):
-
-![COVID-19 Confirmed cases by country (Worldwide)](covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Africa):
-
-![COVID-19 Confirmed cases by country (Africa)](africa-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Americas):
-
-![COVID-19 Confirmed cases by country (Americas)](americas-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Asia):
-
-![COVID-19 Confirmed cases by country (Asia)](asia-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Europe):
-
-![COVID-19 Confirmed cases by country (Europe)](europe-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Oceania):
-
-![COVID-19 Confirmed cases by country (Oceania)](oceania-covid19-confirmed-cases-by-country.png)
-
-Confirmed cases by country (Others):
-
-![COVID-19 Confirmed cases by country (Others)](others-covid19-confirmed-cases-by-country.png)
 
