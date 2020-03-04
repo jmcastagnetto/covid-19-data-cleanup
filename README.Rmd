@@ -88,7 +88,7 @@ Confirmed cases by country (Africa):
 
 Confirmed cases by country (Americas):
 
-![COVID-19 Confirmed cases by country (Americas)](europe-covid19-confirmed-cases-by-country.png)
+![COVID-19 Confirmed cases by country (Americas)](americas-covid19-confirmed-cases-by-country.png)
 
 Confirmed cases by country (Asia):
 

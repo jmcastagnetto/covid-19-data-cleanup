@@ -1,7 +1,7 @@
 R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 
-**Last updated on** 2020-03-04 09:07:33
+**Last updated on** 2020-03-04 09:10:48
 
 **Data source commit reference**:
 [05e55a9feb57e4af431d50f933c57192c0509a0a](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/05e55a9feb57e4af431d50f933c57192c0509a0a)
@@ -1908,7 +1908,7 @@ Confirmed cases by country (Africa):
 Confirmed cases by country (Americas):
 
 ![COVID-19 Confirmed cases by country
-(Americas)](europe-covid19-confirmed-cases-by-country.png)
+(Americas)](americas-covid19-confirmed-cases-by-country.png)
 
 Confirmed cases by country (Asia):
 
