@@ -1,24 +1,19 @@
 R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 
-*Notes*
+**Last updated on** 2020-03-04 09:07:33
 
--   **2020-02-27**: changed code to reflect changes in source data
-    files.
+**Data source commit reference**:
+[05e55a9feb57e4af431d50f933c57192c0509a0a](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/05e55a9feb57e4af431d50f933c57192c0509a0a)
 
--   **2020-02-14**: the original data source has changed its data
-    structure, the timeseries data is empty as of the commit referred
-    below.
+*Notes* - For the cases, I’ve used the filename to to get the timestamp,
+because that is more reliable - **2020-02-14**: the original data source
+has changed its data structure, the timeseries data is empty as of the
+commit referred below. - **2020-02-27**: changed code to reflect changes
+in source data files. - **2020-03-04**: added Continents and ISO-3
+country codes, using the `countrycode` R package.
 
--   For the cases, I’ve used the filename to to get the timestamp,
-    because that is more reliable
-
--   **Last updated on** 2020-03-04 09:04:52
-
--   **Data source commit reference**:
-    [05e55a9feb57e4af431d50f933c57192c0509a0a](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/05e55a9feb57e4af431d50f933c57192c0509a0a)
-
-There are couple of quick tables (with naive rate estimates):
+Here are couple of quick tables (with naive rate estimates):
 
 [For cases in
 China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
