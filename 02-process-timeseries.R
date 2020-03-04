@@ -119,19 +119,40 @@ saveRDS(
   ts_confirmed,
   file = "data/covid-19_ts_confirmed.rds"
 )
+write.csv(
+  ts_confirmed,
+  file = "data/covid-19_ts_confirmed.csv",
+  row.names = FALSE
+)
 
 saveRDS(
   ts_deaths,
   file = "data/covid-19_ts_deaths.rds"
+)
+write.csv(
+  ts_deaths,
+  file = "data/covid-19_ts_deaths.csv",
+  row.names = FALSE
 )
 
 saveRDS(
   ts_recovered,
   file = "data/covid-19_ts_recovered.rds"
 )
+write.csv(
+  ts_recovered,
+  file = "data/covid-19_ts_recovered.csv",
+  row.names = FALSE
+)
 
 saveRDS(
   ts_combined,
   file = "data/covid-19_ts_combined.rds"
 )
+write.csv(
+  ts_combined,
+  file = "data/covid-19_ts_combined.csv",
+  row.names = FALSE
+)
+
 
