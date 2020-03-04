@@ -49,10 +49,8 @@ capture.output(
   file = "latest_not_china_rates.md"
 )
 
-max(ts_confirmed$ts)
-# [1] "2020-03-01"
-sum(china$confirmed_pct)
-# [1] 90.33054
+#max(ts_confirmed$ts)
+#um(china$confirmed_pct)
 
 # regenerate README.md
 rmarkdown::render(

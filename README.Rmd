@@ -18,8 +18,8 @@ latest_commit_sha <- meta[[1]]$object$sha
 latest_commit_url <- meta[[1]]$object$url
 ```
 
-
-Data source commit reference: [`r latest_commit_sha`](`r latest_commit_url`) 
+* **Last updated on** `r Sys.time()`
+* **Data source commit reference**: [`r latest_commit_sha`](`r latest_commit_url`) 
 
 
 There are couple of quick tables (with naive rate estimates):

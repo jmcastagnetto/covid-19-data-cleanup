@@ -6,6 +6,7 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
            repo = "COVID-19")
 
 latest_commit_sha <- str_sub(meta[[1]]$object$sha, 1, 7)
+print(latest_commit_sha)
 
 ts_combined <- readRDS("data/covid-19_ts_combined.rds")
 
