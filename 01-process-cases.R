@@ -1,5 +1,6 @@
 library(tidyverse)
 library(gh)
+library(countrycode)
 
 #-- get the list of daily reports
 cases <- gh("GET /repos/:owner/:repo/contents/:path",
@@ -86,6 +87,19 @@ cases_raw <- cases_raw %>%
     recovered,
     update,
     data_update
+  ) %>%
+  mutate(
+    iso3c = countrycode(country_region,
+                        "country.name",
+                        "iso3c"),
+    iso3c = ifelse(is.na(iso3c), "Others", iso3c),
+    continent = countrycode(country_region,
+                            "country.name",
+                            "continent"),
+    continent = ifelse(is.na(continent), "Others", continent)
+  ) %>%
+  select(
+    9, 8, 1:7
   )
 
 # save data

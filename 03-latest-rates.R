@@ -12,13 +12,13 @@ latest_rates <- as_tibble(ts_confirmed) %>%
     as_tibble(ts_deaths) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -long, -ts),
-    by = c("country_region", "province_state")
+    by = c("continent", "iso3c", "country_region", "province_state")
   ) %>%
   left_join(
     as_tibble(ts_recovered) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -long, -ts),
-    by = c("country_region", "province_state")
+    by = c("continent", "iso3c", "country_region", "province_state")
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
@@ -28,10 +28,10 @@ latest_rates <- as_tibble(ts_confirmed) %>%
   )
 
 china <- latest_rates %>%
-  filter(str_detect(country_region, "China"))
+  filter(iso3c == "CHN")
 
 not_china <- latest_rates %>%
-  filter(!str_detect(country_region, "China"))
+  filter(iso3c != "CHN")
 
 capture.output(
   knitr::kable(china,

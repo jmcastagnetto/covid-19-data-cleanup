@@ -37,13 +37,13 @@ latest_rates <- as_tibble(ts_confirmed) %>%
     as_tibble(ts_deaths) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -long, -ts),
-    by = c("country_region", "province_state")
+    by = c("continent", "iso3c", "country_region", "province_state")
   ) %>%
   left_join(
     as_tibble(ts_recovered) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -long, -ts),
-    by = c("country_region", "province_state")
+    by = c("continent", "iso3c", "country_region", "province_state")
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
@@ -53,10 +53,10 @@ latest_rates <- as_tibble(ts_confirmed) %>%
   )
 
 china <- latest_rates %>%
-  filter(str_detect(country_region, "China"))
+  filter(iso3c == "CHN")
 
 not_china <- latest_rates %>%
-  filter(!str_detect(country_region, "China"))
+  filter(iso3c != "CHN")
 ```
 
 [For cases in China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
@@ -77,6 +77,31 @@ knitr::kable(not_china,
                )
 ```
 
-An a plot of confirmed cases by country:
+Confirmed cases by country (Worldwide):
 
-![COVID-19 Confirmed cases by country](covid19-confirmed-cases-by-country.png)
+![COVID-19 Confirmed cases by country (Worldwide)](covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Africa):
+
+![COVID-19 Confirmed cases by country (Africa)](africa-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Americas):
+
+![COVID-19 Confirmed cases by country (Americas)](europe-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Asia):
+
+![COVID-19 Confirmed cases by country (Asia)](asia-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Europe):
+
+![COVID-19 Confirmed cases by country (Europe)](europe-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Oceania):
+
+![COVID-19 Confirmed cases by country (Oceania)](oceania-covid19-confirmed-cases-by-country.png)
+
+Confirmed cases by country (Others):
+
+![COVID-19 Confirmed cases by country (Others)](others-covid19-confirmed-cases-by-country.png)
+

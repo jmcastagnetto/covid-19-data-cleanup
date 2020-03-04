@@ -1,5 +1,6 @@
 library(tidyverse)
 library(gh)
+library(countrycode)
 
 meta <- gh("GET /repos/:owner/:repo/git/refs",
            owner = "CSSEGISandData",
@@ -16,34 +17,110 @@ country_df <- as_tibble(ts_combined) %>%
     confirmed = sum(confirmed, na.rm = TRUE),
     deaths = sum(deaths, na.rm = TRUE),
     recovered = sum(recovered, na.rm = TRUE)
+  ) %>%
+  mutate(
+    iso3c = countrycode(country_region,
+                        "country.name",
+                        "iso3c"),
+    iso3c = ifelse(is.na(iso3c), "Others", iso3c),
+    continent = countrycode(country_region,
+                            "country.name",
+                            "continent"),
+    continent = ifelse(is.na(continent), "Others", continent)
   )
 
-ggplot(country_df,
-       aes(x = ts, y = confirmed,
-           color = country_region)) +
-  geom_line(show.legend = FALSE, size = .5) +
-  geom_point(show.legend = FALSE) +
-  facet_wrap(~country_region, scales = "free_y") +
-  scale_y_continuous(
-    labels = scales::label_comma(),
-    breaks = scales::breaks_pretty(n = 4)
-  ) +
-  labs(
-    y = "",
-    x = "",
-    title = "COVID-19: Confirmed cases by Country",
-    subtitle = paste0("Data source: https://github.com/CSSEGISandData/2019-nCoV (commit: ", latest_commit_sha, ")"),
-    caption = paste("Last update: ", format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
-  ) +
-  ggdark::dark_theme_minimal(16) +
-  theme(
-    plot.margin = unit(rep(1, 4), "cm"),
-    axis.text.x = element_text(angle = 90),
-    strip.text = element_text(size = 9)
-  )
+mk_plot <- function(df, title_extra = "") {
+  ggplot(df,
+         aes(x = ts, y = confirmed,
+             color = country_region)) +
+    geom_line(show.legend = FALSE, size = .5) +
+    geom_point(show.legend = FALSE, size = .5) +
+    facet_wrap(~country_region, scales = "free_y") +
+    scale_y_continuous(
+      labels = scales::label_comma(),
+      breaks = scales::breaks_pretty(n = 4)
+    ) +
+    labs(
+      y = "",
+      x = "",
+      title = paste0("COVID-19: Confirmed cases", title_extra),
+      subtitle = paste0("Data source: https://github.com/CSSEGISandData/2019-nCoV (commit: ", latest_commit_sha, ")"),
+      caption = paste("Last update: ", format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
+    ) +
+    ggdark::dark_theme_minimal(12) +
+    theme(
+      plot.margin = unit(rep(1, 4), "cm"),
+      axis.text.x = element_text(angle = 90),
+      strip.text = element_text(size = 9)
+    )
+}
 
+#-- big plot
+bigplot <- mk_plot(country_df, " by country (Worldwide)")
 ggsave(
+  plot = bigplot,
   filename = "covid19-confirmed-cases-by-country.png",
   width = 16,
   height = 12
+)
+
+#--- split by continent
+asia_df <- country_df %>%
+  filter(continent == "Asia")
+asia_plot <- mk_plot(asia_df, " by country in  Asia")
+ggsave(
+  plot = asia_plot,
+  filename = "asia-covid19-confirmed-cases-by-country.png",
+  width = 10,
+  height = 8
+)
+
+africa_df <- country_df %>%
+  filter(continent == "Africa")
+africa_plot <- mk_plot(africa_df, " by country in  Africa")
+ggsave(
+  plot = africa_plot,
+  filename = "africa-covid19-confirmed-cases-by-country.png",
+  width = 8,
+  height = 6
+)
+
+europe_df <- country_df %>%
+  filter(continent == "Europe")
+europe_plot <- mk_plot(europe_df, " by country in  Europe")
+ggsave(
+  plot = europe_plot,
+  filename = "europe-covid19-confirmed-cases-by-country.png",
+  width = 10,
+  height = 8
+)
+
+americas_df <- country_df %>%
+  filter(continent == "Americas")
+americas_plot <- mk_plot(americas_df, " by country in the Americas")
+ggsave(
+  plot = americas_plot,
+  filename = "americas-covid19-confirmed-cases-by-country.png",
+  width = 8,
+  height = 6
+)
+
+oceania_df <- country_df %>%
+  filter(continent == "Oceania")
+oceania_plot <- mk_plot(oceania_df, " by country in Oceania")
+ggsave(
+  plot = oceania_plot,
+  filename = "oceania-covid19-confirmed-cases-by-country.png",
+  width = 8,
+  height = 6
+)
+
+others_df <- country_df %>%
+  filter(continent == "Others")
+others_plot <- mk_plot(others_df, " (Others)")
+ggsave(
+  plot = others_plot,
+  filename = "others-covid19-confirmed-cases-by-country.png",
+  width = 8,
+  height = 6
 )

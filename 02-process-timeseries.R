@@ -1,5 +1,6 @@
 library(tidyverse)
 library(gh)
+library(countrycode)
 
 #-- get the list of CSV files with the timeseries
 tsfiles <- gh("GET /repos/:owner/:repo/contents/:path",
@@ -44,16 +45,27 @@ get_tsdata <- function(csv_url) {
       ts = lubridate::mdy(ts),
       var = as.integer(var),
       lat = round(as.double(lat), 5),
-      long = round(as.double(long), 5)
-    ) %>%
-    select(2, 1, 3, 4, 5, 6)
+      long = round(as.double(long), 5),
+      iso3c = countrycode(country_region,
+                          "country.name",
+                          "iso3c"),
+      iso3c = ifelse(is.na(iso3c), "Others", iso3c),
+      continent = countrycode(country_region,
+                              "country.name",
+                              "continent"),
+      continent = ifelse(is.na(continent), "Others", continent)
+     ) %>%
+    select(8, 7, 2, 1, 3, 4, 5, 6)
 }
 
 #-- convert df to tsibble
 mk_tsibble <- function(df) {
   tsibble::as_tsibble(
     df,
-    key = c("country_region", "province_state", "lat", "long"),
+    key = c("continent",
+            "iso3c", "country_region",
+            "province_state",
+            "lat", "long"),
     index = ts
   )
 }
@@ -68,27 +80,33 @@ ts_recovered <- get_tsdata(tsfiles_df[3,]$download_url) %>%
 
 #-- extract places
 places <- bind_rows(
-  ts_confirmed %>% select(1,2,3,4),
-  ts_deaths %>% select(1,2,3,4),
-  ts_recovered %>% select(1,2,3,4)
+  ts_confirmed %>% select(1:6),
+  ts_deaths %>% select(1:6),
+  ts_recovered %>% select(1:6)
 ) %>%
   distinct() %>%
-  arrange(country_region, province_state)
+  arrange(continent, country_region, iso3c, province_state)
 
 #-- combine all data and make them tsibbles
 ts_combined <- as_tibble(ts_confirmed) %>%
   select(-lat, -long) %>%
   left_join(
     ts_deaths %>% select(-lat, -long),
-    by = c("country_region", "province_state", "ts")
+    by = c("continent",
+           "iso3c", "country_region",
+           "province_state", "ts")
   ) %>%
   left_join(
     ts_recovered %>% select(-lat, -long),
-    by = c("country_region", "province_state", "ts")
+    by = c("continent",
+           "iso3c", "country_region",
+           "province_state", "ts")
   ) %>%
   left_join(
     places,
-    by = c("country_region", "province_state")
+    by = c("continent",
+           "iso3c", "country_region",
+           "province_state")
   ) %>%
   mk_tsibble()
 
