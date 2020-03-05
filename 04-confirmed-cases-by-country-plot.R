@@ -20,13 +20,13 @@ country_df <- as_tibble(ts_combined) %>%
   ) %>%
   mutate(
     iso3c = countrycode(country_region,
-                        "country.name",
-                        "iso3c"),
-    iso3c = ifelse(is.na(iso3c), "Others", iso3c),
+                        origin = "country.name",
+                        destination = "iso3c",
+                        nomatch = NULL),
     continent = countrycode(country_region,
-                            "country.name",
-                            "continent"),
-    continent = ifelse(is.na(continent), "Others", continent)
+                            origin = "country.name",
+                            destination = "continent",
+                            nomatch = NULL)
   )
 
 mk_plot <- function(df, title_extra = "") {

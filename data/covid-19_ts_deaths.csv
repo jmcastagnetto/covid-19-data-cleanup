@@ -1,4 +1,4 @@
-"continent","iso3c","country_region","province_state","lat","long","ts","deaths"
+"continent","iso3c","country_region","province_state","lat","lon","ts","deaths"
 "Africa","DZA","Algeria",NA,28.0339,1.6596,2020-01-22,0
 "Africa","DZA","Algeria",NA,28.0339,1.6596,2020-01-23,0
 "Africa","DZA","Algeria",NA,28.0339,1.6596,2020-01-24,0
@@ -41,6 +41,7 @@
 "Africa","DZA","Algeria",NA,28.0339,1.6596,2020-03-01,0
 "Africa","DZA","Algeria",NA,28.0339,1.6596,2020-03-02,0
 "Africa","DZA","Algeria",NA,28.0339,1.6596,2020-03-03,0
+"Africa","DZA","Algeria",NA,28.0339,1.6596,2020-03-04,0
 "Africa","EGY","Egypt",NA,26,30,2020-01-22,0
 "Africa","EGY","Egypt",NA,26,30,2020-01-23,0
 "Africa","EGY","Egypt",NA,26,30,2020-01-24,0
@@ -83,6 +84,7 @@
 "Africa","EGY","Egypt",NA,26,30,2020-03-01,0
 "Africa","EGY","Egypt",NA,26,30,2020-03-02,0
 "Africa","EGY","Egypt",NA,26,30,2020-03-03,0
+"Africa","EGY","Egypt",NA,26,30,2020-03-04,0
 "Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-01-22,0
 "Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-01-23,0
 "Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-01-24,0
@@ -125,6 +127,7 @@
 "Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-03-01,0
 "Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-03-02,0
 "Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-03-03,0
+"Africa","MAR","Morocco",NA,31.7917,-7.0926,2020-03-04,0
 "Africa","NGA","Nigeria",NA,9.082,8.6753,2020-01-22,0
 "Africa","NGA","Nigeria",NA,9.082,8.6753,2020-01-23,0
 "Africa","NGA","Nigeria",NA,9.082,8.6753,2020-01-24,0
@@ -167,6 +170,7 @@
 "Africa","NGA","Nigeria",NA,9.082,8.6753,2020-03-01,0
 "Africa","NGA","Nigeria",NA,9.082,8.6753,2020-03-02,0
 "Africa","NGA","Nigeria",NA,9.082,8.6753,2020-03-03,0
+"Africa","NGA","Nigeria",NA,9.082,8.6753,2020-03-04,0
 "Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-01-22,0
 "Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-01-23,0
 "Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-01-24,0
@@ -209,6 +213,50 @@
 "Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-03-01,0
 "Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-03-02,0
 "Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-03-03,0
+"Africa","SEN","Senegal",NA,14.4974,-14.4524,2020-03-04,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-22,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-23,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-24,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-25,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-26,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-27,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-28,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-29,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-30,0
+"Africa","TUN","Tunisia",NA,34,9,2020-01-31,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-01,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-02,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-03,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-04,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-05,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-06,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-07,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-08,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-09,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-10,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-11,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-12,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-13,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-14,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-15,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-16,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-17,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-18,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-19,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-20,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-21,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-22,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-23,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-24,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-25,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-26,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-27,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-28,0
+"Africa","TUN","Tunisia",NA,34,9,2020-02-29,0
+"Africa","TUN","Tunisia",NA,34,9,2020-03-01,0
+"Africa","TUN","Tunisia",NA,34,9,2020-03-02,0
+"Africa","TUN","Tunisia",NA,34,9,2020-03-03,0
+"Africa","TUN","Tunisia",NA,34,9,2020-03-04,0
 "Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-01-22,0
 "Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-01-23,0
 "Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-01-24,0
@@ -251,6 +299,50 @@
 "Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-03-01,0
 "Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-03-02,0
 "Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-03-03,0
+"Americas","ARG","Argentina",NA,-38.4161,-63.6167,2020-03-04,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-22,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-23,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-24,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-25,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-26,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-27,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-28,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-29,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-30,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-01-31,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-01,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-02,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-03,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-04,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-05,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-06,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-07,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-08,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-09,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-10,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-11,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-12,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-13,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-14,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-15,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-16,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-17,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-18,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-19,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-20,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-21,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-22,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-23,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-24,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-25,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-26,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-27,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-28,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-02-29,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-03-01,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-03-02,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-03-03,0
+"Americas","BLM","Saint Barthelemy",NA,17.9,-62.8333,2020-03-04,0
 "Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-01-22,0
 "Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-01-23,0
 "Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-01-24,0
@@ -293,6 +385,7 @@
 "Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-03-01,0
 "Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-03-02,0
 "Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-03-03,0
+"Americas","BRA","Brazil",NA,-14.235,-51.9253,2020-03-04,0
 "Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-01-22,0
 "Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-01-23,0
 "Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-01-24,0
@@ -335,6 +428,7 @@
 "Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-03-01,0
 "Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-03-02,0
 "Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-03-03,0
+"Americas","CAN","Canada","British Columbia",49.2827,-123.1207,2020-03-04,0
 "Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-01-22,0
 "Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-01-23,0
 "Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-01-24,0
@@ -377,6 +471,7 @@
 "Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-03-01,0
 "Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-03-02,0
 "Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-03-03,0
+"Americas","CAN","Canada","London, ON",42.9849,-81.2453,2020-03-04,0
 "Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-01-22,0
 "Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-01-23,0
 "Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-01-24,0
@@ -419,6 +514,7 @@
 "Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-03-01,0
 "Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-03-02,0
 "Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-03-03,0
+"Americas","CAN","Canada","Montreal, QC",45.5017,-73.5673,2020-03-04,0
 "Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-01-22,0
 "Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-01-23,0
 "Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-01-24,0
@@ -461,6 +557,7 @@
 "Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-03-01,0
 "Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-03-02,0
 "Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-03-03,0
+"Americas","CAN","Canada","Toronto, ON",43.6532,-79.3832,2020-03-04,0
 "Americas","CHL","Chile",NA,-35.6751,-71.543,2020-01-22,0
 "Americas","CHL","Chile",NA,-35.6751,-71.543,2020-01-23,0
 "Americas","CHL","Chile",NA,-35.6751,-71.543,2020-01-24,0
@@ -503,6 +600,7 @@
 "Americas","CHL","Chile",NA,-35.6751,-71.543,2020-03-01,0
 "Americas","CHL","Chile",NA,-35.6751,-71.543,2020-03-02,0
 "Americas","CHL","Chile",NA,-35.6751,-71.543,2020-03-03,0
+"Americas","CHL","Chile",NA,-35.6751,-71.543,2020-03-04,0
 "Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-01-22,0
 "Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-01-23,0
 "Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-01-24,0
@@ -545,6 +643,7 @@
 "Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-03-01,0
 "Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-03-02,0
 "Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-03-03,0
+"Americas","DOM","Dominican Republic",NA,18.7357,-70.1627,2020-03-04,0
 "Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-01-22,0
 "Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-01-23,0
 "Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-01-24,0
@@ -587,6 +686,7 @@
 "Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-03-01,0
 "Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-03-02,0
 "Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-03-03,0
+"Americas","ECU","Ecuador",NA,-1.8312,-78.1834,2020-03-04,0
 "Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-01-22,0
 "Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-01-23,0
 "Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-01-24,0
@@ -629,6 +729,7 @@
 "Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-03-01,0
 "Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-03-02,0
 "Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-03-03,0
+"Americas","MEX","Mexico",NA,23.6345,-102.5528,2020-03-04,0
 "Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-01-22,0
 "Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-01-23,0
 "Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-01-24,0
@@ -671,6 +772,7 @@
 "Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-03-01,0
 "Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-03-02,0
 "Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-03-03,0
+"Americas","USA","US","Berkeley, CA",37.8715,-122.273,2020-03-04,0
 "Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-01-22,0
 "Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-01-23,0
 "Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-01-24,0
@@ -713,6 +815,50 @@
 "Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-03-01,0
 "Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-03-02,0
 "Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-03-03,0
+"Americas","USA","US","Boston, MA",42.3601,-71.0589,2020-03-04,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-22,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-23,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-24,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-25,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-26,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-27,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-28,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-29,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-30,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-01-31,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-01,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-02,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-03,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-04,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-05,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-06,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-07,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-08,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-09,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-10,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-11,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-12,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-13,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-14,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-15,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-16,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-17,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-18,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-19,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-20,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-21,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-22,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-23,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-24,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-25,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-26,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-27,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-28,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-02-29,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-03-01,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-03-02,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-03-03,0
+"Americas","USA","US","Contra Costa County, CA",37.8534,-121.9018,2020-03-04,0
 "Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-01-22,0
 "Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-01-23,0
 "Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-01-24,0
@@ -755,6 +901,7 @@
 "Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-03-01,0
 "Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-03-02,0
 "Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-03-03,0
+"Americas","USA","US","Cook County, IL",41.7377,-87.6976,2020-03-04,0
 "Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-01-22,0
 "Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-01-23,0
 "Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-01-24,0
@@ -797,6 +944,7 @@
 "Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-03-01,0
 "Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-03-02,0
 "Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-03-03,0
+"Americas","USA","US","Fulton County, GA",33.8034,-84.3963,2020-03-04,0
 "Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-01-22,0
 "Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-01-23,0
 "Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-01-24,0
@@ -839,6 +987,7 @@
 "Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-03-01,0
 "Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-03-02,0
 "Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-03-03,0
+"Americas","USA","US","Grafton County, NH",43.9088,-71.826,2020-03-04,0
 "Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-01-22,0
 "Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-01-23,0
 "Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-01-24,0
@@ -881,6 +1030,7 @@
 "Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-03-01,0
 "Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-03-02,0
 "Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-03-03,0
+"Americas","USA","US","Hillsborough, FL",27.9904,-82.3018,2020-03-04,0
 "Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-01-22,0
 "Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-01-23,0
 "Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-01-24,0
@@ -923,6 +1073,7 @@
 "Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-03-01,0
 "Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-03-02,0
 "Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-03-03,0
+"Americas","USA","US","Humboldt County, CA",40.745,-123.8695,2020-03-04,0
 "Americas","USA","US","King County, WA",47.6062,-122.3321,2020-01-22,0
 "Americas","USA","US","King County, WA",47.6062,-122.3321,2020-01-23,0
 "Americas","USA","US","King County, WA",47.6062,-122.3321,2020-01-24,0
@@ -965,6 +1116,7 @@
 "Americas","USA","US","King County, WA",47.6062,-122.3321,2020-03-01,1
 "Americas","USA","US","King County, WA",47.6062,-122.3321,2020-03-02,5
 "Americas","USA","US","King County, WA",47.6062,-122.3321,2020-03-03,6
+"Americas","USA","US","King County, WA",47.6062,-122.3321,2020-03-04,9
 "Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-01-22,0
 "Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-01-23,0
 "Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-01-24,0
@@ -1007,6 +1159,7 @@
 "Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-03-01,0
 "Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-03-02,0
 "Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-03-03,0
+"Americas","USA","US","Lackland, TX (From Diamond Princess)",29.3829,-98.6134,2020-03-04,0
 "Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-01-22,0
 "Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-01-23,0
 "Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-01-24,0
@@ -1049,6 +1202,7 @@
 "Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-03-01,0
 "Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-03-02,0
 "Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-03-03,0
+"Americas","USA","US","Los Angeles, CA",34.0522,-118.2437,2020-03-04,0
 "Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-01-22,0
 "Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-01-23,0
 "Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-01-24,0
@@ -1091,6 +1245,7 @@
 "Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-03-01,0
 "Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-03-02,0
 "Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-03-03,0
+"Americas","USA","US","Madison, WI",43.0731,-89.4012,2020-03-04,0
 "Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-01-22,0
 "Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-01-23,0
 "Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-01-24,0
@@ -1133,6 +1288,7 @@
 "Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-03-01,0
 "Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-03-02,0
 "Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-03-03,0
+"Americas","USA","US","Maricopa County, AZ",33.2918,-112.4291,2020-03-04,0
 "Americas","USA","US","New York City, NY",40.7128,-74.006,2020-01-22,0
 "Americas","USA","US","New York City, NY",40.7128,-74.006,2020-01-23,0
 "Americas","USA","US","New York City, NY",40.7128,-74.006,2020-01-24,0
@@ -1175,6 +1331,7 @@
 "Americas","USA","US","New York City, NY",40.7128,-74.006,2020-03-01,0
 "Americas","USA","US","New York City, NY",40.7128,-74.006,2020-03-02,0
 "Americas","USA","US","New York City, NY",40.7128,-74.006,2020-03-03,0
+"Americas","USA","US","New York City, NY",40.7128,-74.006,2020-03-04,0
 "Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-01-22,0
 "Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-01-23,0
 "Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-01-24,0
@@ -1217,6 +1374,7 @@
 "Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-03-01,0
 "Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-03-02,0
 "Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-03-03,0
+"Americas","USA","US","Norfolk County, MA",42.1767,-71.1449,2020-03-04,0
 "Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-01-22,0
 "Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-01-23,0
 "Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-01-24,0
@@ -1259,48 +1417,50 @@
 "Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-03-01,0
 "Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-03-02,0
 "Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-03-03,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-22,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-23,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-24,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-25,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-26,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-27,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-28,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-29,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-30,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-01-31,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-01,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-02,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-03,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-04,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-05,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-06,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-07,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-08,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-09,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-10,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-11,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-12,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-13,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-14,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-15,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-16,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-17,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-18,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-19,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-20,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-21,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-22,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-23,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-24,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-25,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-26,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-27,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-28,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-02-29,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-03-01,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-03-02,0
-"Americas","USA","US","Orange, CA",33.7879,-117.8531,2020-03-03,0
+"Americas","USA","US","Omaha, NE (From Diamond Princess)",41.2545,-95.9758,2020-03-04,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-22,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-23,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-24,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-25,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-26,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-27,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-28,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-29,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-30,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-01-31,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-01,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-02,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-03,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-04,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-05,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-06,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-07,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-08,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-09,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-10,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-11,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-12,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-13,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-14,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-15,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-16,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-17,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-18,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-19,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-20,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-21,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-22,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-23,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-24,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-25,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-26,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-27,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-28,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-02-29,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-03-01,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-03-02,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-03-03,0
+"Americas","USA","US","Orange County, CA",33.7879,-117.8531,2020-03-04,0
 "Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-01-22,0
 "Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-01-23,0
 "Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-01-24,0
@@ -1343,6 +1503,7 @@
 "Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-03-01,0
 "Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-03-02,0
 "Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-03-03,0
+"Americas","USA","US","Placer County, CA",39.0916,-120.8039,2020-03-04,1
 "Americas","USA","US","Providence, RI",41.824,-71.4128,2020-01-22,0
 "Americas","USA","US","Providence, RI",41.824,-71.4128,2020-01-23,0
 "Americas","USA","US","Providence, RI",41.824,-71.4128,2020-01-24,0
@@ -1385,6 +1546,7 @@
 "Americas","USA","US","Providence, RI",41.824,-71.4128,2020-03-01,0
 "Americas","USA","US","Providence, RI",41.824,-71.4128,2020-03-02,0
 "Americas","USA","US","Providence, RI",41.824,-71.4128,2020-03-03,0
+"Americas","USA","US","Providence, RI",41.824,-71.4128,2020-03-04,0
 "Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-01-22,0
 "Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-01-23,0
 "Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-01-24,0
@@ -1427,6 +1589,7 @@
 "Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-03-01,0
 "Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-03-02,0
 "Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-03-03,0
+"Americas","USA","US","Sacramento County, CA",38.4747,-121.3542,2020-03-04,0
 "Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-01-22,0
 "Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-01-23,0
 "Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-01-24,0
@@ -1469,6 +1632,7 @@
 "Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-03-01,0
 "Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-03-02,0
 "Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-03-03,0
+"Americas","USA","US","San Antonio, TX",29.4241,-98.4936,2020-03-04,0
 "Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-01-22,0
 "Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-01-23,0
 "Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-01-24,0
@@ -1511,6 +1675,7 @@
 "Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-03-01,0
 "Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-03-02,0
 "Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-03-03,0
+"Americas","USA","US","San Benito, CA",36.5761,-120.9876,2020-03-04,0
 "Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-01-22,0
 "Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-01-23,0
 "Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-01-24,0
@@ -1553,6 +1718,7 @@
 "Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-03-01,0
 "Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-03-02,0
 "Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-03-03,0
+"Americas","USA","US","San Diego County, CA",32.7157,-117.1611,2020-03-04,0
 "Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-01-22,0
 "Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-01-23,0
 "Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-01-24,0
@@ -1595,6 +1761,7 @@
 "Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-03-01,0
 "Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-03-02,0
 "Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-03-03,0
+"Americas","USA","US","San Mateo, CA",37.563,-122.3255,2020-03-04,0
 "Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-01-22,0
 "Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-01-23,0
 "Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-01-24,0
@@ -1637,6 +1804,7 @@
 "Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-03-01,0
 "Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-03-02,0
 "Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-03-03,0
+"Americas","USA","US","Santa Clara, CA",37.3541,-121.9552,2020-03-04,0
 "Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-01-22,0
 "Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-01-23,0
 "Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-01-24,0
@@ -1679,6 +1847,7 @@
 "Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-03-01,0
 "Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-03-02,0
 "Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-03-03,0
+"Americas","USA","US","Sarasota, FL",27.3364,-82.5307,2020-03-04,0
 "Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-01-22,0
 "Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-01-23,0
 "Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-01-24,0
@@ -1721,6 +1890,7 @@
 "Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-03-01,0
 "Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-03-02,1
 "Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-03-03,1
+"Americas","USA","US","Snohomish County, WA",48.033,-121.8339,2020-03-04,1
 "Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-01-22,0
 "Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-01-23,0
 "Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-01-24,0
@@ -1763,6 +1933,7 @@
 "Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-03-01,0
 "Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-03-02,0
 "Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-03-03,0
+"Americas","USA","US","Sonoma County, CA",38.578,-122.9888,2020-03-04,0
 "Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-01-22,0
 "Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-01-23,0
 "Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-01-24,0
@@ -1805,6 +1976,7 @@
 "Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-03-01,0
 "Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-03-02,0
 "Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-03-03,0
+"Americas","USA","US","Tempe, AZ",33.4255,-111.94,2020-03-04,0
 "Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-01-22,0
 "Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-01-23,0
 "Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-01-24,0
@@ -1847,6 +2019,7 @@
 "Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-03-01,0
 "Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-03-02,0
 "Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-03-03,0
+"Americas","USA","US","Travis, CA (From Diamond Princess)",38.2721,-121.9399,2020-03-04,0
 "Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-01-22,0
 "Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-01-23,0
 "Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-01-24,0
@@ -1889,6 +2062,7 @@
 "Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-03-01,0
 "Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-03-02,0
 "Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-03-03,0
+"Americas","USA","US","Umatilla, OR",45.775,-118.7606,2020-03-04,0
 "Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-01-22,0
 "Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-01-23,0
 "Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-01-24,0
@@ -1931,6 +2105,7 @@
 "Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-03-01,0
 "Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-03-02,0
 "Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-03-03,0
+"Americas","USA","US","Unassigned Location (From Diamond Princess)",35.4437,139.638,2020-03-04,0
 "Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-01-22,0
 "Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-01-23,0
 "Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-01-24,0
@@ -1973,6 +2148,7 @@
 "Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-03-01,0
 "Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-03-02,0
 "Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-03-03,0
+"Americas","USA","US","Wake County, NC",35.8032,-78.5661,2020-03-04,0
 "Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-01-22,0
 "Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-01-23,0
 "Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-01-24,0
@@ -2015,6 +2191,7 @@
 "Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-03-01,0
 "Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-03-02,0
 "Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-03-03,0
+"Americas","USA","US","Washington County, OR",45.547,-123.1386,2020-03-04,0
 "Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-01-22,0
 "Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-01-23,0
 "Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-01-24,0
@@ -2057,6 +2234,7 @@
 "Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-03-01,0
 "Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-03-02,0
 "Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-03-03,0
+"Americas","USA","US","Westchester County, NY",41.122,-73.7949,2020-03-04,0
 "Asia","AFG","Afghanistan",NA,33,65,2020-01-22,0
 "Asia","AFG","Afghanistan",NA,33,65,2020-01-23,0
 "Asia","AFG","Afghanistan",NA,33,65,2020-01-24,0
@@ -2099,6 +2277,7 @@
 "Asia","AFG","Afghanistan",NA,33,65,2020-03-01,0
 "Asia","AFG","Afghanistan",NA,33,65,2020-03-02,0
 "Asia","AFG","Afghanistan",NA,33,65,2020-03-03,0
+"Asia","AFG","Afghanistan",NA,33,65,2020-03-04,0
 "Asia","ARE","United Arab Emirates",NA,24,54,2020-01-22,0
 "Asia","ARE","United Arab Emirates",NA,24,54,2020-01-23,0
 "Asia","ARE","United Arab Emirates",NA,24,54,2020-01-24,0
@@ -2141,6 +2320,7 @@
 "Asia","ARE","United Arab Emirates",NA,24,54,2020-03-01,0
 "Asia","ARE","United Arab Emirates",NA,24,54,2020-03-02,0
 "Asia","ARE","United Arab Emirates",NA,24,54,2020-03-03,0
+"Asia","ARE","United Arab Emirates",NA,24,54,2020-03-04,0
 "Asia","ARM","Armenia",NA,40.0691,45.0382,2020-01-22,0
 "Asia","ARM","Armenia",NA,40.0691,45.0382,2020-01-23,0
 "Asia","ARM","Armenia",NA,40.0691,45.0382,2020-01-24,0
@@ -2183,6 +2363,7 @@
 "Asia","ARM","Armenia",NA,40.0691,45.0382,2020-03-01,0
 "Asia","ARM","Armenia",NA,40.0691,45.0382,2020-03-02,0
 "Asia","ARM","Armenia",NA,40.0691,45.0382,2020-03-03,0
+"Asia","ARM","Armenia",NA,40.0691,45.0382,2020-03-04,0
 "Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-01-22,0
 "Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-01-23,0
 "Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-01-24,0
@@ -2225,6 +2406,7 @@
 "Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-03-01,0
 "Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-03-02,0
 "Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-03-03,0
+"Asia","AZE","Azerbaijan",NA,40.1431,47.5769,2020-03-04,0
 "Asia","BHR","Bahrain",NA,26.0275,50.55,2020-01-22,0
 "Asia","BHR","Bahrain",NA,26.0275,50.55,2020-01-23,0
 "Asia","BHR","Bahrain",NA,26.0275,50.55,2020-01-24,0
@@ -2267,6 +2449,7 @@
 "Asia","BHR","Bahrain",NA,26.0275,50.55,2020-03-01,0
 "Asia","BHR","Bahrain",NA,26.0275,50.55,2020-03-02,0
 "Asia","BHR","Bahrain",NA,26.0275,50.55,2020-03-03,0
+"Asia","BHR","Bahrain",NA,26.0275,50.55,2020-03-04,0
 "Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-01-22,0
 "Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-01-23,0
 "Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-01-24,0
@@ -2309,6 +2492,7 @@
 "Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-03-01,6
 "Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-03-02,6
 "Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-03-03,6
+"Asia","CHN","Mainland China","Anhui",31.8257,117.2264,2020-03-04,6
 "Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-01-22,0
 "Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-01-23,0
 "Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-01-24,0
@@ -2351,6 +2535,7 @@
 "Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-03-01,8
 "Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-03-02,8
 "Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-03-03,8
+"Asia","CHN","Mainland China","Beijing",40.1824,116.4142,2020-03-04,8
 "Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-01-22,0
 "Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-01-23,0
 "Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-01-24,0
@@ -2393,6 +2578,7 @@
 "Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-03-01,6
 "Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-03-02,6
 "Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-03-03,6
+"Asia","CHN","Mainland China","Chongqing",30.0572,107.874,2020-03-04,6
 "Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-01-22,0
 "Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-01-23,0
 "Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-01-24,0
@@ -2435,6 +2621,7 @@
 "Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-03-01,1
 "Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-03-02,1
 "Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-03-03,1
+"Asia","CHN","Mainland China","Fujian",26.0789,117.9874,2020-03-04,1
 "Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-01-22,0
 "Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-01-23,0
 "Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-01-24,0
@@ -2477,6 +2664,7 @@
 "Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-03-01,2
 "Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-03-02,2
 "Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-03-03,2
+"Asia","CHN","Mainland China","Gansu",36.0611,103.8343,2020-03-04,2
 "Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-01-22,0
 "Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-01-23,0
 "Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-01-24,0
@@ -2519,6 +2707,7 @@
 "Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-03-01,7
 "Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-03-02,7
 "Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-03-03,7
+"Asia","CHN","Mainland China","Guangdong",23.3417,113.4244,2020-03-04,7
 "Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-01-22,0
 "Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-01-23,0
 "Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-01-24,0
@@ -2561,6 +2750,7 @@
 "Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-03-01,2
 "Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-03-02,2
 "Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-03-03,2
+"Asia","CHN","Mainland China","Guangxi",23.8298,108.7881,2020-03-04,2
 "Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-01-22,0
 "Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-01-23,0
 "Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-01-24,0
@@ -2603,6 +2793,7 @@
 "Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-03-01,2
 "Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-03-02,2
 "Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-03-03,2
+"Asia","CHN","Mainland China","Guizhou",26.8154,106.8748,2020-03-04,2
 "Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-01-22,0
 "Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-01-23,0
 "Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-01-24,0
@@ -2645,6 +2836,7 @@
 "Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-03-01,5
 "Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-03-02,5
 "Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-03-03,5
+"Asia","CHN","Mainland China","Hainan",19.1959,109.7453,2020-03-04,5
 "Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-01-22,0
 "Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-01-23,1
 "Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-01-24,1
@@ -2687,6 +2879,7 @@
 "Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-03-01,6
 "Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-03-02,6
 "Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-03-03,6
+"Asia","CHN","Mainland China","Hebei",38.0428,114.5149,2020-03-04,6
 "Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-01-22,0
 "Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-01-23,0
 "Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-01-24,1
@@ -2729,6 +2922,7 @@
 "Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-03-01,13
 "Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-03-02,13
 "Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-03-03,13
+"Asia","CHN","Mainland China","Heilongjiang",47.862,127.7615,2020-03-04,13
 "Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-01-22,0
 "Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-01-23,0
 "Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-01-24,0
@@ -2771,6 +2965,7 @@
 "Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-03-01,22
 "Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-03-02,22
 "Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-03-03,22
+"Asia","CHN","Mainland China","Henan",33.88202,113.614,2020-03-04,22
 "Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-01-22,17
 "Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-01-23,17
 "Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-01-24,24
@@ -2813,6 +3008,7 @@
 "Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-03-01,2761
 "Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-03-02,2803
 "Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-03-03,2835
+"Asia","CHN","Mainland China","Hubei",30.9756,112.2707,2020-03-04,2871
 "Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-01-22,0
 "Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-01-23,0
 "Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-01-24,0
@@ -2855,6 +3051,7 @@
 "Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-03-01,4
 "Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-03-02,4
 "Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-03-03,4
+"Asia","CHN","Mainland China","Hunan",27.6104,111.7088,2020-03-04,4
 "Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-01-22,0
 "Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-01-23,0
 "Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-01-24,0
@@ -2897,6 +3094,7 @@
 "Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-03-01,0
 "Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-03-02,0
 "Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-03-03,1
+"Asia","CHN","Mainland China","Inner Mongolia",44.0935,113.9448,2020-03-04,1
 "Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-01-22,0
 "Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-01-23,0
 "Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-01-24,0
@@ -2939,6 +3137,7 @@
 "Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-03-01,0
 "Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-03-02,0
 "Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-03-03,0
+"Asia","CHN","Mainland China","Jiangsu",32.9711,119.455,2020-03-04,0
 "Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-01-22,0
 "Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-01-23,0
 "Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-01-24,0
@@ -2981,6 +3180,7 @@
 "Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-03-01,1
 "Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-03-02,1
 "Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-03-03,1
+"Asia","CHN","Mainland China","Jiangxi",27.614,115.7221,2020-03-04,1
 "Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-01-22,0
 "Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-01-23,0
 "Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-01-24,0
@@ -3023,6 +3223,7 @@
 "Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-03-01,1
 "Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-03-02,1
 "Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-03-03,1
+"Asia","CHN","Mainland China","Jilin",43.6661,126.1923,2020-03-04,1
 "Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-01-22,0
 "Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-01-23,0
 "Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-01-24,0
@@ -3065,6 +3266,7 @@
 "Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-03-01,1
 "Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-03-02,1
 "Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-03-03,1
+"Asia","CHN","Mainland China","Liaoning",41.2956,122.6085,2020-03-04,1
 "Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-01-22,0
 "Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-01-23,0
 "Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-01-24,0
@@ -3107,6 +3309,7 @@
 "Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-03-01,0
 "Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-03-02,0
 "Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-03-03,0
+"Asia","CHN","Mainland China","Ningxia",37.2692,106.1655,2020-03-04,0
 "Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-01-22,0
 "Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-01-23,0
 "Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-01-24,0
@@ -3149,6 +3352,7 @@
 "Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-03-01,0
 "Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-03-02,0
 "Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-03-03,0
+"Asia","CHN","Mainland China","Qinghai",35.7452,95.9956,2020-03-04,0
 "Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-01-22,0
 "Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-01-23,0
 "Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-01-24,0
@@ -3191,6 +3395,7 @@
 "Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-03-01,1
 "Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-03-02,1
 "Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-03-03,1
+"Asia","CHN","Mainland China","Shaanxi",35.1917,108.8701,2020-03-04,1
 "Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-01-22,0
 "Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-01-23,0
 "Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-01-24,0
@@ -3233,6 +3438,7 @@
 "Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-03-01,6
 "Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-03-02,6
 "Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-03-03,6
+"Asia","CHN","Mainland China","Shandong",36.3427,118.1498,2020-03-04,6
 "Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-01-22,0
 "Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-01-23,0
 "Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-01-24,0
@@ -3275,6 +3481,7 @@
 "Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-03-01,3
 "Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-03-02,3
 "Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-03-03,3
+"Asia","CHN","Mainland China","Shanghai",31.202,121.4491,2020-03-04,3
 "Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-01-22,0
 "Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-01-23,0
 "Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-01-24,0
@@ -3317,6 +3524,7 @@
 "Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-03-01,0
 "Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-03-02,0
 "Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-03-03,0
+"Asia","CHN","Mainland China","Shanxi",37.5777,112.2922,2020-03-04,0
 "Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-01-22,0
 "Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-01-23,0
 "Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-01-24,0
@@ -3359,6 +3567,7 @@
 "Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-03-01,3
 "Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-03-02,3
 "Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-03-03,3
+"Asia","CHN","Mainland China","Sichuan",30.6171,102.7103,2020-03-04,3
 "Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-01-22,0
 "Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-01-23,0
 "Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-01-24,0
@@ -3401,6 +3610,7 @@
 "Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-03-01,3
 "Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-03-02,3
 "Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-03-03,3
+"Asia","CHN","Mainland China","Tianjin",39.3054,117.323,2020-03-04,3
 "Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-01-22,0
 "Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-01-23,0
 "Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-01-24,0
@@ -3443,6 +3653,7 @@
 "Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-03-01,0
 "Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-03-02,0
 "Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-03-03,0
+"Asia","CHN","Mainland China","Tibet",31.6927,88.0924,2020-03-04,0
 "Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-01-22,0
 "Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-01-23,0
 "Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-01-24,0
@@ -3485,6 +3696,7 @@
 "Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-03-01,3
 "Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-03-02,3
 "Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-03-03,3
+"Asia","CHN","Mainland China","Xinjiang",41.1129,85.2401,2020-03-04,3
 "Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-01-22,0
 "Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-01-23,0
 "Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-01-24,0
@@ -3527,6 +3739,7 @@
 "Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-03-01,2
 "Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-03-02,2
 "Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-03-03,2
+"Asia","CHN","Mainland China","Yunnan",24.974,101.487,2020-03-04,2
 "Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-01-22,0
 "Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-01-23,0
 "Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-01-24,0
@@ -3569,6 +3782,7 @@
 "Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-03-01,1
 "Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-03-02,1
 "Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-03-03,1
+"Asia","CHN","Mainland China","Zhejiang",29.1832,120.0934,2020-03-04,1
 "Asia","GEO","Georgia",NA,42.3154,43.3569,2020-01-22,0
 "Asia","GEO","Georgia",NA,42.3154,43.3569,2020-01-23,0
 "Asia","GEO","Georgia",NA,42.3154,43.3569,2020-01-24,0
@@ -3611,6 +3825,7 @@
 "Asia","GEO","Georgia",NA,42.3154,43.3569,2020-03-01,0
 "Asia","GEO","Georgia",NA,42.3154,43.3569,2020-03-02,0
 "Asia","GEO","Georgia",NA,42.3154,43.3569,2020-03-03,0
+"Asia","GEO","Georgia",NA,42.3154,43.3569,2020-03-04,0
 "Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-01-22,0
 "Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-01-23,0
 "Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-01-24,0
@@ -3653,6 +3868,7 @@
 "Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-03-01,2
 "Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-03-02,2
 "Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-03-03,2
+"Asia","HKG","Hong Kong","Hong Kong",22.3,114.2,2020-03-04,2
 "Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-01-22,0
 "Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-01-23,0
 "Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-01-24,0
@@ -3695,6 +3911,7 @@
 "Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-03-01,0
 "Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-03-02,0
 "Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-03-03,0
+"Asia","IDN","Indonesia",NA,-0.7893,113.9213,2020-03-04,0
 "Asia","IND","India",NA,21,78,2020-01-22,0
 "Asia","IND","India",NA,21,78,2020-01-23,0
 "Asia","IND","India",NA,21,78,2020-01-24,0
@@ -3737,6 +3954,7 @@
 "Asia","IND","India",NA,21,78,2020-03-01,0
 "Asia","IND","India",NA,21,78,2020-03-02,0
 "Asia","IND","India",NA,21,78,2020-03-03,0
+"Asia","IND","India",NA,21,78,2020-03-04,0
 "Asia","IRN","Iran",NA,32,53,2020-01-22,0
 "Asia","IRN","Iran",NA,32,53,2020-01-23,0
 "Asia","IRN","Iran",NA,32,53,2020-01-24,0
@@ -3779,6 +3997,7 @@
 "Asia","IRN","Iran",NA,32,53,2020-03-01,54
 "Asia","IRN","Iran",NA,32,53,2020-03-02,66
 "Asia","IRN","Iran",NA,32,53,2020-03-03,77
+"Asia","IRN","Iran",NA,32,53,2020-03-04,92
 "Asia","IRQ","Iraq",NA,33,44,2020-01-22,0
 "Asia","IRQ","Iraq",NA,33,44,2020-01-23,0
 "Asia","IRQ","Iraq",NA,33,44,2020-01-24,0
@@ -3821,6 +4040,7 @@
 "Asia","IRQ","Iraq",NA,33,44,2020-03-01,0
 "Asia","IRQ","Iraq",NA,33,44,2020-03-02,0
 "Asia","IRQ","Iraq",NA,33,44,2020-03-03,0
+"Asia","IRQ","Iraq",NA,33,44,2020-03-04,2
 "Asia","ISR","Israel",NA,31,35,2020-01-22,0
 "Asia","ISR","Israel",NA,31,35,2020-01-23,0
 "Asia","ISR","Israel",NA,31,35,2020-01-24,0
@@ -3863,6 +4083,7 @@
 "Asia","ISR","Israel",NA,31,35,2020-03-01,0
 "Asia","ISR","Israel",NA,31,35,2020-03-02,0
 "Asia","ISR","Israel",NA,31,35,2020-03-03,0
+"Asia","ISR","Israel",NA,31,35,2020-03-04,0
 "Asia","JOR","Jordan",NA,31.24,36.51,2020-01-22,0
 "Asia","JOR","Jordan",NA,31.24,36.51,2020-01-23,0
 "Asia","JOR","Jordan",NA,31.24,36.51,2020-01-24,0
@@ -3905,6 +4126,7 @@
 "Asia","JOR","Jordan",NA,31.24,36.51,2020-03-01,0
 "Asia","JOR","Jordan",NA,31.24,36.51,2020-03-02,0
 "Asia","JOR","Jordan",NA,31.24,36.51,2020-03-03,0
+"Asia","JOR","Jordan",NA,31.24,36.51,2020-03-04,0
 "Asia","JPN","Japan",NA,36,138,2020-01-22,0
 "Asia","JPN","Japan",NA,36,138,2020-01-23,0
 "Asia","JPN","Japan",NA,36,138,2020-01-24,0
@@ -3947,6 +4169,7 @@
 "Asia","JPN","Japan",NA,36,138,2020-03-01,6
 "Asia","JPN","Japan",NA,36,138,2020-03-02,6
 "Asia","JPN","Japan",NA,36,138,2020-03-03,6
+"Asia","JPN","Japan",NA,36,138,2020-03-04,6
 "Asia","KHM","Cambodia",NA,11.55,104.9167,2020-01-22,0
 "Asia","KHM","Cambodia",NA,11.55,104.9167,2020-01-23,0
 "Asia","KHM","Cambodia",NA,11.55,104.9167,2020-01-24,0
@@ -3989,6 +4212,7 @@
 "Asia","KHM","Cambodia",NA,11.55,104.9167,2020-03-01,0
 "Asia","KHM","Cambodia",NA,11.55,104.9167,2020-03-02,0
 "Asia","KHM","Cambodia",NA,11.55,104.9167,2020-03-03,0
+"Asia","KHM","Cambodia",NA,11.55,104.9167,2020-03-04,0
 "Asia","KOR","South Korea",NA,36,128,2020-01-22,0
 "Asia","KOR","South Korea",NA,36,128,2020-01-23,0
 "Asia","KOR","South Korea",NA,36,128,2020-01-24,0
@@ -4031,6 +4255,7 @@
 "Asia","KOR","South Korea",NA,36,128,2020-03-01,17
 "Asia","KOR","South Korea",NA,36,128,2020-03-02,28
 "Asia","KOR","South Korea",NA,36,128,2020-03-03,28
+"Asia","KOR","South Korea",NA,36,128,2020-03-04,35
 "Asia","KWT","Kuwait",NA,29.5,47.75,2020-01-22,0
 "Asia","KWT","Kuwait",NA,29.5,47.75,2020-01-23,0
 "Asia","KWT","Kuwait",NA,29.5,47.75,2020-01-24,0
@@ -4073,6 +4298,7 @@
 "Asia","KWT","Kuwait",NA,29.5,47.75,2020-03-01,0
 "Asia","KWT","Kuwait",NA,29.5,47.75,2020-03-02,0
 "Asia","KWT","Kuwait",NA,29.5,47.75,2020-03-03,0
+"Asia","KWT","Kuwait",NA,29.5,47.75,2020-03-04,0
 "Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-01-22,0
 "Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-01-23,0
 "Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-01-24,0
@@ -4115,6 +4341,7 @@
 "Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-03-01,0
 "Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-03-02,0
 "Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-03-03,0
+"Asia","LBN","Lebanon",NA,33.8547,35.8623,2020-03-04,0
 "Asia","LKA","Sri Lanka",NA,7,81,2020-01-22,0
 "Asia","LKA","Sri Lanka",NA,7,81,2020-01-23,0
 "Asia","LKA","Sri Lanka",NA,7,81,2020-01-24,0
@@ -4157,6 +4384,7 @@
 "Asia","LKA","Sri Lanka",NA,7,81,2020-03-01,0
 "Asia","LKA","Sri Lanka",NA,7,81,2020-03-02,0
 "Asia","LKA","Sri Lanka",NA,7,81,2020-03-03,0
+"Asia","LKA","Sri Lanka",NA,7,81,2020-03-04,0
 "Asia","MAC","Macau","Macau",22.1667,113.55,2020-01-22,0
 "Asia","MAC","Macau","Macau",22.1667,113.55,2020-01-23,0
 "Asia","MAC","Macau","Macau",22.1667,113.55,2020-01-24,0
@@ -4199,6 +4427,7 @@
 "Asia","MAC","Macau","Macau",22.1667,113.55,2020-03-01,0
 "Asia","MAC","Macau","Macau",22.1667,113.55,2020-03-02,0
 "Asia","MAC","Macau","Macau",22.1667,113.55,2020-03-03,0
+"Asia","MAC","Macau","Macau",22.1667,113.55,2020-03-04,0
 "Asia","MYS","Malaysia",NA,2.5,112.5,2020-01-22,0
 "Asia","MYS","Malaysia",NA,2.5,112.5,2020-01-23,0
 "Asia","MYS","Malaysia",NA,2.5,112.5,2020-01-24,0
@@ -4241,6 +4470,7 @@
 "Asia","MYS","Malaysia",NA,2.5,112.5,2020-03-01,0
 "Asia","MYS","Malaysia",NA,2.5,112.5,2020-03-02,0
 "Asia","MYS","Malaysia",NA,2.5,112.5,2020-03-03,0
+"Asia","MYS","Malaysia",NA,2.5,112.5,2020-03-04,0
 "Asia","NPL","Nepal",NA,28.1667,84.25,2020-01-22,0
 "Asia","NPL","Nepal",NA,28.1667,84.25,2020-01-23,0
 "Asia","NPL","Nepal",NA,28.1667,84.25,2020-01-24,0
@@ -4283,6 +4513,7 @@
 "Asia","NPL","Nepal",NA,28.1667,84.25,2020-03-01,0
 "Asia","NPL","Nepal",NA,28.1667,84.25,2020-03-02,0
 "Asia","NPL","Nepal",NA,28.1667,84.25,2020-03-03,0
+"Asia","NPL","Nepal",NA,28.1667,84.25,2020-03-04,0
 "Asia","OMN","Oman",NA,21,57,2020-01-22,0
 "Asia","OMN","Oman",NA,21,57,2020-01-23,0
 "Asia","OMN","Oman",NA,21,57,2020-01-24,0
@@ -4325,6 +4556,7 @@
 "Asia","OMN","Oman",NA,21,57,2020-03-01,0
 "Asia","OMN","Oman",NA,21,57,2020-03-02,0
 "Asia","OMN","Oman",NA,21,57,2020-03-03,0
+"Asia","OMN","Oman",NA,21,57,2020-03-04,0
 "Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-01-22,0
 "Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-01-23,0
 "Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-01-24,0
@@ -4367,6 +4599,7 @@
 "Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-03-01,0
 "Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-03-02,0
 "Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-03-03,0
+"Asia","PAK","Pakistan",NA,30.3753,69.3451,2020-03-04,0
 "Asia","PHL","Philippines",NA,13,122,2020-01-22,0
 "Asia","PHL","Philippines",NA,13,122,2020-01-23,0
 "Asia","PHL","Philippines",NA,13,122,2020-01-24,0
@@ -4409,6 +4642,7 @@
 "Asia","PHL","Philippines",NA,13,122,2020-03-01,1
 "Asia","PHL","Philippines",NA,13,122,2020-03-02,1
 "Asia","PHL","Philippines",NA,13,122,2020-03-03,1
+"Asia","PHL","Philippines",NA,13,122,2020-03-04,1
 "Asia","QAT","Qatar",NA,25.3548,51.1839,2020-01-22,0
 "Asia","QAT","Qatar",NA,25.3548,51.1839,2020-01-23,0
 "Asia","QAT","Qatar",NA,25.3548,51.1839,2020-01-24,0
@@ -4451,6 +4685,7 @@
 "Asia","QAT","Qatar",NA,25.3548,51.1839,2020-03-01,0
 "Asia","QAT","Qatar",NA,25.3548,51.1839,2020-03-02,0
 "Asia","QAT","Qatar",NA,25.3548,51.1839,2020-03-03,0
+"Asia","QAT","Qatar",NA,25.3548,51.1839,2020-03-04,0
 "Asia","SAU","Saudi Arabia",NA,24,45,2020-01-22,0
 "Asia","SAU","Saudi Arabia",NA,24,45,2020-01-23,0
 "Asia","SAU","Saudi Arabia",NA,24,45,2020-01-24,0
@@ -4493,6 +4728,7 @@
 "Asia","SAU","Saudi Arabia",NA,24,45,2020-03-01,0
 "Asia","SAU","Saudi Arabia",NA,24,45,2020-03-02,0
 "Asia","SAU","Saudi Arabia",NA,24,45,2020-03-03,0
+"Asia","SAU","Saudi Arabia",NA,24,45,2020-03-04,0
 "Asia","SGP","Singapore",NA,1.2833,103.8333,2020-01-22,0
 "Asia","SGP","Singapore",NA,1.2833,103.8333,2020-01-23,0
 "Asia","SGP","Singapore",NA,1.2833,103.8333,2020-01-24,0
@@ -4535,6 +4771,7 @@
 "Asia","SGP","Singapore",NA,1.2833,103.8333,2020-03-01,0
 "Asia","SGP","Singapore",NA,1.2833,103.8333,2020-03-02,0
 "Asia","SGP","Singapore",NA,1.2833,103.8333,2020-03-03,0
+"Asia","SGP","Singapore",NA,1.2833,103.8333,2020-03-04,0
 "Asia","THA","Thailand",NA,15,101,2020-01-22,0
 "Asia","THA","Thailand",NA,15,101,2020-01-23,0
 "Asia","THA","Thailand",NA,15,101,2020-01-24,0
@@ -4577,6 +4814,7 @@
 "Asia","THA","Thailand",NA,15,101,2020-03-01,1
 "Asia","THA","Thailand",NA,15,101,2020-03-02,1
 "Asia","THA","Thailand",NA,15,101,2020-03-03,1
+"Asia","THA","Thailand",NA,15,101,2020-03-04,1
 "Asia","TWN","Taiwan","Taiwan",23.7,121,2020-01-22,0
 "Asia","TWN","Taiwan","Taiwan",23.7,121,2020-01-23,0
 "Asia","TWN","Taiwan","Taiwan",23.7,121,2020-01-24,0
@@ -4619,6 +4857,7 @@
 "Asia","TWN","Taiwan","Taiwan",23.7,121,2020-03-01,1
 "Asia","TWN","Taiwan","Taiwan",23.7,121,2020-03-02,1
 "Asia","TWN","Taiwan","Taiwan",23.7,121,2020-03-03,1
+"Asia","TWN","Taiwan","Taiwan",23.7,121,2020-03-04,1
 "Asia","VNM","Vietnam",NA,16,108,2020-01-22,0
 "Asia","VNM","Vietnam",NA,16,108,2020-01-23,0
 "Asia","VNM","Vietnam",NA,16,108,2020-01-24,0
@@ -4661,6 +4900,7 @@
 "Asia","VNM","Vietnam",NA,16,108,2020-03-01,0
 "Asia","VNM","Vietnam",NA,16,108,2020-03-02,0
 "Asia","VNM","Vietnam",NA,16,108,2020-03-03,0
+"Asia","VNM","Vietnam",NA,16,108,2020-03-04,0
 "Europe","AND","Andorra",NA,42.5063,1.5218,2020-01-22,0
 "Europe","AND","Andorra",NA,42.5063,1.5218,2020-01-23,0
 "Europe","AND","Andorra",NA,42.5063,1.5218,2020-01-24,0
@@ -4703,6 +4943,7 @@
 "Europe","AND","Andorra",NA,42.5063,1.5218,2020-03-01,0
 "Europe","AND","Andorra",NA,42.5063,1.5218,2020-03-02,0
 "Europe","AND","Andorra",NA,42.5063,1.5218,2020-03-03,0
+"Europe","AND","Andorra",NA,42.5063,1.5218,2020-03-04,0
 "Europe","AUT","Austria",NA,47.5162,14.5501,2020-01-22,0
 "Europe","AUT","Austria",NA,47.5162,14.5501,2020-01-23,0
 "Europe","AUT","Austria",NA,47.5162,14.5501,2020-01-24,0
@@ -4745,6 +4986,7 @@
 "Europe","AUT","Austria",NA,47.5162,14.5501,2020-03-01,0
 "Europe","AUT","Austria",NA,47.5162,14.5501,2020-03-02,0
 "Europe","AUT","Austria",NA,47.5162,14.5501,2020-03-03,0
+"Europe","AUT","Austria",NA,47.5162,14.5501,2020-03-04,0
 "Europe","BEL","Belgium",NA,50.8333,4,2020-01-22,0
 "Europe","BEL","Belgium",NA,50.8333,4,2020-01-23,0
 "Europe","BEL","Belgium",NA,50.8333,4,2020-01-24,0
@@ -4787,6 +5029,7 @@
 "Europe","BEL","Belgium",NA,50.8333,4,2020-03-01,0
 "Europe","BEL","Belgium",NA,50.8333,4,2020-03-02,0
 "Europe","BEL","Belgium",NA,50.8333,4,2020-03-03,0
+"Europe","BEL","Belgium",NA,50.8333,4,2020-03-04,0
 "Europe","BLR","Belarus",NA,53.7098,27.9534,2020-01-22,0
 "Europe","BLR","Belarus",NA,53.7098,27.9534,2020-01-23,0
 "Europe","BLR","Belarus",NA,53.7098,27.9534,2020-01-24,0
@@ -4829,6 +5072,7 @@
 "Europe","BLR","Belarus",NA,53.7098,27.9534,2020-03-01,0
 "Europe","BLR","Belarus",NA,53.7098,27.9534,2020-03-02,0
 "Europe","BLR","Belarus",NA,53.7098,27.9534,2020-03-03,0
+"Europe","BLR","Belarus",NA,53.7098,27.9534,2020-03-04,0
 "Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-01-22,0
 "Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-01-23,0
 "Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-01-24,0
@@ -4871,6 +5115,7 @@
 "Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-03-01,0
 "Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-03-02,0
 "Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-03-03,0
+"Europe","CHE","Switzerland",NA,46.8182,8.2275,2020-03-04,0
 "Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-01-22,0
 "Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-01-23,0
 "Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-01-24,0
@@ -4913,6 +5158,7 @@
 "Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-03-01,0
 "Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-03-02,0
 "Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-03-03,0
+"Europe","CZE","Czech Republic",NA,49.8175,15.473,2020-03-04,0
 "Europe","DEU","Germany",NA,51,9,2020-01-22,0
 "Europe","DEU","Germany",NA,51,9,2020-01-23,0
 "Europe","DEU","Germany",NA,51,9,2020-01-24,0
@@ -4955,6 +5201,7 @@
 "Europe","DEU","Germany",NA,51,9,2020-03-01,0
 "Europe","DEU","Germany",NA,51,9,2020-03-02,0
 "Europe","DEU","Germany",NA,51,9,2020-03-03,0
+"Europe","DEU","Germany",NA,51,9,2020-03-04,0
 "Europe","DNK","Denmark",NA,56.2639,9.5018,2020-01-22,0
 "Europe","DNK","Denmark",NA,56.2639,9.5018,2020-01-23,0
 "Europe","DNK","Denmark",NA,56.2639,9.5018,2020-01-24,0
@@ -4997,6 +5244,7 @@
 "Europe","DNK","Denmark",NA,56.2639,9.5018,2020-03-01,0
 "Europe","DNK","Denmark",NA,56.2639,9.5018,2020-03-02,0
 "Europe","DNK","Denmark",NA,56.2639,9.5018,2020-03-03,0
+"Europe","DNK","Denmark",NA,56.2639,9.5018,2020-03-04,0
 "Europe","ESP","Spain",NA,40,-4,2020-01-22,0
 "Europe","ESP","Spain",NA,40,-4,2020-01-23,0
 "Europe","ESP","Spain",NA,40,-4,2020-01-24,0
@@ -5039,6 +5287,7 @@
 "Europe","ESP","Spain",NA,40,-4,2020-03-01,0
 "Europe","ESP","Spain",NA,40,-4,2020-03-02,0
 "Europe","ESP","Spain",NA,40,-4,2020-03-03,1
+"Europe","ESP","Spain",NA,40,-4,2020-03-04,2
 "Europe","EST","Estonia",NA,58.5953,25.0136,2020-01-22,0
 "Europe","EST","Estonia",NA,58.5953,25.0136,2020-01-23,0
 "Europe","EST","Estonia",NA,58.5953,25.0136,2020-01-24,0
@@ -5081,6 +5330,7 @@
 "Europe","EST","Estonia",NA,58.5953,25.0136,2020-03-01,0
 "Europe","EST","Estonia",NA,58.5953,25.0136,2020-03-02,0
 "Europe","EST","Estonia",NA,58.5953,25.0136,2020-03-03,0
+"Europe","EST","Estonia",NA,58.5953,25.0136,2020-03-04,0
 "Europe","FIN","Finland",NA,64,26,2020-01-22,0
 "Europe","FIN","Finland",NA,64,26,2020-01-23,0
 "Europe","FIN","Finland",NA,64,26,2020-01-24,0
@@ -5123,6 +5373,7 @@
 "Europe","FIN","Finland",NA,64,26,2020-03-01,0
 "Europe","FIN","Finland",NA,64,26,2020-03-02,0
 "Europe","FIN","Finland",NA,64,26,2020-03-03,0
+"Europe","FIN","Finland",NA,64,26,2020-03-04,0
 "Europe","FRA","France",NA,47,2,2020-01-22,0
 "Europe","FRA","France",NA,47,2,2020-01-23,0
 "Europe","FRA","France",NA,47,2,2020-01-24,0
@@ -5165,6 +5416,50 @@
 "Europe","FRA","France",NA,47,2,2020-03-01,2
 "Europe","FRA","France",NA,47,2,2020-03-02,3
 "Europe","FRA","France",NA,47,2,2020-03-03,4
+"Europe","FRA","France",NA,47,2,2020-03-04,4
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-22,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-23,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-24,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-25,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-26,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-27,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-28,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-29,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-30,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-01-31,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-01,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-02,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-03,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-04,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-05,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-06,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-07,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-08,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-09,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-10,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-11,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-12,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-13,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-14,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-15,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-16,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-17,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-18,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-19,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-20,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-21,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-22,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-23,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-24,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-25,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-26,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-27,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-28,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-02-29,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-03-01,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-03-02,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-03-03,0
+"Europe","FRO","Faroe Islands",NA,61.8926,-6.9118,2020-03-04,0
 "Europe","GBR","UK",NA,55,-3,2020-01-22,0
 "Europe","GBR","UK",NA,55,-3,2020-01-23,0
 "Europe","GBR","UK",NA,55,-3,2020-01-24,0
@@ -5207,6 +5502,50 @@
 "Europe","GBR","UK",NA,55,-3,2020-03-01,0
 "Europe","GBR","UK",NA,55,-3,2020-03-02,0
 "Europe","GBR","UK",NA,55,-3,2020-03-03,0
+"Europe","GBR","UK",NA,55,-3,2020-03-04,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-22,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-23,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-24,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-25,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-26,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-27,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-28,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-29,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-30,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-01-31,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-01,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-02,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-03,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-04,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-05,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-06,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-07,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-08,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-09,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-10,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-11,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-12,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-13,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-14,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-15,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-16,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-17,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-18,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-19,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-20,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-21,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-22,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-23,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-24,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-25,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-26,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-27,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-28,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-02-29,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-03-01,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-03-02,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-03-03,0
+"Europe","GIB","Gibraltar",NA,36.1408,-5.3536,2020-03-04,0
 "Europe","GRC","Greece",NA,39.0742,21.8243,2020-01-22,0
 "Europe","GRC","Greece",NA,39.0742,21.8243,2020-01-23,0
 "Europe","GRC","Greece",NA,39.0742,21.8243,2020-01-24,0
@@ -5249,6 +5588,7 @@
 "Europe","GRC","Greece",NA,39.0742,21.8243,2020-03-01,0
 "Europe","GRC","Greece",NA,39.0742,21.8243,2020-03-02,0
 "Europe","GRC","Greece",NA,39.0742,21.8243,2020-03-03,0
+"Europe","GRC","Greece",NA,39.0742,21.8243,2020-03-04,0
 "Europe","HRV","Croatia",NA,45.1,15.2,2020-01-22,0
 "Europe","HRV","Croatia",NA,45.1,15.2,2020-01-23,0
 "Europe","HRV","Croatia",NA,45.1,15.2,2020-01-24,0
@@ -5291,6 +5631,50 @@
 "Europe","HRV","Croatia",NA,45.1,15.2,2020-03-01,0
 "Europe","HRV","Croatia",NA,45.1,15.2,2020-03-02,0
 "Europe","HRV","Croatia",NA,45.1,15.2,2020-03-03,0
+"Europe","HRV","Croatia",NA,45.1,15.2,2020-03-04,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-22,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-23,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-24,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-25,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-26,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-27,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-28,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-29,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-30,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-01-31,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-01,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-02,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-03,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-04,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-05,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-06,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-07,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-08,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-09,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-10,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-11,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-12,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-13,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-14,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-15,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-16,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-17,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-18,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-19,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-20,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-21,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-22,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-23,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-24,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-25,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-26,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-27,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-28,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-02-29,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-03-01,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-03-02,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-03-03,0
+"Europe","HUN","Hungary",NA,47.1625,19.5033,2020-03-04,0
 "Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-01-22,0
 "Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-01-23,0
 "Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-01-24,0
@@ -5333,6 +5717,7 @@
 "Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-03-01,0
 "Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-03-02,0
 "Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-03-03,0
+"Europe","IRL","Ireland",NA,53.1424,-7.6921,2020-03-04,0
 "Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-01-22,0
 "Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-01-23,0
 "Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-01-24,0
@@ -5375,6 +5760,7 @@
 "Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-03-01,0
 "Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-03-02,0
 "Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-03-03,0
+"Europe","ISL","Iceland",NA,64.9631,-19.0208,2020-03-04,0
 "Europe","ITA","Italy",NA,43,12,2020-01-22,0
 "Europe","ITA","Italy",NA,43,12,2020-01-23,0
 "Europe","ITA","Italy",NA,43,12,2020-01-24,0
@@ -5417,6 +5803,50 @@
 "Europe","ITA","Italy",NA,43,12,2020-03-01,34
 "Europe","ITA","Italy",NA,43,12,2020-03-02,52
 "Europe","ITA","Italy",NA,43,12,2020-03-03,79
+"Europe","ITA","Italy",NA,43,12,2020-03-04,107
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-22,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-23,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-24,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-25,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-26,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-27,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-28,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-29,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-30,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-01-31,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-01,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-02,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-03,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-04,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-05,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-06,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-07,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-08,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-09,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-10,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-11,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-12,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-13,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-14,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-15,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-16,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-17,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-18,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-19,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-20,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-21,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-22,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-23,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-24,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-25,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-26,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-27,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-28,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-02-29,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-03-01,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-03-02,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-03-03,0
+"Europe","LIE","Liechtenstein",NA,47.14,9.55,2020-03-04,0
 "Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-01-22,0
 "Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-01-23,0
 "Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-01-24,0
@@ -5459,6 +5889,7 @@
 "Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-03-01,0
 "Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-03-02,0
 "Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-03-03,0
+"Europe","LTU","Lithuania",NA,55.1694,23.8813,2020-03-04,0
 "Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-01-22,0
 "Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-01-23,0
 "Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-01-24,0
@@ -5501,6 +5932,7 @@
 "Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-03-01,0
 "Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-03-02,0
 "Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-03-03,0
+"Europe","LUX","Luxembourg",NA,49.8153,6.1296,2020-03-04,0
 "Europe","LVA","Latvia",NA,56.8796,24.6032,2020-01-22,0
 "Europe","LVA","Latvia",NA,56.8796,24.6032,2020-01-23,0
 "Europe","LVA","Latvia",NA,56.8796,24.6032,2020-01-24,0
@@ -5543,6 +5975,7 @@
 "Europe","LVA","Latvia",NA,56.8796,24.6032,2020-03-01,0
 "Europe","LVA","Latvia",NA,56.8796,24.6032,2020-03-02,0
 "Europe","LVA","Latvia",NA,56.8796,24.6032,2020-03-03,0
+"Europe","LVA","Latvia",NA,56.8796,24.6032,2020-03-04,0
 "Europe","MCO","Monaco",NA,43.7333,7.4167,2020-01-22,0
 "Europe","MCO","Monaco",NA,43.7333,7.4167,2020-01-23,0
 "Europe","MCO","Monaco",NA,43.7333,7.4167,2020-01-24,0
@@ -5585,6 +6018,7 @@
 "Europe","MCO","Monaco",NA,43.7333,7.4167,2020-03-01,0
 "Europe","MCO","Monaco",NA,43.7333,7.4167,2020-03-02,0
 "Europe","MCO","Monaco",NA,43.7333,7.4167,2020-03-03,0
+"Europe","MCO","Monaco",NA,43.7333,7.4167,2020-03-04,0
 "Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-01-22,0
 "Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-01-23,0
 "Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-01-24,0
@@ -5627,6 +6061,7 @@
 "Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-03-01,0
 "Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-03-02,0
 "Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-03-03,0
+"Europe","MKD","North Macedonia",NA,41.6086,21.7453,2020-03-04,0
 "Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-01-22,0
 "Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-01-23,0
 "Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-01-24,0
@@ -5669,6 +6104,7 @@
 "Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-03-01,0
 "Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-03-02,0
 "Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-03-03,0
+"Europe","NLD","Netherlands",NA,52.1326,5.2913,2020-03-04,0
 "Europe","NOR","Norway",NA,60.472,8.4689,2020-01-22,0
 "Europe","NOR","Norway",NA,60.472,8.4689,2020-01-23,0
 "Europe","NOR","Norway",NA,60.472,8.4689,2020-01-24,0
@@ -5711,6 +6147,50 @@
 "Europe","NOR","Norway",NA,60.472,8.4689,2020-03-01,0
 "Europe","NOR","Norway",NA,60.472,8.4689,2020-03-02,0
 "Europe","NOR","Norway",NA,60.472,8.4689,2020-03-03,0
+"Europe","NOR","Norway",NA,60.472,8.4689,2020-03-04,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-22,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-23,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-24,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-25,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-26,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-27,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-28,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-29,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-30,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-01-31,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-01,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-02,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-03,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-04,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-05,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-06,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-07,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-08,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-09,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-10,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-11,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-12,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-13,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-14,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-15,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-16,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-17,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-18,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-19,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-20,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-21,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-22,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-23,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-24,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-25,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-26,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-27,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-28,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-02-29,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-03-01,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-03-02,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-03-03,0
+"Europe","POL","Poland",NA,51.9194,19.1451,2020-03-04,0
 "Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-01-22,0
 "Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-01-23,0
 "Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-01-24,0
@@ -5753,6 +6233,7 @@
 "Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-03-01,0
 "Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-03-02,0
 "Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-03-03,0
+"Europe","PRT","Portugal",NA,39.3999,-8.2245,2020-03-04,0
 "Europe","ROU","Romania",NA,45.9432,24.9668,2020-01-22,0
 "Europe","ROU","Romania",NA,45.9432,24.9668,2020-01-23,0
 "Europe","ROU","Romania",NA,45.9432,24.9668,2020-01-24,0
@@ -5795,6 +6276,7 @@
 "Europe","ROU","Romania",NA,45.9432,24.9668,2020-03-01,0
 "Europe","ROU","Romania",NA,45.9432,24.9668,2020-03-02,0
 "Europe","ROU","Romania",NA,45.9432,24.9668,2020-03-03,0
+"Europe","ROU","Romania",NA,45.9432,24.9668,2020-03-04,0
 "Europe","RUS","Russia",NA,60,90,2020-01-22,0
 "Europe","RUS","Russia",NA,60,90,2020-01-23,0
 "Europe","RUS","Russia",NA,60,90,2020-01-24,0
@@ -5837,6 +6319,7 @@
 "Europe","RUS","Russia",NA,60,90,2020-03-01,0
 "Europe","RUS","Russia",NA,60,90,2020-03-02,0
 "Europe","RUS","Russia",NA,60,90,2020-03-03,0
+"Europe","RUS","Russia",NA,60,90,2020-03-04,0
 "Europe","SMR","San Marino",NA,43.9424,12.4578,2020-01-22,0
 "Europe","SMR","San Marino",NA,43.9424,12.4578,2020-01-23,0
 "Europe","SMR","San Marino",NA,43.9424,12.4578,2020-01-24,0
@@ -5879,6 +6362,7 @@
 "Europe","SMR","San Marino",NA,43.9424,12.4578,2020-03-01,0
 "Europe","SMR","San Marino",NA,43.9424,12.4578,2020-03-02,0
 "Europe","SMR","San Marino",NA,43.9424,12.4578,2020-03-03,1
+"Europe","SMR","San Marino",NA,43.9424,12.4578,2020-03-04,1
 "Europe","SWE","Sweden",NA,63,16,2020-01-22,0
 "Europe","SWE","Sweden",NA,63,16,2020-01-23,0
 "Europe","SWE","Sweden",NA,63,16,2020-01-24,0
@@ -5921,6 +6405,7 @@
 "Europe","SWE","Sweden",NA,63,16,2020-03-01,0
 "Europe","SWE","Sweden",NA,63,16,2020-03-02,0
 "Europe","SWE","Sweden",NA,63,16,2020-03-03,0
+"Europe","SWE","Sweden",NA,63,16,2020-03-04,0
 "Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-01-22,0
 "Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-01-23,0
 "Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-01-24,0
@@ -5963,6 +6448,7 @@
 "Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-03-01,0
 "Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-03-02,0
 "Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-03-03,0
+"Europe","UKR","Ukraine",NA,48.3794,31.1656,2020-03-04,0
 "Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-01-22,0
 "Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-01-23,0
 "Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-01-24,0
@@ -6005,6 +6491,7 @@
 "Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-03-01,0
 "Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-03-02,0
 "Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-03-03,0
+"Oceania","AUS","Australia","From Diamond Princess",35.4437,139.638,2020-03-04,0
 "Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-01-22,0
 "Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-01-23,0
 "Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-01-24,0
@@ -6047,6 +6534,50 @@
 "Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-03-01,0
 "Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-03-02,0
 "Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-03-03,0
+"Oceania","AUS","Australia","New South Wales",-33.8688,151.2093,2020-03-04,1
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-22,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-23,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-24,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-25,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-26,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-27,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-28,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-29,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-30,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-01-31,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-01,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-02,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-03,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-04,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-05,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-06,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-07,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-08,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-09,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-10,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-11,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-12,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-13,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-14,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-15,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-16,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-17,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-18,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-19,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-20,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-21,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-22,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-23,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-24,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-25,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-26,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-27,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-28,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-02-29,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-03-01,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-03-02,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-03-03,0
+"Oceania","AUS","Australia","Northern Territory",-12.4634,130.8456,2020-03-04,0
 "Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-01-22,0
 "Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-01-23,0
 "Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-01-24,0
@@ -6089,6 +6620,7 @@
 "Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-03-01,0
 "Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-03-02,0
 "Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-03-03,0
+"Oceania","AUS","Australia","Queensland",-28.0167,153.4,2020-03-04,0
 "Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-01-22,0
 "Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-01-23,0
 "Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-01-24,0
@@ -6131,6 +6663,7 @@
 "Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-03-01,0
 "Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-03-02,0
 "Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-03-03,0
+"Oceania","AUS","Australia","South Australia",-34.9285,138.6007,2020-03-04,0
 "Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-01-22,0
 "Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-01-23,0
 "Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-01-24,0
@@ -6173,6 +6706,7 @@
 "Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-03-01,0
 "Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-03-02,0
 "Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-03-03,0
+"Oceania","AUS","Australia","Tasmania",-41.4545,145.9707,2020-03-04,0
 "Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-01-22,0
 "Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-01-23,0
 "Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-01-24,0
@@ -6215,6 +6749,7 @@
 "Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-03-01,0
 "Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-03-02,0
 "Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-03-03,0
+"Oceania","AUS","Australia","Victoria",-37.8136,144.9631,2020-03-04,0
 "Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-01-22,0
 "Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-01-23,0
 "Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-01-24,0
@@ -6257,6 +6792,7 @@
 "Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-03-01,1
 "Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-03-02,1
 "Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-03-03,1
+"Oceania","AUS","Australia","Western Australia",-31.9505,115.8605,2020-03-04,1
 "Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-01-22,0
 "Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-01-23,0
 "Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-01-24,0
@@ -6299,6 +6835,7 @@
 "Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-03-01,0
 "Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-03-02,0
 "Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-03-03,0
+"Oceania","NZL","New Zealand",NA,-40.9006,174.886,2020-03-04,0
 "Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-01-22,0
 "Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-01-23,0
 "Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-01-24,0
@@ -6341,3 +6878,4 @@
 "Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-03-01,6
 "Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-03-02,6
 "Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-03-03,6
+"Others","Others","Others","Diamond Princess cruise ship",35.4437,139.638,2020-03-04,6

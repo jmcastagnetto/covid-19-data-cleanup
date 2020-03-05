@@ -7,17 +7,17 @@ ts_recovered <- readRDS("data/covid-19_ts_recovered.rds")
 # Naive rates, need to account for lag ~ 14d (estimated)
 latest_rates <- as_tibble(ts_confirmed) %>%
   filter(ts == max(ts)) %>%
-  select(-lat, -long, -ts) %>%
+  select(-lat, -lon, -ts) %>%
   left_join(
     as_tibble(ts_deaths) %>%
       filter(ts == max(ts)) %>%
-      select(-lat, -long, -ts),
+      select(-lat, -lon, -ts),
     by = c("continent", "iso3c", "country_region", "province_state")
   ) %>%
   left_join(
     as_tibble(ts_recovered) %>%
       filter(ts == max(ts)) %>%
-      select(-lat, -long, -ts),
+      select(-lat, -lon, -ts),
     by = c("continent", "iso3c", "country_region", "province_state")
   ) %>%
   arrange(desc(confirmed), country_region) %>%

@@ -1,3 +1,53 @@
+---
+output: md_document
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+library(gh)
+
+meta <- gh("GET /repos/:owner/:repo/git/refs",
+           owner = "CSSEGISandData",
+           repo = "COVID-19")
+
+latest_commit_sha <- meta[[1]]$object$sha
+latest_commit_url <- meta[[1]]$object$url
+
+ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds")
+ts_deaths <- readRDS("data/covid-19_ts_deaths.rds")
+ts_recovered <- readRDS("data/covid-19_ts_recovered.rds")
+
+# Naive rates, need to account for lag ~ 14d (estimated)
+latest_rates <- as_tibble(ts_confirmed) %>%
+  filter(ts == max(ts)) %>%
+  select(-lat, -lon, -ts) %>%
+  left_join(
+    as_tibble(ts_deaths) %>%
+      filter(ts == max(ts)) %>%
+      select(-lat, -lon, -ts),
+    by = c("continent", "iso3c", "country_region", "province_state")
+  ) %>%
+  left_join(
+    as_tibble(ts_recovered) %>%
+      filter(ts == max(ts)) %>%
+      select(-lat, -lon, -ts),
+    by = c("continent", "iso3c", "country_region", "province_state")
+  ) %>%
+  arrange(desc(confirmed), country_region) %>%
+  mutate(
+    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE),
+    death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
+    recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
+  )
+
+china <- latest_rates %>%
+  filter(iso3c == "CHN")
+
+not_china <- latest_rates %>%
+  filter(iso3c != "CHN")
+```
+
+
 R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandData/COVID-19
 
 **Last updated on** `r Sys.time()`
@@ -12,16 +62,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
   - **2020-03-04**: added Continents and ISO-3 country codes, using the `countrycode` R package.
 
 
-```{r echo=FALSE}
-library(tidyverse)
-library(gh)
 
-meta <- gh("GET /repos/:owner/:repo/git/refs",
-           owner = "CSSEGISandData",
-           repo = "COVID-19")
-
-latest_commit_sha <- meta[[1]]$object$sha
-latest_commit_url <- meta[[1]]$object$url
 ```
 -----
 
@@ -56,41 +97,6 @@ Confirmed cases by country (Others):
 -----
 
 Here are couple of quick tables (with naive rate estimates):
-
-```{r echo=FALSE}
-ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds")
-ts_deaths <- readRDS("data/covid-19_ts_deaths.rds")
-ts_recovered <- readRDS("data/covid-19_ts_recovered.rds")
-
-# Naive rates, need to account for lag ~ 14d (estimated)
-latest_rates <- as_tibble(ts_confirmed) %>%
-  filter(ts == max(ts)) %>%
-  select(-lat, -long, -ts) %>%
-  left_join(
-    as_tibble(ts_deaths) %>%
-      filter(ts == max(ts)) %>%
-      select(-lat, -long, -ts),
-    by = c("continent", "iso3c", "country_region", "province_state")
-  ) %>%
-  left_join(
-    as_tibble(ts_recovered) %>%
-      filter(ts == max(ts)) %>%
-      select(-lat, -long, -ts),
-    by = c("continent", "iso3c", "country_region", "province_state")
-  ) %>%
-  arrange(desc(confirmed), country_region) %>%
-  mutate(
-    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE),
-    death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
-    recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
-  )
-
-china <- latest_rates %>%
-  filter(iso3c == "CHN")
-
-not_china <- latest_rates %>%
-  filter(iso3c != "CHN")
-```
 
 [For cases in China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
 

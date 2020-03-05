@@ -51,14 +51,16 @@ get_data <- function(csv) {
     strptime(format = "%m-%d-%Y") %>%
     strftime()
 
-  # parse only first 6 columns
+  # parse columns
   col_spec <- list(
     province_state = col_character(),
     country_region = col_character(),
     update = col_character(),
     confirmed = col_integer(),
     dead = col_integer(),
-    recovered = col_integer()
+    recovered = col_integer(),
+    lat = col_double(),
+    lon = col_double()
   )
   read_csv(fname,
            col_types = col_spec, skip = 1,
@@ -77,29 +79,50 @@ for (fn in cases_df$download_url) {
   cases_raw <- bind_rows(cases_raw, d)
 }
 
-# reorder
+# case files from march onwards, have lat long
+
+# get the places with lat, long
+places <- cases_raw %>%
+  filter(!is.na(lat) & !is.na(lon)) %>%
+  select(country_region, province_state, lat, lon) %>%
+  mutate(
+    lat = round(as.double(lat), 5),
+    lon = round(as.double(lon), 5)
+  ) %>%
+  distinct(country_region, province_state, .keep_all = TRUE)
+  # use this because some places have multiple
+  # lat, lon: i.e. Croatia, Luxembourg, Romania
+
+# add lat lon, and reorder
 cases_raw <- cases_raw %>%
+  select(-lat, -lon) %>%
+  left_join(
+    places,
+    by = c("country_region", "province_state")
+  ) %>%
   select(
     country_region,
     province_state,
     confirmed,
     dead,
     recovered,
+    lat,
+    lon,
     update,
     data_update
   ) %>%
-  mutate(
+  mutate( # add iso3 and continent
     iso3c = countrycode(country_region,
-                        "country.name",
-                        "iso3c"),
-    iso3c = ifelse(is.na(iso3c), "Others", iso3c),
+                        origin = "country.name",
+                        destination = "iso3c",
+                        nomatch = NULL),
     continent = countrycode(country_region,
-                            "country.name",
-                            "continent"),
-    continent = ifelse(is.na(continent), "Others", continent)
+                            origin = "country.name",
+                            destination = "continent",
+                            nomatch = NULL)
   ) %>%
   select(
-    9, 8, 1:7
+    11, 10, 1:9
   )
 
 # save data

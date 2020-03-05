@@ -41,19 +41,22 @@ get_tsdata <- function(csv_url) {
       values_to = "var"
     ) %>%
     janitor::clean_names() %>%
+    rename(
+      lon = long
+    ) %>%
     mutate(
       ts = lubridate::mdy(ts),
       var = as.integer(var),
       lat = round(as.double(lat), 5),
-      long = round(as.double(long), 5),
+      lon = round(as.double(lon), 5),
       iso3c = countrycode(country_region,
-                          "country.name",
-                          "iso3c"),
-      iso3c = ifelse(is.na(iso3c), "Others", iso3c),
+                          origin = "country.name",
+                          destination = "iso3c",
+                          nomatch = NULL),
       continent = countrycode(country_region,
-                              "country.name",
-                              "continent"),
-      continent = ifelse(is.na(continent), "Others", continent)
+                              origin = "country.name",
+                              destination = "continent",
+                              nomatch = NULL)
      ) %>%
     select(8, 7, 2, 1, 3, 4, 5, 6)
 }
@@ -65,7 +68,7 @@ mk_tsibble <- function(df) {
     key = c("continent",
             "iso3c", "country_region",
             "province_state",
-            "lat", "long"),
+            "lat", "lon"),
     index = ts
   )
 }
@@ -89,15 +92,15 @@ places <- bind_rows(
 
 #-- combine all data and make them tsibbles
 ts_combined <- as_tibble(ts_confirmed) %>%
-  select(-lat, -long) %>%
+  select(-lat, -lon) %>%
   left_join(
-    ts_deaths %>% select(-lat, -long),
+    ts_deaths %>% select(-lat, -lon),
     by = c("continent",
            "iso3c", "country_region",
            "province_state", "ts")
   ) %>%
   left_join(
-    ts_recovered %>% select(-lat, -long),
+    ts_recovered %>% select(-lat, -lon),
     by = c("continent",
            "iso3c", "country_region",
            "province_state", "ts")
@@ -154,5 +157,3 @@ write.csv(
   file = "data/covid-19_ts_combined.csv",
   row.names = FALSE
 )
-
-
