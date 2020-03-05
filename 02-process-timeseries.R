@@ -206,6 +206,13 @@ ts_who_sitrep <- who_sitrep_raw %>%
   ) %>%
   janitor::clean_names() %>%
   mutate(
+    # until https://github.com/CSSEGISandData/COVID-19/issues/254
+    # gets fixed
+    country_region = ifelse(
+      country_region == "Belgiun",
+      "Belgium",
+      country_region
+    ),
     ts = lubridate::mdy(ts),
     cases = as.integer(cases),
     iso3c = countrycode(country_region,
