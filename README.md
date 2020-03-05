@@ -1,7 +1,8 @@
 R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
+into tidy datasets[1]
 
-**Last updated on** 2020-03-05 15:30:13
+**Last updated on** 2020-03-05 16:58:47
 
 **Data source commit reference**:
 [c625bf2de25b72615431f93247d005bc938dc09a](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/c625bf2de25b72615431f93247d005bc938dc09a)
@@ -17,9 +18,11 @@ R scripts to process/cleanup data from the repo:
     files.
 -   **2020-03-04**: added Continents and ISO-3 country codes, using the
     `countrycode` R package.
--   **2020-03-05**: latitude and longitude information started appearing
-    in cases files in March, used that to add that information the rest
-    of the cases.
+-   **2020-03-05**:
+    -   Latitude and longitude information started appearing in cases
+        files in March, used that to add that information the rest of
+        the cases.
+    -   Added code to tidy the WHO situation report timeseries
 
 ------------------------------------------------------------------------
 
@@ -2049,3 +2052,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 </tbody>
 </table>
+
+[1] “Tidy Data” H. Wickham,
+<a href="https://www.jstatsoft.org/article/view/v059i10" class="uri">https://www.jstatsoft.org/article/view/v059i10</a>
