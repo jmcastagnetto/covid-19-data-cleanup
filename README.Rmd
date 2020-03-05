@@ -62,35 +62,33 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
   - **2020-03-04**: added Continents and ISO-3 country codes, using the `countrycode` R package.
   - **2020-03-05**: latitude and longitude information started appearing in cases files in March, used that to add that information the rest of the cases.
 
-
-```
 -----
 
-Confirmed cases by country (Worldwide):
+### Confirmed cases by country (Worldwide):
 
 ![COVID-19 Confirmed cases by country (Worldwide)](covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Africa):
+### Confirmed cases by country in Africa:
 
 ![COVID-19 Confirmed cases by country (Africa)](africa-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Americas):
+### Confirmed cases by country in Americas:
 
 ![COVID-19 Confirmed cases by country (Americas)](americas-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Asia):
+### Confirmed cases by country in Asia:
 
 ![COVID-19 Confirmed cases by country (Asia)](asia-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Europe):
+### Confirmed cases by country in Europe:
 
 ![COVID-19 Confirmed cases by country (Europe)](europe-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Oceania):
+### Confirmed cases by country in Oceania:
 
 ![COVID-19 Confirmed cases by country (Oceania)](oceania-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Others):
+### Confirmed cases (Other locations):
 
 ![COVID-19 Confirmed cases by country (Others)](others-covid19-confirmed-cases-by-country.png)
 

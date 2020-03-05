@@ -12,7 +12,7 @@
 R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 
-**Last updated on** 2020-03-05 09:00:38
+**Last updated on** 2020-03-05 09:04:25
 
 **Data source commit reference**:
 [37fc5916bade4f6ed3a8d325a5a6125932e86c1f](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/37fc5916bade4f6ed3a8d325a5a6125932e86c1f)
@@ -32,40 +32,39 @@ R scripts to process/cleanup data from the repo:
     in cases files in March, used that to add that information the rest
     of the cases.
 
-\`\`\`
-------
+------------------------------------------------------------------------
 
-Confirmed cases by country (Worldwide):
+### Confirmed cases by country (Worldwide):
 
 ![COVID-19 Confirmed cases by country
 (Worldwide)](covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Africa):
+### Confirmed cases by country in Africa:
 
 ![COVID-19 Confirmed cases by country
 (Africa)](africa-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Americas):
+### Confirmed cases by country in Americas:
 
 ![COVID-19 Confirmed cases by country
 (Americas)](americas-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Asia):
+### Confirmed cases by country in Asia:
 
 ![COVID-19 Confirmed cases by country
 (Asia)](asia-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Europe):
+### Confirmed cases by country in Europe:
 
 ![COVID-19 Confirmed cases by country
 (Europe)](europe-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Oceania):
+### Confirmed cases by country in Oceania:
 
 ![COVID-19 Confirmed cases by country
 (Oceania)](oceania-covid19-confirmed-cases-by-country.png)
 
-Confirmed cases by country (Others):
+### Confirmed cases (Other locations):
 
 ![COVID-19 Confirmed cases by country
 (Others)](others-covid19-confirmed-cases-by-country.png)
