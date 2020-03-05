@@ -2,7 +2,7 @@
 output: md_document
 ---
 
-```{r echo=FALSE}
+```{r echo=FALSE, include=FALSE}
 library(tidyverse)
 library(gh)
 
