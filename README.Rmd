@@ -11,7 +11,9 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
            repo = "COVID-19")
 
 latest_commit_sha <- meta[[1]]$object$sha
-latest_commit_url <- meta[[1]]$object$url
+latest_commit_api_url <- meta[[1]]$object$url
+commit_details <- jsonlite::fromJSON(latest_commit_api_url)
+latest_commit_url <- commit_details$html_url
 
 ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds")
 ts_deaths <- readRDS("data/covid-19_ts_deaths.rds")
