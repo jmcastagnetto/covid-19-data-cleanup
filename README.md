@@ -1,7 +1,18 @@
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+
+    ## ✔ ggplot2 3.3.0.9000     ✔ purrr   0.3.3     
+    ## ✔ tibble  2.1.3          ✔ dplyr   0.8.4     
+    ## ✔ tidyr   1.0.2          ✔ stringr 1.4.0     
+    ## ✔ readr   1.3.1          ✔ forcats 0.5.0
+
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+
 R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 
-**Last updated on** 2020-03-05 08:50:00
+**Last updated on** 2020-03-05 09:00:38
 
 **Data source commit reference**:
 [37fc5916bade4f6ed3a8d325a5a6125932e86c1f](https://api.github.com/repos/CSSEGISandData/COVID-19/git/commits/37fc5916bade4f6ed3a8d325a5a6125932e86c1f)
@@ -17,6 +28,9 @@ R scripts to process/cleanup data from the repo:
     files.
 -   **2020-03-04**: added Continents and ISO-3 country codes, using the
     `countrycode` R package.
+-   **2020-03-05**: latitude and longitude information started appearing
+    in cases files in March, used that to add that information the rest
+    of the cases.
 
 \`\`\`
 ------

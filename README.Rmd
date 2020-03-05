@@ -60,7 +60,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
   - **2020-02-14**: the original data source has changed its data structure, the timeseries data is empty as of the commit referred below.
   - **2020-02-27**: changed code to reflect changes in source data files.
   - **2020-03-04**: added Continents and ISO-3 country codes, using the `countrycode` R package.
-
+  - **2020-03-05**: latitude and longitude information started appearing in cases files in March, used that to add that information the rest of the cases.
 
 
 ```
