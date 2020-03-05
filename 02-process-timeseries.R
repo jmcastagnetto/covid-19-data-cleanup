@@ -157,3 +157,86 @@ write.csv(
   file = "data/covid-19_ts_combined.csv",
   row.names = FALSE
 )
+
+#-- process the WHO sitrep ts
+
+who_tsfiles <- gh("GET /repos/:owner/:repo/contents/:path",
+              owner = "CSSEGISandData",
+              repo = "COVID-19",
+              path = "/who_covid_19_situation_reports/who_covid_19_sit_rep_time_series",
+              branch = "master")
+
+who_tsfiles_df <- who_tsfiles %>%
+  unlist() %>%
+  matrix(ncol = 12, byrow = T) %>%
+  as_tibble() %>%
+  rename(
+    name = V1,
+    path = V2,
+    sha = V3,
+    size = V4,
+    url = V5,
+    html_url = V6,
+    git_url = V7,
+    download_url = V8,
+    type = V9,
+    link_self = V10,
+    link_git = V11,
+    link_html = V12
+  ) %>%
+  filter(
+    str_detect(name, "\\.csv")
+  )
+
+who_sitrep_raw <- read_csv(
+  who_tsfiles_df$download_url,
+  col_types = cols(.default = col_character())
+)
+
+saveRDS(
+  who_sitrep_raw,
+  file = "data/covid-19_who_sitrep_raw.rds"
+)
+
+ts_who_sitrep <- who_sitrep_raw %>%
+  pivot_longer(
+    -c("Province/States", "Country/Region", "WHO region"),
+    names_to = "ts",
+    values_to = "cases"
+  ) %>%
+  janitor::clean_names() %>%
+  mutate(
+    ts = lubridate::mdy(ts),
+    cases = as.integer(cases),
+    iso3c = countrycode(country_region,
+                        origin = "country.name",
+                        destination = "iso3c",
+                        nomatch = NULL),
+    continent = countrycode(country_region,
+                            origin = "country.name",
+                            destination = "continent",
+                            nomatch = NULL)
+  ) %>%
+  select(
+    continent, who_region,
+    country_region, iso3c,
+    province_states,
+    ts, cases
+  ) %>%
+  tsibble::as_tsibble(
+    key = c("continent", "who_region",
+            "country_region", "iso3c",
+            "province_states"),
+    index = ts
+  )
+
+saveRDS(
+  ts_who_sitrep,
+  file = "data/covid-19_ts_who_sitrep.rds"
+)
+
+write.csv(
+  ts_who_sitrep,
+  file = "data/covid-19_ts_who_sitrep.csv",
+  row.names = FALSE
+)
