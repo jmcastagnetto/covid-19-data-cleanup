@@ -37,9 +37,9 @@ latest_rates <- as_tibble(ts_confirmed) %>%
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
-    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE),
-    death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
-    recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
+    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE) #,
+    #death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
+    #recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
   )
 
 china <- latest_rates %>%
@@ -100,7 +100,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 -----
 
-Here are couple of quick tables (with naive rate estimates):
+Here are couple of quick tables:
 
 [For cases in China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
 

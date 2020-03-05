@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-03-05 18:12:13
+**Last updated on** 2020-03-05 18:18:12
 
 **Data source commit reference**:
 [0f37399c621045f3df74c0e84d82266132f0260a](https://github.com/CSSEGISandData/COVID-19/commit/0f37399c621045f3df74c0e84d82266132f0260a)
@@ -63,23 +63,21 @@ into tidy datasets[1]
 
 ------------------------------------------------------------------------
 
-Here are couple of quick tables (with naive rate estimates):
+Here are couple of quick tables:
 
 [For cases in
 China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
 
 <table>
 <colgroup>
-<col style="width: 8%" />
-<col style="width: 5%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-<col style="width: 8%" />
+<col style="width: 11%" />
 <col style="width: 6%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 11%" />
 <col style="width: 8%" />
-<col style="width: 12%" />
-<col style="width: 9%" />
-<col style="width: 12%" />
+<col style="width: 11%" />
+<col style="width: 16%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -91,8 +89,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <th style="text-align: right;">deaths</th>
 <th style="text-align: right;">recovered</th>
 <th style="text-align: right;">confirmed_pct</th>
-<th style="text-align: right;">death_rate</th>
-<th style="text-align: right;">recovery_rate</th>
 </tr>
 </thead>
 <tbody>
@@ -105,8 +101,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2871</td>
 <td style="text-align: right;">38557</td>
 <td style="text-align: right;">70.78</td>
-<td style="text-align: right;">4.26</td>
-<td style="text-align: right;">57.26</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -117,8 +111,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">7</td>
 <td style="text-align: right;">1133</td>
 <td style="text-align: right;">1.42</td>
-<td style="text-align: right;">0.52</td>
-<td style="text-align: right;">83.93</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -129,8 +121,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">22</td>
 <td style="text-align: right;">1234</td>
 <td style="text-align: right;">1.34</td>
-<td style="text-align: right;">1.73</td>
-<td style="text-align: right;">97.01</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -141,8 +131,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1114</td>
 <td style="text-align: right;">1.28</td>
-<td style="text-align: right;">0.08</td>
-<td style="text-align: right;">91.84</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -153,8 +141,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">916</td>
 <td style="text-align: right;">1.07</td>
-<td style="text-align: right;">0.39</td>
-<td style="text-align: right;">89.98</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -165,8 +151,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">956</td>
 <td style="text-align: right;">1.04</td>
-<td style="text-align: right;">0.61</td>
-<td style="text-align: right;">96.57</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -177,8 +161,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">884</td>
 <td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.11</td>
-<td style="text-align: right;">94.55</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -189,8 +171,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">516</td>
 <td style="text-align: right;">0.80</td>
-<td style="text-align: right;">0.79</td>
-<td style="text-align: right;">68.07</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -201,8 +181,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">577</td>
 <td style="text-align: right;">0.66</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">91.44</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -213,8 +191,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">502</td>
 <td style="text-align: right;">0.61</td>
-<td style="text-align: right;">1.04</td>
-<td style="text-align: right;">87.15</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -225,8 +201,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">406</td>
 <td style="text-align: right;">0.57</td>
-<td style="text-align: right;">0.56</td>
-<td style="text-align: right;">75.46</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -237,8 +211,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">13</td>
 <td style="text-align: right;">373</td>
 <td style="text-align: right;">0.50</td>
-<td style="text-align: right;">2.71</td>
-<td style="text-align: right;">77.71</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -249,8 +221,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">297</td>
 <td style="text-align: right;">0.44</td>
-<td style="text-align: right;">1.91</td>
-<td style="text-align: right;">71.05</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -261,8 +231,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">298</td>
 <td style="text-align: right;">0.36</td>
-<td style="text-align: right;">0.89</td>
-<td style="text-align: right;">88.17</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -273,8 +241,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">301</td>
 <td style="text-align: right;">0.33</td>
-<td style="text-align: right;">1.89</td>
-<td style="text-align: right;">94.65</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -285,8 +251,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">270</td>
 <td style="text-align: right;">0.31</td>
-<td style="text-align: right;">0.34</td>
-<td style="text-align: right;">91.22</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -297,8 +261,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">210</td>
 <td style="text-align: right;">0.26</td>
-<td style="text-align: right;">0.79</td>
-<td style="text-align: right;">83.33</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -309,8 +271,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">223</td>
 <td style="text-align: right;">0.26</td>
-<td style="text-align: right;">0.41</td>
-<td style="text-align: right;">91.02</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -321,8 +281,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">169</td>
 <td style="text-align: right;">0.18</td>
-<td style="text-align: right;">1.15</td>
-<td style="text-align: right;">97.13</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -333,8 +291,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">158</td>
 <td style="text-align: right;">0.18</td>
-<td style="text-align: right;">2.98</td>
-<td style="text-align: right;">94.05</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -345,8 +301,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">114</td>
 <td style="text-align: right;">0.15</td>
-<td style="text-align: right;">1.37</td>
-<td style="text-align: right;">78.08</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -357,8 +311,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">124</td>
 <td style="text-align: right;">0.14</td>
-<td style="text-align: right;">2.21</td>
-<td style="text-align: right;">91.18</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -369,8 +321,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">124</td>
 <td style="text-align: right;">0.14</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">93.23</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -381,8 +331,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">106</td>
 <td style="text-align: right;">0.13</td>
-<td style="text-align: right;">0.80</td>
-<td style="text-align: right;">84.80</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -393,8 +341,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">86</td>
 <td style="text-align: right;">0.10</td>
-<td style="text-align: right;">1.08</td>
-<td style="text-align: right;">92.47</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -405,8 +351,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">87</td>
 <td style="text-align: right;">0.10</td>
-<td style="text-align: right;">2.20</td>
-<td style="text-align: right;">95.60</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -417,8 +361,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">69</td>
 <td style="text-align: right;">0.08</td>
-<td style="text-align: right;">3.95</td>
-<td style="text-align: right;">90.79</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -429,8 +371,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">63</td>
 <td style="text-align: right;">0.08</td>
-<td style="text-align: right;">1.33</td>
-<td style="text-align: right;">84.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -441,8 +381,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">69</td>
 <td style="text-align: right;">0.08</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">92.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -453,8 +391,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -465,8 +401,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 </tbody>
 </table>
@@ -476,16 +410,14 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 
 <table>
 <colgroup>
-<col style="width: 6%" />
-<col style="width: 4%" />
-<col style="width: 14%" />
-<col style="width: 29%" />
-<col style="width: 6%" />
-<col style="width: 4%" />
-<col style="width: 6%" />
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 5%" />
+<col style="width: 17%" />
+<col style="width: 35%" />
+<col style="width: 8%" />
+<col style="width: 5%" />
+<col style="width: 8%" />
+<col style="width: 11%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -497,8 +429,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <th style="text-align: right;">deaths</th>
 <th style="text-align: right;">recovered</th>
 <th style="text-align: right;">confirmed_pct</th>
-<th style="text-align: right;">death_rate</th>
-<th style="text-align: right;">recovery_rate</th>
 </tr>
 </thead>
 <tbody>
@@ -511,8 +441,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">35</td>
 <td style="text-align: right;">41</td>
 <td style="text-align: right;">5.91</td>
-<td style="text-align: right;">0.62</td>
-<td style="text-align: right;">0.73</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -523,8 +451,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">107</td>
 <td style="text-align: right;">276</td>
 <td style="text-align: right;">3.25</td>
-<td style="text-align: right;">3.46</td>
-<td style="text-align: right;">8.93</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -535,8 +461,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">92</td>
 <td style="text-align: right;">552</td>
 <td style="text-align: right;">3.07</td>
-<td style="text-align: right;">3.15</td>
-<td style="text-align: right;">18.89</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Others</td>
@@ -547,8 +471,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">0.74</td>
-<td style="text-align: right;">0.85</td>
-<td style="text-align: right;">1.42</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -559,8 +481,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">43</td>
 <td style="text-align: right;">0.35</td>
-<td style="text-align: right;">1.81</td>
-<td style="text-align: right;">12.99</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -571,8 +491,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">12</td>
 <td style="text-align: right;">0.30</td>
-<td style="text-align: right;">1.40</td>
-<td style="text-align: right;">4.21</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -583,8 +501,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">16</td>
 <td style="text-align: right;">0.28</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">6.11</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -595,8 +511,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.23</td>
-<td style="text-align: right;">0.90</td>
-<td style="text-align: right;">0.90</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -607,8 +521,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">78</td>
 <td style="text-align: right;">0.12</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">70.91</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -619,8 +531,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">37</td>
 <td style="text-align: right;">0.11</td>
-<td style="text-align: right;">1.90</td>
-<td style="text-align: right;">35.24</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -631,8 +541,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0.09</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">3.33</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -643,8 +551,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">0.09</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">9.41</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -655,8 +561,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -667,8 +571,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -679,8 +581,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -691,8 +591,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">22</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">44.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -703,8 +601,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -715,8 +611,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">31</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">2.33</td>
-<td style="text-align: right;">72.09</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -727,8 +621,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">12</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">2.38</td>
-<td style="text-align: right;">28.57</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -739,8 +631,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -751,8 +641,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">5.71</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -763,8 +651,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -775,8 +661,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.03</td>
-<td style="text-align: right;">29.03</td>
-<td style="text-align: right;">3.23</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -787,8 +671,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -799,8 +681,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">10.71</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -811,8 +691,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">18.52</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -823,8 +701,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.03</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -835,8 +711,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">4.35</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Oceania</td>
@@ -847,8 +721,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">4.55</td>
-<td style="text-align: right;">18.18</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -859,8 +731,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">10.53</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -871,8 +741,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">6.25</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -883,8 +751,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">16</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -895,8 +761,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">6.67</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -907,8 +771,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">13.33</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -919,8 +781,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">7.69</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Africa</td>
@@ -931,8 +791,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -943,8 +801,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">25.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Oceania</td>
@@ -955,8 +811,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">9.09</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -967,8 +821,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">9.09</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Oceania</td>
@@ -979,8 +831,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">40.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -991,8 +841,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1003,8 +851,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1015,8 +861,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1027,8 +871,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">90.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1039,8 +881,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1051,8 +891,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -1063,8 +901,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1075,8 +911,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1087,8 +921,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">12.50</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1099,8 +931,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -1111,8 +941,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1123,8 +951,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">16.67</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -1135,8 +961,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Oceania</td>
@@ -1147,8 +971,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">40.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1159,8 +981,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">20.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1171,8 +991,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -1183,8 +1001,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1194,8 +1010,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1207,8 +1021,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">25.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Africa</td>
@@ -1218,8 +1030,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1231,8 +1041,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">50.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1242,8 +1050,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1255,8 +1061,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Oceania</td>
@@ -1266,8 +1070,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1279,8 +1081,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">33.33</td>
-<td style="text-align: right;">33.33</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1291,8 +1091,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">66.67</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1302,8 +1100,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1315,8 +1111,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Oceania</td>
@@ -1326,8 +1120,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">50.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1339,8 +1131,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">50.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -1350,8 +1140,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1363,8 +1151,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -1374,8 +1160,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1387,8 +1171,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1398,8 +1180,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1411,8 +1191,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1422,8 +1200,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">50.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1435,8 +1211,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1446,8 +1220,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1459,8 +1231,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1471,8 +1241,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">50.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1482,8 +1250,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1495,8 +1261,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1506,8 +1270,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1519,8 +1281,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1530,8 +1290,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1543,8 +1301,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Oceania</td>
@@ -1554,8 +1310,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1567,8 +1321,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1579,8 +1331,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1591,8 +1341,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1602,8 +1350,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1615,8 +1361,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1626,8 +1370,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1639,8 +1381,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1650,8 +1390,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1663,8 +1401,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1674,8 +1410,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1687,8 +1421,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1698,8 +1430,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1711,8 +1441,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
@@ -1722,8 +1450,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1735,8 +1461,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
@@ -1747,8 +1471,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Africa</td>
@@ -1758,8 +1480,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1771,8 +1491,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
@@ -1782,8 +1500,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1795,8 +1511,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
@@ -1807,8 +1521,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Africa</td>
@@ -1818,8 +1530,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1831,8 +1541,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1842,8 +1550,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1855,8 +1561,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1866,8 +1570,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1879,8 +1581,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1891,8 +1591,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1902,8 +1600,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1915,8 +1611,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1926,8 +1620,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1939,8 +1631,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1950,8 +1640,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
@@ -1963,8 +1651,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -1975,8 +1661,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">100.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -1986,8 +1670,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr class="odd">
@@ -1999,8 +1681,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Oceania</td>
@@ -2011,8 +1691,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">NaN</td>
-<td style="text-align: right;">NaN</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -2023,8 +1701,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">NaN</td>
-<td style="text-align: right;">NaN</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
@@ -2035,8 +1711,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">NaN</td>
-<td style="text-align: right;">NaN</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
@@ -2047,8 +1721,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.00</td>
-<td style="text-align: right;">NaN</td>
-<td style="text-align: right;">NaN</td>
 </tr>
 </tbody>
 </table>

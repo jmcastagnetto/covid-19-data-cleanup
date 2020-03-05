@@ -22,9 +22,9 @@ latest_rates <- as_tibble(ts_confirmed) %>%
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
-    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE),
-    death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
-    recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
+    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE) #,
+  #   death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
+  #   recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
   )
 
 china <- latest_rates %>%
