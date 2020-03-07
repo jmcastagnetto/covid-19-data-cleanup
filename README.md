@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-03-07 01:29:53
+**Last updated on** 2020-03-07 06:43:37 UTC
 
 **Data source commit reference**:
 [4443b25f4de0bebb08fbb76dcf428a879349a8a7](https://github.com/CSSEGISandData/COVID-19/commit/4443b25f4de0bebb08fbb76dcf428a879349a8a7)
@@ -69,16 +69,7 @@ Here are couple of quick tables:
 China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
 
 <table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 6%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 11%" />
-<col style="width: 8%" />
-<col style="width: 11%" />
-<col style="width: 16%" />
-</colgroup>
+<caption>Latest rates in China: 2020-03-06</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">continent</th>
@@ -408,17 +399,8 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 [For cases outside
 China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_not_china_rates.md)
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 5%" />
-<col style="width: 18%" />
-<col style="width: 35%" />
-<col style="width: 8%" />
-<col style="width: 5%" />
-<col style="width: 8%" />
-<col style="width: 11%" />
-</colgroup>
+<table>
+<caption>Latest rates outside China: 2020-03-06</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">continent</th>

@@ -45,7 +45,7 @@ mk_plot <- function(df, title_extra = "") {
       x = "",
       title = paste0("COVID-19: Confirmed cases", title_extra),
       subtitle = paste0("Data source: https://github.com/CSSEGISandData/2019-nCoV (commit: ", latest_commit_sha, ")"),
-      caption = paste("Last update: ", format(Sys.time(), "%Y-%m-%d %R %z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
+      caption = paste("Last update: ", format(lubridate::now(tzone = "UTC"), "%F %T %Z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
     ) +
     ggdark::dark_theme_minimal(12) +
     theme(

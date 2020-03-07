@@ -47,6 +47,7 @@ china <- latest_rates %>%
 
 not_china <- latest_rates %>%
   filter(iso3c != "CHN")
+
 ```
 
 
@@ -54,7 +55,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 [^tidypaper]: "Tidy Data" H. Wickham, https://www.jstatsoft.org/article/view/v059i10
 
-**Last updated on** `r Sys.time()`
+**Last updated on** `r format(lubridate::now(tzone = "UTC"), "%F %T %Z")`
 
 **Data source commit reference**: [`r latest_commit_sha`](`r latest_commit_url`) 
 
@@ -104,18 +105,18 @@ Here are couple of quick tables:
 
 [For cases in China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
 
-```{r echo=FALSE, results="markup"}
+```{r echo=FALSE, results="asis"}
 knitr::kable(china,
-             format = "markdown", digits = 2,
+             format = "pandoc", digits = 2,
              caption = paste("Latest rates in China:", max(ts_confirmed$ts))
 )
 ```
 
 [For cases outside China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_not_china_rates.md) 
 
-```{r echo=FALSE, results="markup"}
+```{r echo=FALSE, results="asis"}
 knitr::kable(not_china,
-               format = "markdown", digits = 2,
+               format = "pandoc", digits = 2,
                caption = paste("Latest rates outside China:", max(ts_confirmed$ts))
                )
 ```
