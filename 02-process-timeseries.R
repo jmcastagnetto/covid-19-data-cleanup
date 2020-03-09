@@ -2,6 +2,10 @@ library(tidyverse)
 library(gh)
 library(countrycode)
 
+load(
+  here::here("data/who_metadata.Rdata")
+)
+
 #-- get the list of CSV files with the timeseries
 tsfiles <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
@@ -58,15 +62,46 @@ get_tsdata <- function(csv_url) {
                               destination = "continent",
                               nomatch = NULL)
      ) %>%
-    select(8, 7, 2, 1, 3, 4, 5, 6)
+    select(8, 7, 2, 1, 3, 4, 5, 6) %>%
+    left_join(
+      who_metadata %>%
+        select(
+          iso,
+          who_region_code,
+          who_region,
+          world_bank_income_group,
+          world_bank_income_group_code,
+          world_bank_income_group_gni_reference_year,
+          world_bank_income_group_release_date
+        ),
+      by = c("iso3c" = "iso")
+    ) %>%
+    mutate_at(
+      vars(
+        continent,
+        iso3c, country_region,
+        province_state,
+        who_region_code,
+        who_region,
+        world_bank_income_group,
+        world_bank_income_group_code,
+        world_bank_income_group_gni_reference_year,
+        world_bank_income_group_release_date
+      ),
+      as_factor
+    )
 }
 
 #-- convert df to tsibble
 mk_tsibble <- function(df) {
   tsibble::as_tsibble(
     df,
-    key = c("continent",
-            "iso3c", "country_region",
+    key = c("continent", "who_region", "who_region_code",
+            "world_bank_income_group",
+            "world_bank_income_group_code",
+            "world_bank_income_group_gni_reference_year",
+            "world_bank_income_group_release_date",
+            "country_region", "iso3c",
             "province_state",
             "lat", "lon"),
     index = ts
@@ -205,6 +240,9 @@ ts_who_sitrep <- who_sitrep_raw %>%
     values_to = "cases"
   ) %>%
   janitor::clean_names() %>%
+  rename(
+    province_state = province_states
+  ) %>%
   mutate(
     ts = lubridate::mdy(ts),
     cases = as.integer(cases),
@@ -220,13 +258,43 @@ ts_who_sitrep <- who_sitrep_raw %>%
   select(
     continent, who_region,
     country_region, iso3c,
-    province_states,
+    province_state,
     ts, cases
   ) %>%
+  left_join(
+    who_metadata %>%
+      select(
+        iso,
+        who_region_code,
+        world_bank_income_group,
+        world_bank_income_group_code,
+        world_bank_income_group_gni_reference_year,
+        world_bank_income_group_release_date
+      ),
+    by = c("iso3c" = "iso")
+  ) %>%
+  mutate_at(
+    vars(
+      continent,
+      iso3c, country_region,
+      province_state,
+      who_region_code,
+      who_region,
+      world_bank_income_group,
+      world_bank_income_group_code,
+      world_bank_income_group_gni_reference_year,
+      world_bank_income_group_release_date
+    ),
+    as_factor
+  ) %>%
   tsibble::as_tsibble(
-    key = c("continent", "who_region",
+    key = c("continent", "who_region", "who_region_code",
+            "world_bank_income_group",
+            "world_bank_income_group_code",
+            "world_bank_income_group_gni_reference_year",
+            "world_bank_income_group_release_date",
             "country_region", "iso3c",
-            "province_states"),
+            "province_state"),
     index = ts
   )
 

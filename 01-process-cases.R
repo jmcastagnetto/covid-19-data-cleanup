@@ -2,6 +2,44 @@ library(tidyverse)
 library(gh)
 library(countrycode)
 
+who_metadata <- read_csv(
+  here::here("data/xmart.csv"),
+  col_types = cols(
+    DimensionCode = col_character(),
+    DimensionMemberCode = col_character(),
+    DisplayString = col_character(),
+    DisplaySequence = col_double(),
+    URL = col_logical(),
+    DS = col_character(),
+    FIPS = col_character(),
+    GEOMETRY = col_character(),
+    IOC = col_character(),
+    ISO = col_character(),
+    ISO2 = col_character(),
+    ITU = col_character(),
+    LAND_AREA_KMSQ_2012 = col_character(),
+    LANGUAGES_EN_2012 = col_character(),
+    MARC = col_character(),
+    MORT = col_double(),
+    SHORTNAMEES = col_character(),
+    SHORTNAMEFR = col_character(),
+    WHO = col_character(),
+    WHOLEGALSTATUS = col_character(),
+    WHO_REGION = col_character(),
+    WHO_REGION_CODE = col_character(),
+    WMO = col_character(),
+    WORLD_BANK_INCOME_GROUP = col_character(),
+    WORLD_BANK_INCOME_GROUP_CODE = col_character(),
+    WORLD_BANK_INCOME_GROUP_GNI_REFERENCE_YEAR = col_integer(),
+    WORLD_BANK_INCOME_GROUP_RELEASE_DATE = col_integer()
+  )
+) %>% janitor::clean_names()
+
+save(
+  who_metadata,
+  file = here::here("data/who_metadata.Rdata")
+)
+
 #-- get the list of daily reports
 cases <- gh("GET /repos/:owner/:repo/contents/:path",
             owner = "CSSEGISandData",
@@ -123,6 +161,36 @@ cases_raw <- cases_raw %>%
   ) %>%
   select(
     11, 10, 1:9
+  ) %>%
+  left_join(
+    who_metadata %>%
+      select(
+        iso,
+        who_region_code,
+        who_region,
+        world_bank_income_group,
+        world_bank_income_group_code,
+        world_bank_income_group_gni_reference_year,
+        world_bank_income_group_release_date
+      ),
+    by = c("iso3c" = "iso")
+  ) %>%
+  mutate_at(
+    vars(
+      continent,
+      iso3c, country_region,
+      province_state,
+      who_region_code,
+      who_region,
+      world_bank_income_group,
+      world_bank_income_group_code,
+      world_bank_income_group_gni_reference_year,
+      world_bank_income_group_release_date
+    ),
+    as_factor
+  ) %>%
+  mutate(
+    data_update = lubridate::ymd(data_update)
   )
 
 # save data
