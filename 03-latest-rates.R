@@ -4,7 +4,11 @@ ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds")
 ts_deaths <- readRDS("data/covid-19_ts_deaths.rds")
 ts_recovered <- readRDS("data/covid-19_ts_recovered.rds")
 
-# Naive rates, need to account for lag ~ 14d (estimated)
+zero_na <- function(x) {
+	ifelse(is.na(x), 0, x)
+}
+
+# global percentages
 latest_rates <- as_tibble(ts_confirmed) %>%
   filter(ts == max(ts)) %>%
   select(-lat, -lon, -ts) %>%
@@ -22,9 +26,9 @@ latest_rates <- as_tibble(ts_confirmed) %>%
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
-    confirmed_pct = 100 * confirmed / sum(confirmed, na.rm = TRUE) #,
-  #   death_rate = 100 * ifelse(is.na(deaths), 0, deaths) / confirmed,
-  #   recovery_rate = 100 * ifelse(is.na(recovered), 0, recovered) / confirmed
+    global_confirmed_pct = 100 * zero_na(confirmed) / sum(confirmed, na.rm = TRUE),
+    global_death_pct = 100 * zero_na(deaths) / sum(deaths, na.rm = TRUE),
+    global_recovered_pct = 100 * zero_na(recovered) / sum(recovered, na.m = TRUE)
   )
 
 china <- latest_rates %>%
@@ -35,7 +39,7 @@ not_china <- latest_rates %>%
 
 capture.output(
   knitr::kable(china,
-               format = "markdown", digits = 2,
+               format = "markdown", digits = 3,
                caption = paste("Latest rates in China:", max(ts_confirmed$ts))
                ),
   file = "latest_china_rates.md"
@@ -43,7 +47,7 @@ capture.output(
 
 capture.output(
   knitr::kable(not_china,
-               format = "markdown", digits = 2,
+               format = "markdown", digits = 3,
                caption = paste("Latest rates outside China:", max(ts_confirmed$ts))
                ),
   file = "latest_not_china_rates.md"
