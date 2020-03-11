@@ -31,13 +31,27 @@ latest_rates <- as_tibble(ts_confirmed) %>%
     as_tibble(ts_deaths) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -lon, -ts),
-    by = c("continent", "iso3c", "country_region", "province_state")
+    by = c("continent", 
+           "iso3c", "country_region", 
+           "province_state",
+           "who_region_code", "who_region",
+           "world_bank_income_group",
+           "world_bank_income_group_code",
+           "world_bank_income_group_gni_reference_year",
+           "world_bank_income_group_release_date")
   ) %>%
   left_join(
     as_tibble(ts_recovered) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -lon, -ts),
-    by = c("continent", "iso3c", "country_region", "province_state")
+    by = c("continent", 
+           "iso3c", "country_region", 
+           "province_state",
+           "who_region_code", "who_region",
+           "world_bank_income_group",
+           "world_bank_income_group_code",
+           "world_bank_income_group_gni_reference_year",
+           "world_bank_income_group_release_date")
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
