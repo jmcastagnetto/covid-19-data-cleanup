@@ -132,13 +132,23 @@ ts_combined <- as_tibble(ts_confirmed) %>%
     ts_deaths %>% select(-lat, -lon),
     by = c("continent",
            "iso3c", "country_region",
-           "province_state", "ts")
+           "province_state", "ts",
+           "who_region_code", "who_region",
+           "world_bank_income_group",
+           "world_bank_income_group_code",
+           "world_bank_income_group_gni_reference_year",
+           "world_bank_income_group_release_date")
   ) %>%
   left_join(
     ts_recovered %>% select(-lat, -lon),
     by = c("continent",
            "iso3c", "country_region",
-           "province_state", "ts")
+           "province_state", "ts",
+           "who_region_code", "who_region",
+           "world_bank_income_group",
+           "world_bank_income_group_code",
+           "world_bank_income_group_gni_reference_year",
+           "world_bank_income_group_release_date")
   ) %>%
   left_join(
     places,
