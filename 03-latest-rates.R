@@ -43,6 +43,9 @@ latest_rates <- as_tibble(ts_confirmed) %>%
     global_confirmed_pct = 100 * zero_na(confirmed) / sum(confirmed, na.rm = TRUE),
     global_death_pct = 100 * zero_na(deaths) / sum(deaths, na.rm = TRUE),
     global_recovered_pct = 100 * zero_na(recovered) / sum(recovered, na.m = TRUE)
+  ) %>%
+  select(
+    1:5,12:16,6:11
   )
 
 china <- latest_rates %>%
