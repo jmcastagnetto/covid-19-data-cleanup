@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-03-12 22:36:27 UTC
+**Last updated on** 2020-03-12 23:26:59 UTC
 
 **Data source commit reference**:
 [8556d4e31964db3e3f4f3120625fb554b1085279](https://github.com/CSSEGISandData/COVID-19/commit/8556d4e31964db3e3f4f3120625fb554b1085279)
@@ -26,6 +26,131 @@ into tidy datasets[1]
 -   **2020-03-12**: source data no longer has the classification
     “Others” for locations not corresponding to countries (i.e. Cruise
     Ships), so the code has been modified to account for that change.
+
+------------------------------------------------------------------------
+
+About the processed data files
+------------------------------
+
+### Cases
+
+**Files**
+
+-   `covid-19_cases_raw.csv`: CSV with processed cases file
+-   `covid-19_cases_raw.RDS`: RDS format version
+
+**Data structure**:
+
+-   continent: Geographical continent
+-   who\_region: WHO region
+-   country\_region: Country (or region)
+-   iso3c: ISO 3166-1 alpha-3 country code
+-   province\_state: Province/State/Subnational division
+-   confirmed: Cummulative number of confirmed cases
+-   dead: Cummulative number of deaths
+-   recovered: Cummulative number of recovered cases
+-   lat: Latitude
+-   lon: Longitude
+-   update: Entry timestamp update in “YYYY-MM-DD hh:mm:ss” format
+-   data\_update: Data file update date in “YYYY-MM-DD” format
+-   who\_region\_code: WHO region code
+-   who\_region: WHO region
+-   world\_bank\_income\_group: World Bank Income Group
+-   world\_bank\_income\_group\_code: World Bank Income Group code
+-   world\_bank\_income\_group\_gni\_reference\_year: World Bank Income
+    Group GNI reference year
+-   world\_bank\_income\_group\_release\_date: World Bank Income Group
+    release year
+
+### Timeseries data
+
+**Files**
+
+-   `covid-19_ts_combined.csv`: CSV with combined timeseries data
+-   `covid-19_ts_combined.rds`: RDS version (`tsibble`)
+-   `covid-19_ts_confirmed.csv`: CSV file with confirmed cases
+-   `covid-19_ts_confirmed.rds`: RDS version (`tsibble`)
+-   `covid-19_ts_deaths.csv`: CSV file with deaths
+-   `covid-19_ts_deaths.rds`: RDS version (`tsibble`)
+-   `covid-19_ts_recovered.csv`: CSV file with recovered cases
+-   `covid-19_ts_recovered.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+-   continent: Geographical continent
+-   iso3c: ISO 3166-1 alpha-3 country code
+-   country\_region: Country (or region)
+-   province\_state: Province/State/Subnational division
+-   ts: UTC date in “YYYY-MM-DD” format
+-   confirmed: number of confirmed cases at ts (in combined and
+    confirmed timeseries)
+-   deaths: number of deaths at ts (in combined and deaths timeseries)
+-   recovered: number of recovered cases at ts (in combined and
+    recovered timeseries)
+-   lat: Latitude
+-   lon: Longitude
+-   who\_region: WHO region
+-   who\_region\_code: WHO region code
+-   world\_bank\_income\_group: World Bank Income Group
+-   world\_bank\_income\_group\_code: World Bank Income Group code
+-   world\_bank\_income\_group\_gni\_reference\_year: World Bank Income
+    Group GNI reference year
+-   world\_bank\_income\_group\_release\_date: World Bank Income Group
+    release year
+
+### WHO situation report data:
+
+**Files**:
+
+-   `covid-19_who_sitrep_raw.rds`: Lightly cleaned WHO situation report
+    in RDS format
+-   `covid-19_ts_who_sitrep.csv`: Timeseries from WHO situation reports
+-   `covid-19_ts_who_sitrep.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+-   continent: Geographical continent
+-   iso3c: ISO 3166-1 alpha-3 country code
+-   country\_region: Country (or region)
+-   province\_state: Province/State/Subnational division
+-   ts: UTC date in “YYYY-MM-DD” format
+-   cases: number of cases at ts
+-   who\_region: WHO region
+-   who\_region\_code: WHO region code
+-   world\_bank\_income\_group: World Bank Income Group
+-   world\_bank\_income\_group\_code: World Bank Income Group code
+-   world\_bank\_income\_group\_gni\_reference\_year: World Bank Income
+    Group GNI reference year
+-   world\_bank\_income\_group\_release\_date: World Bank Income Group
+    release year
+
+### WHO metadata
+
+**Source**:
+<a href="https://apps.who.int/gho/data/node.metadata.COUNTRY?lang=en" class="uri">https://apps.who.int/gho/data/node.metadata.COUNTRY?lang=en</a>
+(CSV Xmart format)
+
+**Files**:
+
+-   `xmart.csv`: CSV Xmart format (downloaded on 2020-03-09)
+-   `who_metadata.Rdata`: Rdata format version
+
+**Data structure**:
+
+-   continent: Geographical continent
+-   who\_region: WHO region
+-   country\_region: Country (or region)
+-   iso3c: ISO 3166-1 alpha-3 country code
+-   province\_state: Province/State/Subnational division
+-   ts: UTC timestamp in “YYYY-MM-DD hh:mm:ss” format
+-   cases: Number of cases
+-   who\_region\_code: Code for WHO region
+-   world\_bank\_income\_group: World Bank Income Group
+-   world\_bank\_income\_group\_code: World Bank Income Group code
+-   world\_bank\_income\_group\_gni\_reference\_year: World Bank Income
+    Group GNI reference year
+-   world\_bank\_income\_group\_release\_date: World Bank Income Group
+    release year
 
 ------------------------------------------------------------------------
 

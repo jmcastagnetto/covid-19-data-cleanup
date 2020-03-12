@@ -93,6 +93,14 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 -----
 
+## About the processed data files
+
+```{r child="data/README.md"}
+```
+
+
+-----
+
 ### Confirmed cases by country (Worldwide):
 
 ![COVID-19 Confirmed cases by country (Worldwide)](plots/covid19-confirmed-cases-by-country.png)
