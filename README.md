@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-03-12 22:19:33 UTC
+**Last updated on** 2020-03-12 22:24:59 UTC
 
 **Data source commit reference**:
 [8556d4e31964db3e3f4f3120625fb554b1085279](https://github.com/CSSEGISandData/COVID-19/commit/8556d4e31964db3e3f4f3120625fb554b1085279)
@@ -23,9 +23,9 @@ into tidy datasets[1]
         files in March, used that to add that information the rest of
         the cases.
     -   Added code to tidy the WHO situation report timeseries
--   **2020-03-12**: source data no longe has the classification “Others”
-    for locations not corresponding to countries (i.e. Cruise Ships), so
-    the code has been modified to account for that change.
+-   **2020-03-12**: source data no longer has the classification
+    “Others” for locations not corresponding to countries (i.e. Cruise
+    Ships), so the code has been modified to account for that change.
 
 ------------------------------------------------------------------------
 

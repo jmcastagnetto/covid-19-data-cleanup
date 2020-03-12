@@ -89,7 +89,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
   - **2020-03-05**: 
 	- Latitude and longitude information started appearing in cases files in March, used that to add that information the rest of the cases.
 	- Added code to tidy the WHO situation report timeseries
-  - **2020-03-12**: source data no longe has the classification "Others" for locations not corresponding to countries (i.e. Cruise Ships), so the code has been modified to account for that change.
+  - **2020-03-12**: source data no longer has the classification "Others" for locations not corresponding to countries (i.e. Cruise Ships), so the code has been modified to account for that change.
 
 -----
 

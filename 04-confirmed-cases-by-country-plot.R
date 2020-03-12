@@ -126,7 +126,7 @@ ggsave(
 
 print("Others plot")
 others_df <- country_df %>%
-  filter(!continent %in% c("Asia", "Americas", "Africa", "Europe", "Ocea"))
+  filter(!continent %in% c("Asia", "Americas", "Africa", "Europe", "Oceania"))
 others_plot <- mk_plot(others_df, " (Others)")
 ggsave(
   plot = others_plot,
