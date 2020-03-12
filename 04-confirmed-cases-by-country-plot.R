@@ -63,7 +63,7 @@ print("Global plot")
 bigplot <- mk_plot(country_df, " by country (Worldwide)")
 ggsave(
   plot = bigplot,
-  filename = "covid19-confirmed-cases-by-country.png",
+  filename = "plots/covid19-confirmed-cases-by-country.png",
   width = 16,
   height = 12
 )
@@ -75,7 +75,7 @@ asia_df <- country_df %>%
 asia_plot <- mk_plot(asia_df, " by country in  Asia")
 ggsave(
   plot = asia_plot,
-  filename = "asia-covid19-confirmed-cases-by-country.png",
+  filename = "plots/asia-covid19-confirmed-cases-by-country.png",
   width = 10,
   height = 8
 )
@@ -86,7 +86,7 @@ africa_df <- country_df %>%
 africa_plot <- mk_plot(africa_df, " by country in  Africa")
 ggsave(
   plot = africa_plot,
-  filename = "africa-covid19-confirmed-cases-by-country.png",
+  filename = "plots/africa-covid19-confirmed-cases-by-country.png",
   width = 8,
   height = 6
 )
@@ -97,7 +97,7 @@ europe_df <- country_df %>%
 europe_plot <- mk_plot(europe_df, " by country in  Europe")
 ggsave(
   plot = europe_plot,
-  filename = "europe-covid19-confirmed-cases-by-country.png",
+  filename = "plots/europe-covid19-confirmed-cases-by-country.png",
   width = 10,
   height = 8
 )
@@ -108,7 +108,7 @@ americas_df <- country_df %>%
 americas_plot <- mk_plot(americas_df, " by country in the Americas")
 ggsave(
   plot = americas_plot,
-  filename = "americas-covid19-confirmed-cases-by-country.png",
+  filename = "plots/americas-covid19-confirmed-cases-by-country.png",
   width = 8,
   height = 6
 )
@@ -119,7 +119,7 @@ oceania_df <- country_df %>%
 oceania_plot <- mk_plot(oceania_df, " by country in Oceania")
 ggsave(
   plot = oceania_plot,
-  filename = "oceania-covid19-confirmed-cases-by-country.png",
+  filename = "plots/oceania-covid19-confirmed-cases-by-country.png",
   width = 8,
   height = 6
 )
@@ -130,7 +130,7 @@ others_df <- country_df %>%
 others_plot <- mk_plot(others_df, " (Others)")
 ggsave(
   plot = others_plot,
-  filename = "others-covid19-confirmed-cases-by-country.png",
+  filename = "plots/others-covid19-confirmed-cases-by-country.png",
   width = 8,
   height = 6
 )
