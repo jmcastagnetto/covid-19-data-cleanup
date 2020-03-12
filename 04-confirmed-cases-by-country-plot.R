@@ -18,6 +18,7 @@ country_df <- as_tibble(ts_combined) %>%
     deaths = sum(deaths, na.rm = TRUE),
     recovered = sum(recovered, na.rm = TRUE)
   ) %>%
+  ungroup() %>%
   mutate(
     iso3c = countrycode(country_region,
                         origin = "country.name",
@@ -26,8 +27,10 @@ country_df <- as_tibble(ts_combined) %>%
     continent = countrycode(country_region,
                             origin = "country.name",
                             destination = "continent",
-                            nomatch = NULL)
-  )
+                            nomatch = NULL),
+    country_region = factor(as.character(country_region))
+  ) %>%
+  arrange(country_region)
 
 mk_plot <- function(df, title_extra = "") {
   ggplot(df,
@@ -55,6 +58,7 @@ mk_plot <- function(df, title_extra = "") {
     )
 }
 
+print("Global plot")
 #-- big plot
 bigplot <- mk_plot(country_df, " by country (Worldwide)")
 ggsave(
@@ -64,6 +68,7 @@ ggsave(
   height = 12
 )
 
+print("Asia plot")
 #--- split by continent
 asia_df <- country_df %>%
   filter(continent == "Asia")
@@ -75,6 +80,7 @@ ggsave(
   height = 8
 )
 
+print("Africa plot")
 africa_df <- country_df %>%
   filter(continent == "Africa")
 africa_plot <- mk_plot(africa_df, " by country in  Africa")
@@ -85,6 +91,7 @@ ggsave(
   height = 6
 )
 
+print("Europe plot")
 europe_df <- country_df %>%
   filter(continent == "Europe")
 europe_plot <- mk_plot(europe_df, " by country in  Europe")
@@ -95,6 +102,7 @@ ggsave(
   height = 8
 )
 
+print("Americas plot")
 americas_df <- country_df %>%
   filter(continent == "Americas")
 americas_plot <- mk_plot(americas_df, " by country in the Americas")
@@ -105,6 +113,7 @@ ggsave(
   height = 6
 )
 
+print("Oceania plot")
 oceania_df <- country_df %>%
   filter(continent == "Oceania")
 oceania_plot <- mk_plot(oceania_df, " by country in Oceania")
@@ -115,8 +124,9 @@ ggsave(
   height = 6
 )
 
+print("Others plot")
 others_df <- country_df %>%
-  filter(continent == "Others")
+  filter(!continent %in% c("Asia", "Americas", "Africa", "Europe", "Ocea"))
 others_plot <- mk_plot(others_df, " (Others)")
 ggsave(
   plot = others_plot,

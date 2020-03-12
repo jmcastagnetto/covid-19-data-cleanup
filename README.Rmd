@@ -24,7 +24,7 @@ zero_na <- function(x) {
 }
 
 # global percentages
-latest_rates <- as_tibble(ts_confirmed) %>%
+latest_ratios <- as_tibble(ts_confirmed) %>%
   filter(ts == max(ts)) %>%
   select(-lat, -lon, -ts) %>%
   left_join(
@@ -63,10 +63,10 @@ latest_rates <- as_tibble(ts_confirmed) %>%
     1:5,12:16,6:11
   )
 
-china <- latest_rates %>%
+china <- latest_ratios %>%
   filter(iso3c == "CHN")
 
-not_china <- latest_rates %>%
+not_china <- latest_ratios %>%
   filter(iso3c != "CHN")
 
 ```
@@ -89,6 +89,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
   - **2020-03-05**: 
 	- Latitude and longitude information started appearing in cases files in March, used that to add that information the rest of the cases.
 	- Added code to tidy the WHO situation report timeseries
+  - **2020-03-12**: source data no longe has the classification "Others" for locations not corresponding to countries (i.e. Cruise Ships), so the code has been modified to account for that change.
 
 -----
 
@@ -100,7 +101,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 ![COVID-19 Confirmed cases by country (Africa)](africa-covid19-confirmed-cases-by-country.png)
 
-### Confirmed cases by country in Americas:
+### Confirmed cases by country in the Americas:
 
 ![COVID-19 Confirmed cases by country (Americas)](americas-covid19-confirmed-cases-by-country.png)
 
@@ -124,7 +125,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 Here are couple of quick tables:
 
-[For cases in China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_rates.md)
+[For cases in China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_china_ratios.md)
 
 ```{r echo=FALSE, results="asis"}
 knitr::kable(china,
@@ -133,7 +134,7 @@ knitr::kable(china,
 )
 ```
 
-[For cases outside China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_not_china_rates.md) 
+[For cases outside China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest_not_china_ratios.md) 
 
 ```{r echo=FALSE, results="asis"}
 knitr::kable(not_china,
