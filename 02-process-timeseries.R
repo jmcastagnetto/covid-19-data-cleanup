@@ -244,6 +244,7 @@ saveRDS(
 )
 
 ts_who_sitrep <- who_sitrep_raw %>%
+  select_if(~ !all(is.na(.))) %>% # remove columns full of NAs
   pivot_longer(
     -c("Province/States", "Country/Region", "WHO region"),
     names_to = "ts",
