@@ -106,3 +106,19 @@
 - world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
 - world_bank_income_group_release_date: World Bank Income Group release year
 
+
+### World Bank popilation estimate for 2020
+
+**Source**: https://databank.worldbank.org/source/population-estimates-and-projections
+
+**Files**:
+  - `Data_Extract_From_Population_estimates_and_projections.zip`: data and metadata from World Bank (dowloaded on 2020-03-14)
+  - `wb_population.Rdata`: Rdata format
+
+**Data Structure** (Rdata file):
+
+- country_name: Country name
+- country_code: ISO 3166-1 alpha-3 country code
+- series_name: World Bank variable name
+- series_code: World Bank variable code
+- population_2020: Estimated polution for 2020

@@ -2,6 +2,7 @@ library(tidyverse)
 library(gh)
 library(countrycode)
 
+#-- who metadata
 who_metadata <- read_csv(
   here::here("data/xmart.csv"),
   col_types = cols(
@@ -38,6 +39,32 @@ who_metadata <- read_csv(
 save(
   who_metadata,
   file = here::here("data/who_metadata.Rdata")
+)
+
+#-- World Bank population estimates (downloaded 2020-03-14)
+wb_pop <- read_csv(
+  unz("data/Data_Extract_From_Population_estimates_and_projections.zip",
+      "d01e2a1e-423d-4601-b106-bf01b38a8e8f_Data.csv"),
+  na = c("", ".", "NA"),
+  col_types = cols(
+    `Country Name` = col_character(),
+    `Country Code` = col_character(),
+    `Series Name` = col_character(),
+    `Series Code` = col_character(),
+    `2020 [YR2020]` = col_number()
+  )
+) %>%
+  janitor::clean_names() %>%
+  filter(
+    !is.na(country_code)
+  ) %>%
+  rename(
+    population_2020 = 5
+  )
+
+save(
+  wb_pop,
+  file = "data/wb_population.Rdata"
 )
 
 #-- get the list of daily reports

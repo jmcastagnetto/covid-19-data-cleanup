@@ -2,6 +2,8 @@ library(tidyverse)
 library(gh)
 library(countrycode)
 
+load("data/wb_population.Rdata")
+
 meta <- gh("GET /repos/:owner/:repo/git/refs",
            owner = "CSSEGISandData",
            repo = "COVID-19")
@@ -30,7 +32,16 @@ country_df <- as_tibble(ts_combined) %>%
                             nomatch = NULL),
     country_region = factor(as.character(country_region))
   ) %>%
-  arrange(country_region)
+  left_join(
+    wb_pop %>% select(country_code, population_2020),
+    by = c("iso3c" = "country_code")
+  ) %>%
+  mutate(
+    confirmed_pm = confirmed * 1e6 / population_2020,
+    deaths_pm = deaths * 1e6 / population_2020,
+    recovered_pm = recovered * 1e6 / population_2020,
+  ) %>%
+  arrange(country_region, ts)
 
 mk_plot <- function(df, title_extra = "") {
   ggplot(df,
@@ -58,6 +69,32 @@ mk_plot <- function(df, title_extra = "") {
     )
 }
 
+mk_plot2 <- function(df, title_extra = "") {
+  ggplot(df,
+         aes(x = ts, y = confirmed_pm,
+             color = country_region)) +
+    geom_line(show.legend = FALSE, size = .5) +
+    geom_point(show.legend = FALSE, size = .5) +
+    facet_wrap(~country_region, scales = "free_y") +
+    scale_y_continuous(
+      labels = scales::label_comma(),
+      breaks = scales::breaks_pretty(n = 4)
+    ) +
+    labs(
+      y = "",
+      x = "",
+      title = paste0("COVID-19: Confirmed cases (per million) ", title_extra),
+      subtitle = paste0("Data source: https://github.com/CSSEGISandData/COVID-19 (commit: ", latest_commit_sha, ")"),
+      caption = paste("Last update: ", format(lubridate::now(tzone = "UTC"), "%F %T %Z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
+    ) +
+    ggdark::dark_theme_minimal(12) +
+    theme(
+      plot.margin = unit(rep(1, 4), "cm"),
+      axis.text.x = element_text(angle = 90),
+      strip.text = element_text(size = 9)
+    )
+}
+
 print("Global plot")
 #-- big plot
 bigplot <- mk_plot(country_df, " by country (Worldwide)")
@@ -72,10 +109,17 @@ print("Asia plot")
 #--- split by continent
 asia_df <- country_df %>%
   filter(continent == "Asia")
-asia_plot <- mk_plot(asia_df, " by country in  Asia")
+asia_plot <- mk_plot(asia_df, " by country in Asia")
 ggsave(
   plot = asia_plot,
   filename = "plots/asia-covid19-confirmed-cases-by-country.png",
+  width = 10,
+  height = 8
+)
+asia_plot2 <- mk_plot2(asia_df, " by country in Asia")
+ggsave(
+  plot = asia_plot2,
+  filename = "plots/asia-covid19-confirmed-cases-per-million-by-country.png",
   width = 10,
   height = 8
 )
@@ -83,12 +127,19 @@ ggsave(
 print("Africa plot")
 africa_df <- country_df %>%
   filter(continent == "Africa")
-africa_plot <- mk_plot(africa_df, " by country in  Africa")
+africa_plot <- mk_plot(africa_df, " by country in Africa")
 ggsave(
   plot = africa_plot,
   filename = "plots/africa-covid19-confirmed-cases-by-country.png",
   width = 8,
   height = 6
+)
+africa_plot2 <- mk_plot2(africa_df, " by country in Africa")
+ggsave(
+  plot = africa_plot2,
+  filename = "plots/africa-covid19-confirmed-cases-per-million-by-country.png",
+  width = 10,
+  height = 8
 )
 
 print("Europe plot")
@@ -98,6 +149,13 @@ europe_plot <- mk_plot(europe_df, " by country in  Europe")
 ggsave(
   plot = europe_plot,
   filename = "plots/europe-covid19-confirmed-cases-by-country.png",
+  width = 10,
+  height = 8
+)
+europe_plot2 <- mk_plot2(europe_df, " by country in Europe")
+ggsave(
+  plot = europe_plot2,
+  filename = "plots/europe-covid19-confirmed-cases-per-million-by-country.png",
   width = 10,
   height = 8
 )
@@ -112,6 +170,13 @@ ggsave(
   width = 8,
   height = 6
 )
+americas_plot2 <- mk_plot2(americas_df, " by country in the Americas")
+ggsave(
+  plot = americas_plot2,
+  filename = "plots/americas-covid19-confirmed-cases-per-million-by-country.png",
+  width = 8,
+  height = 6
+)
 
 print("Oceania plot")
 oceania_df <- country_df %>%
@@ -120,6 +185,13 @@ oceania_plot <- mk_plot(oceania_df, " by country in Oceania")
 ggsave(
   plot = oceania_plot,
   filename = "plots/oceania-covid19-confirmed-cases-by-country.png",
+  width = 8,
+  height = 6
+)
+oceania_plot2 <- mk_plot2(oceania_df, " by country in Oceania")
+ggsave(
+  plot = oceania_plot2,
+  filename = "plots/oceania-covid19-confirmed-cases-per-million-by-country.png",
   width = 8,
   height = 6
 )

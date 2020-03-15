@@ -101,6 +101,8 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 -----
 
+## Plots of confirmed cases
+
 ### Confirmed cases by country (Worldwide):
 
 ![COVID-19 Confirmed cases by country (Worldwide)](plots/covid19-confirmed-cases-by-country.png)
@@ -109,21 +111,46 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 
 ![COVID-19 Confirmed cases by country (Africa)](plots/africa-covid19-confirmed-cases-by-country.png)
 
+### Confirmed cases by country in Africa (per million inhabitants): 
+
+![COVID-19 Confirmed cases by country per million (Africa)](plots/africa-covid19-confirmed-cases-per-million-by-country.png)
+
+
 ### Confirmed cases by country in the Americas:
 
 ![COVID-19 Confirmed cases by country (Americas)](plots/americas-covid19-confirmed-cases-by-country.png)
+
+### Confirmed cases by country in the Americas per million inhabitants:
+
+![COVID-19 Confirmed cases by country per million (Americas)](plots/americas-covid19-confirmed-cases-per-million-by-country.png)
+
 
 ### Confirmed cases by country in Asia:
 
 ![COVID-19 Confirmed cases by country (Asia)](plots/asia-covid19-confirmed-cases-by-country.png)
 
+### Confirmed cases by country in Asia per million inhabitants:
+
+![COVID-19 Confirmed cases by country per million (Asia)](plots/asia-covid19-confirmed-cases-per-million-by-country.png)
+
+
 ### Confirmed cases by country in Europe:
 
 ![COVID-19 Confirmed cases by country (Europe)](plots/europe-covid19-confirmed-cases-by-country.png)
 
+### Confirmed cases by country in Europe per million inhabitants:
+
+![COVID-19 Confirmed cases by country per million (Europe)](plots/europe-covid19-confirmed-cases-per-million-by-country.png)
+
+
 ### Confirmed cases by country in Oceania:
 
 ![COVID-19 Confirmed cases by country (Oceania)](plots/oceania-covid19-confirmed-cases-by-country.png)
+
+### Confirmed cases by country in Oceania per million inhabitants:
+
+![COVID-19 Confirmed cases by country per million (Oceania)](plots/oceania-covid19-confirmed-cases-per-million-by-country.png)
+
 
 ### Confirmed cases (Other locations):
 
