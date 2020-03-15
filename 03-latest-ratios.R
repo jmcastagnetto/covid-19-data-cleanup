@@ -10,10 +10,12 @@ zero_na <- function(x) {
 
 # global percentages
 latest_ratios <- as_tibble(ts_confirmed) %>%
+  filter(!is.na(confirmed)) %>%
   filter(ts == max(ts)) %>%
   select(-lat, -lon, -ts) %>%
   left_join(
     as_tibble(ts_deaths) %>%
+      filter(!is.na(deaths)) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -lon, -ts),
     by = c("continent",
@@ -27,6 +29,7 @@ latest_ratios <- as_tibble(ts_confirmed) %>%
   ) %>%
   left_join(
     as_tibble(ts_recovered) %>%
+      filter(!is.na(recovered)) %>%
       filter(ts == max(ts)) %>%
       select(-lat, -lon, -ts),
     by = c("continent",
@@ -40,9 +43,9 @@ latest_ratios <- as_tibble(ts_confirmed) %>%
   ) %>%
   arrange(desc(confirmed), country_region) %>%
   mutate(
-    global_confirmed_pct = 100 * zero_na(confirmed) / sum(confirmed, na.rm = TRUE),
-    global_death_pct = 100 * zero_na(deaths) / sum(deaths, na.rm = TRUE),
-    global_recovered_pct = 100 * zero_na(recovered) / sum(recovered, na.m = TRUE)
+    global_confirmed_pct = 100 * zero_na(confirmed) / sum(zero_na(confirmed)),
+    global_death_pct = 100 * zero_na(deaths) / sum(zero_na(deaths)),
+    global_recovered_pct = 100 * zero_na(recovered) / sum(zero_na(recovered))
   ) %>%
   select(
     1:5,12:16,6:11

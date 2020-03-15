@@ -11,7 +11,8 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
 latest_commit_sha <- str_sub(meta[[1]]$object$sha, 1, 7)
 print(latest_commit_sha)
 
-ts_combined <- readRDS("data/covid-19_ts_combined.rds")
+ts_combined <- readRDS("data/covid-19_ts_combined.rds") %>%
+  filter(!is.na(confirmed))
 
 country_df <- as_tibble(ts_combined) %>%
   group_by(country_region, ts) %>%
