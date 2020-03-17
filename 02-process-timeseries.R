@@ -156,6 +156,24 @@ ts_combined <- as_tibble(ts_confirmed) %>%
            "iso3c", "country_region",
            "province_state")
   ) %>%
+  select(
+    continent,
+	iso3c,
+	country_region,
+	province_state,
+	ts,
+	confirmed,
+	deaths,
+	recovered,
+	who_region,
+	who_region_code,
+	world_bank_income_group,
+	world_bank_income_group_code,
+	world_bank_income_group_gni_reference_year,
+	world_bank_income_group_release_date,
+	lat,
+	lon
+  ) %>%
   mk_tsibble()
 
 ts_confirmed <- mk_tsibble(ts_confirmed)

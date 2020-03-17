@@ -1,10 +1,10 @@
 R scripts to process/cleanup data from the repo:
 <https://github.com/CSSEGISandData/COVID-19> into tidy datasets[1]
 
-**Last updated on** 2020-03-16 04:10:25 UTC
+**Last updated on** 2020-03-17 00:33:27 UTC
 
 **Data source commit reference**:
-[94aa44c2caf43e36136fb6acff61a59486adfe2c](https://github.com/CSSEGISandData/COVID-19/commit/94aa44c2caf43e36136fb6acff61a59486adfe2c)
+[ac296ebb2e4920136fbed26ffb7e34f548bfc193](https://github.com/CSSEGISandData/COVID-19/commit/ac296ebb2e4920136fbed26ffb7e34f548bfc193)
 
 *Notes*
 
@@ -286,12 +286,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
 <td style="text-align: left;">Hubei</td>
-<td style="text-align: right;">67794</td>
-<td style="text-align: right;">3085</td>
-<td style="text-align: right;">54288</td>
-<td style="text-align: right;">40.486</td>
-<td style="text-align: right;">47.904</td>
-<td style="text-align: right;">71.400</td>
+<td style="text-align: right;">67798</td>
+<td style="text-align: right;">3099</td>
+<td style="text-align: right;">55142</td>
+<td style="text-align: right;">37.345</td>
+<td style="text-align: right;">43.489</td>
+<td style="text-align: right;">70.615</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -304,12 +304,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
 <td style="text-align: left;">Guangdong</td>
-<td style="text-align: right;">1360</td>
+<td style="text-align: right;">1361</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: right;">1304</td>
-<td style="text-align: right;">0.812</td>
-<td style="text-align: right;">0.124</td>
-<td style="text-align: right;">1.715</td>
+<td style="text-align: right;">1306</td>
+<td style="text-align: right;">0.750</td>
+<td style="text-align: right;">0.112</td>
+<td style="text-align: right;">1.672</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -325,9 +325,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1273</td>
 <td style="text-align: right;">22</td>
 <td style="text-align: right;">1250</td>
-<td style="text-align: right;">0.760</td>
-<td style="text-align: right;">0.342</td>
-<td style="text-align: right;">1.644</td>
+<td style="text-align: right;">0.701</td>
+<td style="text-align: right;">0.309</td>
+<td style="text-align: right;">1.601</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -342,10 +342,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Zhejiang</td>
 <td style="text-align: right;">1231</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">1211</td>
-<td style="text-align: right;">0.735</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">1.593</td>
+<td style="text-align: right;">1216</td>
+<td style="text-align: right;">0.678</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">1.557</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -361,9 +361,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1018</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">1014</td>
-<td style="text-align: right;">0.608</td>
-<td style="text-align: right;">0.062</td>
-<td style="text-align: right;">1.334</td>
+<td style="text-align: right;">0.561</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">1.299</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -379,9 +379,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">990</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">984</td>
-<td style="text-align: right;">0.591</td>
-<td style="text-align: right;">0.093</td>
-<td style="text-align: right;">1.294</td>
+<td style="text-align: right;">0.545</td>
+<td style="text-align: right;">0.084</td>
+<td style="text-align: right;">1.260</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -397,9 +397,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">935</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">934</td>
-<td style="text-align: right;">0.558</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">1.228</td>
+<td style="text-align: right;">0.515</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">1.196</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -414,10 +414,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Shandong</td>
 <td style="text-align: right;">760</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: right;">741</td>
-<td style="text-align: right;">0.454</td>
-<td style="text-align: right;">0.109</td>
-<td style="text-align: right;">0.975</td>
+<td style="text-align: right;">746</td>
+<td style="text-align: right;">0.419</td>
+<td style="text-align: right;">0.098</td>
+<td style="text-align: right;">0.955</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -433,9 +433,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">631</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">631</td>
-<td style="text-align: right;">0.377</td>
+<td style="text-align: right;">0.348</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.830</td>
+<td style="text-align: right;">0.808</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -451,9 +451,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">576</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">570</td>
-<td style="text-align: right;">0.344</td>
-<td style="text-align: right;">0.093</td>
-<td style="text-align: right;">0.750</td>
+<td style="text-align: right;">0.317</td>
+<td style="text-align: right;">0.084</td>
+<td style="text-align: right;">0.730</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -469,9 +469,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">539</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">516</td>
-<td style="text-align: right;">0.322</td>
-<td style="text-align: right;">0.047</td>
-<td style="text-align: right;">0.679</td>
+<td style="text-align: right;">0.297</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.661</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -486,10 +486,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Heilongjiang</td>
 <td style="text-align: right;">482</td>
 <td style="text-align: right;">13</td>
-<td style="text-align: right;">453</td>
-<td style="text-align: right;">0.288</td>
-<td style="text-align: right;">0.202</td>
-<td style="text-align: right;">0.596</td>
+<td style="text-align: right;">455</td>
+<td style="text-align: right;">0.265</td>
+<td style="text-align: right;">0.182</td>
+<td style="text-align: right;">0.583</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -502,12 +502,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
 <td style="text-align: left;">Beijing</td>
-<td style="text-align: right;">442</td>
+<td style="text-align: right;">452</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: right;">353</td>
-<td style="text-align: right;">0.264</td>
-<td style="text-align: right;">0.124</td>
-<td style="text-align: right;">0.464</td>
+<td style="text-align: right;">360</td>
+<td style="text-align: right;">0.249</td>
+<td style="text-align: right;">0.112</td>
+<td style="text-align: right;">0.461</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -520,12 +520,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
 <td style="text-align: left;">Shanghai</td>
-<td style="text-align: right;">353</td>
+<td style="text-align: right;">355</td>
 <td style="text-align: right;">3</td>
-<td style="text-align: right;">324</td>
-<td style="text-align: right;">0.211</td>
-<td style="text-align: right;">0.047</td>
-<td style="text-align: right;">0.426</td>
+<td style="text-align: right;">325</td>
+<td style="text-align: right;">0.196</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.416</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -541,9 +541,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">318</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">310</td>
-<td style="text-align: right;">0.190</td>
-<td style="text-align: right;">0.093</td>
-<td style="text-align: right;">0.408</td>
+<td style="text-align: right;">0.175</td>
+<td style="text-align: right;">0.084</td>
+<td style="text-align: right;">0.397</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -559,9 +559,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">296</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">295</td>
-<td style="text-align: right;">0.177</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.388</td>
+<td style="text-align: right;">0.163</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.378</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -576,10 +576,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Guangxi</td>
 <td style="text-align: right;">252</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">243</td>
-<td style="text-align: right;">0.150</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.320</td>
+<td style="text-align: right;">248</td>
+<td style="text-align: right;">0.139</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.318</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -594,10 +594,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Shaanxi</td>
 <td style="text-align: right;">245</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">232</td>
-<td style="text-align: right;">0.146</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.305</td>
+<td style="text-align: right;">233</td>
+<td style="text-align: right;">0.135</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.298</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -610,12 +610,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
 <td style="text-align: left;">Yunnan</td>
-<td style="text-align: right;">174</td>
+<td style="text-align: right;">176</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">172</td>
-<td style="text-align: right;">0.104</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.226</td>
+<td style="text-align: right;">0.097</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.220</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -630,10 +630,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Hainan</td>
 <td style="text-align: right;">168</td>
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">160</td>
-<td style="text-align: right;">0.100</td>
+<td style="text-align: right;">161</td>
 <td style="text-align: right;">0.093</td>
-<td style="text-align: right;">0.210</td>
+<td style="text-align: right;">0.084</td>
+<td style="text-align: right;">0.206</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -645,13 +645,13 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
-<td style="text-align: left;">Guizhou</td>
-<td style="text-align: right;">146</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">143</td>
-<td style="text-align: right;">0.087</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.188</td>
+<td style="text-align: left;">Hong Kong</td>
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.108</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -663,13 +663,13 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
-<td style="text-align: left;">Hong Kong</td>
-<td style="text-align: right;">145</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">81</td>
-<td style="text-align: right;">0.087</td>
-<td style="text-align: right;">0.062</td>
-<td style="text-align: right;">0.107</td>
+<td style="text-align: left;">Guizhou</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">0.080</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.184</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -685,9 +685,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">136</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">133</td>
-<td style="text-align: right;">0.081</td>
-<td style="text-align: right;">0.047</td>
-<td style="text-align: right;">0.175</td>
+<td style="text-align: right;">0.075</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.170</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -703,9 +703,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">133</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">133</td>
-<td style="text-align: right;">0.079</td>
+<td style="text-align: right;">0.073</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.175</td>
+<td style="text-align: right;">0.170</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -721,9 +721,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">133</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">91</td>
-<td style="text-align: right;">0.079</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.120</td>
+<td style="text-align: right;">0.073</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.117</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -738,10 +738,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Liaoning</td>
 <td style="text-align: right;">125</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">114</td>
-<td style="text-align: right;">0.075</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.150</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">0.069</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.147</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -756,10 +756,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Jilin</td>
 <td style="text-align: right;">93</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">91</td>
-<td style="text-align: right;">0.056</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.120</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">0.051</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.118</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -775,9 +775,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">76</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">73</td>
-<td style="text-align: right;">0.045</td>
-<td style="text-align: right;">0.047</td>
-<td style="text-align: right;">0.096</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.093</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -792,9 +792,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Inner Mongolia</td>
 <td style="text-align: right;">75</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">71</td>
-<td style="text-align: right;">0.045</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">0.041</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.093</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
@@ -810,8 +810,8 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Ningxia</td>
 <td style="text-align: right;">75</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">73</td>
-<td style="text-align: right;">0.045</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">0.041</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.096</td>
 <td style="text-align: left;">WPR</td>
@@ -829,9 +829,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">18</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">18</td>
-<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">0.010</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.024</td>
+<td style="text-align: right;">0.023</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -844,7 +844,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CHN</td>
 <td style="text-align: left;">China</td>
 <td style="text-align: left;">Macau</td>
-<td style="text-align: right;">10</td>
+<td style="text-align: right;">11</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">0.006</td>
@@ -926,12 +926,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">ITA</td>
 <td style="text-align: left;">Italy</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">24747</td>
-<td style="text-align: right;">1809</td>
-<td style="text-align: right;">2335</td>
-<td style="text-align: right;">14.779</td>
-<td style="text-align: right;">28.090</td>
-<td style="text-align: right;">3.071</td>
+<td style="text-align: right;">27980</td>
+<td style="text-align: right;">2158</td>
+<td style="text-align: right;">2749</td>
+<td style="text-align: right;">15.412</td>
+<td style="text-align: right;">30.283</td>
+<td style="text-align: right;">3.520</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -944,12 +944,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">IRN</td>
 <td style="text-align: left;">Iran</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">13938</td>
-<td style="text-align: right;">724</td>
+<td style="text-align: right;">14991</td>
+<td style="text-align: right;">853</td>
 <td style="text-align: right;">4590</td>
-<td style="text-align: right;">8.324</td>
-<td style="text-align: right;">11.242</td>
-<td style="text-align: right;">6.037</td>
+<td style="text-align: right;">8.257</td>
+<td style="text-align: right;">11.970</td>
+<td style="text-align: right;">5.878</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -958,36 +958,36 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">KOR</td>
-<td style="text-align: left;">Korea, South</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">ESP</td>
+<td style="text-align: left;">Spain</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">8162</td>
-<td style="text-align: right;">75</td>
-<td style="text-align: right;">510</td>
-<td style="text-align: right;">4.874</td>
-<td style="text-align: right;">1.165</td>
-<td style="text-align: right;">0.671</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: right;">9942</td>
+<td style="text-align: right;">342</td>
+<td style="text-align: right;">530</td>
+<td style="text-align: right;">5.476</td>
+<td style="text-align: right;">4.799</td>
+<td style="text-align: right;">0.679</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">ESP</td>
-<td style="text-align: left;">Spain</td>
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">KOR</td>
+<td style="text-align: left;">Korea, South</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">7798</td>
-<td style="text-align: right;">289</td>
-<td style="text-align: right;">517</td>
-<td style="text-align: right;">4.657</td>
-<td style="text-align: right;">4.488</td>
-<td style="text-align: right;">0.680</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">8236</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">1137</td>
+<td style="text-align: right;">4.537</td>
+<td style="text-align: right;">1.052</td>
+<td style="text-align: right;">1.456</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -998,12 +998,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">DEU</td>
 <td style="text-align: left;">Germany</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">5795</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">46</td>
-<td style="text-align: right;">3.461</td>
-<td style="text-align: right;">0.171</td>
-<td style="text-align: right;">0.060</td>
+<td style="text-align: right;">7272</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">4.006</td>
+<td style="text-align: right;">0.239</td>
+<td style="text-align: right;">0.086</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1016,12 +1016,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">FRA</td>
 <td style="text-align: left;">France</td>
 <td style="text-align: left;">France</td>
-<td style="text-align: right;">4499</td>
-<td style="text-align: right;">91</td>
+<td style="text-align: right;">6633</td>
+<td style="text-align: right;">148</td>
 <td style="text-align: right;">12</td>
-<td style="text-align: right;">2.687</td>
-<td style="text-align: right;">1.413</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">3.654</td>
+<td style="text-align: right;">2.077</td>
+<td style="text-align: right;">0.015</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1037,9 +1037,45 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">2200</td>
 <td style="text-align: right;">14</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">1.314</td>
-<td style="text-align: right;">0.217</td>
+<td style="text-align: right;">1.212</td>
+<td style="text-align: right;">0.196</td>
 <td style="text-align: right;">0.005</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">GBR</td>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: right;">1543</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0.850</td>
+<td style="text-align: right;">0.772</td>
+<td style="text-align: right;">0.026</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">NLD</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">1413</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.778</td>
+<td style="text-align: right;">0.337</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1052,48 +1088,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">NOR</td>
 <td style="text-align: left;">Norway</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">1221</td>
+<td style="text-align: right;">1333</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0.729</td>
-<td style="text-align: right;">0.047</td>
+<td style="text-align: right;">0.734</td>
+<td style="text-align: right;">0.042</td>
 <td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">GBR</td>
-<td style="text-align: left;">United Kingdom</td>
-<td style="text-align: left;">United Kingdom</td>
-<td style="text-align: right;">1140</td>
-<td style="text-align: right;">21</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">0.681</td>
-<td style="text-align: right;">0.326</td>
-<td style="text-align: right;">0.024</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">NLD</td>
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1135</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0.678</td>
-<td style="text-align: right;">0.311</td>
-<td style="text-align: right;">0.003</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1106,11 +1106,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">SWE</td>
 <td style="text-align: left;">Sweden</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">1022</td>
-<td style="text-align: right;">3</td>
+<td style="text-align: right;">1103</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0.610</td>
-<td style="text-align: right;">0.047</td>
+<td style="text-align: right;">0.608</td>
+<td style="text-align: right;">0.084</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
@@ -1124,11 +1124,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">BEL</td>
 <td style="text-align: left;">Belgium</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">886</td>
-<td style="text-align: right;">4</td>
+<td style="text-align: right;">1058</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0.529</td>
-<td style="text-align: right;">0.062</td>
+<td style="text-align: right;">0.583</td>
+<td style="text-align: right;">0.070</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
@@ -1138,54 +1138,18 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">DNK</td>
-<td style="text-align: left;">Denmark</td>
-<td style="text-align: left;">Denmark</td>
-<td style="text-align: right;">864</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.516</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">AUT</td>
 <td style="text-align: left;">Austria</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">860</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: right;">1018</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">0.514</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.561</td>
+<td style="text-align: right;">0.042</td>
 <td style="text-align: right;">0.008</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">JPN</td>
-<td style="text-align: left;">Japan</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">839</td>
-<td style="text-align: right;">22</td>
-<td style="text-align: right;">118</td>
-<td style="text-align: right;">0.501</td>
-<td style="text-align: right;">0.342</td>
-<td style="text-align: right;">0.155</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -1196,11 +1160,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">New York</td>
-<td style="text-align: right;">732</td>
-<td style="text-align: right;">3</td>
+<td style="text-align: right;">967</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.437</td>
-<td style="text-align: right;">0.047</td>
+<td style="text-align: right;">0.533</td>
+<td style="text-align: right;">0.140</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -1210,33 +1174,33 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Cruise Ship</td>
-<td style="text-align: left;">Cruise Ship</td>
-<td style="text-align: left;">Cruise Ship</td>
-<td style="text-align: left;">Diamond Princess</td>
-<td style="text-align: right;">696</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">325</td>
-<td style="text-align: right;">0.416</td>
-<td style="text-align: right;">0.109</td>
-<td style="text-align: right;">0.427</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">DNK</td>
+<td style="text-align: left;">Denmark</td>
+<td style="text-align: left;">Denmark</td>
+<td style="text-align: right;">914</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.503</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">Washington</td>
-<td style="text-align: right;">643</td>
-<td style="text-align: right;">40</td>
+<td style="text-align: right;">904</td>
+<td style="text-align: right;">48</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0.384</td>
-<td style="text-align: right;">0.621</td>
+<td style="text-align: right;">0.498</td>
+<td style="text-align: right;">0.674</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -1247,15 +1211,51 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
+<td style="text-align: left;">JPN</td>
+<td style="text-align: left;">Japan</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">825</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">0.454</td>
+<td style="text-align: right;">0.379</td>
+<td style="text-align: right;">0.184</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cruise Ship</td>
+<td style="text-align: left;">Cruise Ship</td>
+<td style="text-align: left;">Cruise Ship</td>
+<td style="text-align: left;">Diamond Princess</td>
+<td style="text-align: right;">696</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">325</td>
+<td style="text-align: right;">0.383</td>
+<td style="text-align: right;">0.098</td>
+<td style="text-align: right;">0.416</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
 <td style="text-align: left;">MYS</td>
 <td style="text-align: left;">Malaysia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">428</td>
+<td style="text-align: right;">566</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">42</td>
-<td style="text-align: right;">0.256</td>
+<td style="text-align: right;">0.312</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.055</td>
+<td style="text-align: right;">0.054</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -1268,11 +1268,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">California</td>
-<td style="text-align: right;">426</td>
+<td style="text-align: right;">557</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: right;">6</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">0.254</td>
-<td style="text-align: right;">0.093</td>
+<td style="text-align: right;">0.307</td>
+<td style="text-align: right;">0.098</td>
 <td style="text-align: right;">0.008</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -1286,10 +1286,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">QAT</td>
 <td style="text-align: left;">Qatar</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">401</td>
+<td style="text-align: right;">439</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">0.239</td>
+<td style="text-align: right;">0.242</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.005</td>
 <td style="text-align: left;">EMR</td>
@@ -1307,45 +1307,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">331</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: right;">0.198</td>
-<td style="text-align: right;">0.062</td>
-<td style="text-align: right;">0.011</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">CZE</td>
-<td style="text-align: left;">Czechia</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">253</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.151</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">ISR</td>
-<td style="text-align: left;">Israel</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">251</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">0.150</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.182</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.010</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1358,12 +1322,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">PRT</td>
 <td style="text-align: left;">Portugal</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">245</td>
+<td style="text-align: right;">331</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0.146</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.182</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">0.004</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1373,13 +1337,31 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
+<td style="text-align: left;">CZE</td>
+<td style="text-align: left;">Czechia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">298</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.164</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">FIN</td>
 <td style="text-align: left;">Finland</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">244</td>
+<td style="text-align: right;">277</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">10</td>
-<td style="text-align: right;">0.146</td>
+<td style="text-align: right;">0.153</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.013</td>
 <td style="text-align: left;">EUR</td>
@@ -1389,37 +1371,55 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Asia</td>
-<td style="text-align: left;">SGP</td>
-<td style="text-align: left;">Singapore</td>
+<td style="text-align: left;">ISR</td>
+<td style="text-align: left;">Israel</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">226</td>
+<td style="text-align: right;">255</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">105</td>
-<td style="text-align: right;">0.135</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.140</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.138</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">SVN</td>
+<td style="text-align: left;">Slovenia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">253</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.139</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">SVN</td>
-<td style="text-align: left;">Slovenia</td>
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">SGP</td>
+<td style="text-align: left;">Singapore</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">219</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: right;">243</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.131</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">109</td>
+<td style="text-align: right;">0.134</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -1431,11 +1431,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Bahrain</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">214</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">60</td>
-<td style="text-align: right;">0.128</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.079</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">0.118</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.099</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">High income</td>
@@ -1448,10 +1448,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">EST</td>
 <td style="text-align: left;">Estonia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">171</td>
+<td style="text-align: right;">205</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0.102</td>
+<td style="text-align: right;">0.113</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
@@ -1462,16 +1462,52 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">BRA</td>
+<td style="text-align: left;">Brazil</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.110</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Massachusetts</td>
+<td style="text-align: right;">197</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.109</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">ISL</td>
 <td style="text-align: left;">Iceland</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">171</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">0.102</td>
-<td style="text-align: right;">0.078</td>
-<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">180</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.099</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -1483,12 +1519,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Massachusetts</td>
-<td style="text-align: right;">164</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: left;">New Jersey</td>
+<td style="text-align: right;">178</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0.098</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.028</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -1499,37 +1535,37 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">BRA</td>
-<td style="text-align: left;">Brazil</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">162</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">Ontario</td>
+<td style="text-align: right;">177</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: right;">0.097</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.006</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">PHL</td>
-<td style="text-align: left;">Philippines</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">POL</td>
+<td style="text-align: left;">Poland</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">140</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0.084</td>
-<td style="text-align: right;">0.171</td>
-<td style="text-align: right;">0.003</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: right;">177</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0.097</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.017</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -1538,11 +1574,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">AUS</td>
 <td style="text-align: left;">Australia</td>
 <td style="text-align: left;">New South Wales</td>
-<td style="text-align: right;">134</td>
+<td style="text-align: right;">171</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">0.080</td>
-<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.094</td>
+<td style="text-align: right;">0.028</td>
 <td style="text-align: right;">0.005</td>
 <td style="text-align: left;">WPR</td>
 <td style="text-align: left;">Western Pacific</td>
@@ -1553,13 +1589,49 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
+<td style="text-align: left;">IRL</td>
+<td style="text-align: left;">Ireland</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.093</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Colorado</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.088</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">ROU</td>
 <td style="text-align: left;">Romania</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">131</td>
+<td style="text-align: right;">158</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: right;">0.078</td>
+<td style="text-align: right;">0.087</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.012</td>
 <td style="text-align: left;">EUR</td>
@@ -1571,14 +1643,14 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Colorado</td>
-<td style="text-align: right;">131</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: left;">CHL</td>
+<td style="text-align: left;">Chile</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">155</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.078</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -1588,36 +1660,108 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">IRL</td>
-<td style="text-align: left;">Ireland</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">2</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Florida</td>
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.077</td>
-<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">0.070</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">POL</td>
-<td style="text-align: left;">Poland</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">EGY</td>
+<td style="text-align: left;">Egypt</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">119</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0.083</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.035</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">THA</td>
+<td style="text-align: left;">Thailand</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">147</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">0.081</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.045</td>
+<td style="text-align: left;">SEAR</td>
+<td style="text-align: left;">South-East Asia</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">PHL</td>
+<td style="text-align: left;">Philippines</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">142</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.078</td>
+<td style="text-align: right;">0.168</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">PAK</td>
+<td style="text-align: left;">Pakistan</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.075</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Louisiana</td>
+<td style="text-align: right;">136</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.071</td>
-<td style="text-align: right;">0.047</td>
+<td style="text-align: right;">0.075</td>
+<td style="text-align: right;">0.042</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -1628,12 +1772,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">IDN</td>
 <td style="text-align: left;">Indonesia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">117</td>
+<td style="text-align: right;">134</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">8</td>
+<td style="text-align: right;">0.074</td>
 <td style="text-align: right;">0.070</td>
-<td style="text-align: right;">0.078</td>
-<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">0.010</td>
 <td style="text-align: left;">SEAR</td>
 <td style="text-align: left;">South-East Asia</td>
 <td style="text-align: left;">Lower middle income</td>
@@ -1646,12 +1790,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">IRQ</td>
 <td style="text-align: left;">Iraq</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">116</td>
+<td style="text-align: right;">124</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">26</td>
-<td style="text-align: right;">0.069</td>
-<td style="text-align: right;">0.155</td>
-<td style="text-align: right;">0.034</td>
+<td style="text-align: right;">0.068</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: right;">0.033</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -1660,15 +1804,33 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">KWT</td>
+<td style="text-align: left;">Kuwait</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">123</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0.068</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.012</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Florida</td>
-<td style="text-align: right;">115</td>
-<td style="text-align: right;">4</td>
+<td style="text-align: left;">Georgia</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.069</td>
-<td style="text-align: right;">0.062</td>
+<td style="text-align: right;">0.067</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -1677,34 +1839,16 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">THA</td>
-<td style="text-align: left;">Thailand</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">114</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">0.068</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.046</td>
-<td style="text-align: left;">SEAR</td>
-<td style="text-align: left;">South-East Asia</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">IND</td>
 <td style="text-align: left;">India</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">113</td>
+<td style="text-align: right;">119</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">13</td>
-<td style="text-align: right;">0.067</td>
-<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.066</td>
+<td style="text-align: right;">0.028</td>
 <td style="text-align: right;">0.017</td>
 <td style="text-align: left;">SEAR</td>
 <td style="text-align: left;">South-East Asia</td>
@@ -1715,87 +1859,15 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
-<td style="text-align: left;">KWT</td>
-<td style="text-align: left;">Kuwait</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">112</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">0.067</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.007</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">EGY</td>
-<td style="text-align: left;">Egypt</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">110</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">21</td>
-<td style="text-align: right;">0.066</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.028</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">LBN</td>
-<td style="text-align: left;">Lebanon</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">110</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.066</td>
-<td style="text-align: right;">0.047</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">Ontario</td>
-<td style="text-align: right;">104</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">0.062</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.005</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
 <td style="text-align: left;">SAU</td>
 <td style="text-align: left;">Saudi Arabia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">103</td>
+<td style="text-align: right;">118</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.062</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.065</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">High income</td>
@@ -1808,11 +1880,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">SMR</td>
 <td style="text-align: left;">San Marino</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">101</td>
-<td style="text-align: right;">5</td>
+<td style="text-align: right;">109</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0.060</td>
-<td style="text-align: right;">0.078</td>
+<td style="text-align: right;">0.098</td>
 <td style="text-align: right;">0.005</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
@@ -1825,17 +1897,53 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Georgia</td>
-<td style="text-align: right;">99</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: left;">Illinois</td>
+<td style="text-align: right;">105</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.059</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.058</td>
 <td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">British Columbia</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.057</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">LBN</td>
+<td style="text-align: left;">Lebanon</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">99</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.055</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -1847,9 +1955,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">98</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">23</td>
-<td style="text-align: right;">0.059</td>
+<td style="text-align: right;">0.054</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.030</td>
+<td style="text-align: right;">0.029</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">High income</td>
@@ -1858,142 +1966,16 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">New Jersey</td>
-<td style="text-align: right;">98</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.059</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Illinois</td>
-<td style="text-align: right;">93</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0.056</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.003</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Louisiana</td>
-<td style="text-align: right;">91</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.054</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CHL</td>
-<td style="text-align: left;">Chile</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">74</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.044</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">British Columbia</td>
-<td style="text-align: right;">73</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">0.044</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.005</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Texas</td>
-<td style="text-align: right;">72</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.043</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Pennsylvania</td>
-<td style="text-align: right;">66</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.039</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">RUS</td>
 <td style="text-align: left;">Russia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">63</td>
+<td style="text-align: right;">90</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: right;">0.038</td>
+<td style="text-align: right;">0.050</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">0.010</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -2001,19 +1983,37 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Oceania</td>
-<td style="text-align: left;">AUS</td>
-<td style="text-align: left;">Australia</td>
-<td style="text-align: left;">Queensland</td>
-<td style="text-align: right;">61</td>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">PER</td>
+<td style="text-align: left;">Peru</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">86</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">0.036</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.047</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.011</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Texas</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.047</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -2024,11 +2024,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">LUX</td>
 <td style="text-align: left;">Luxembourg</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">59</td>
+<td style="text-align: right;">77</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.035</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
@@ -2038,15 +2038,69 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Pennsylvania</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">AUS</td>
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">Victoria</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.039</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.010</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">AUS</td>
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">Queensland</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.037</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.010</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">TWN</td>
 <td style="text-align: left;">Taiwan*</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">59</td>
+<td style="text-align: right;">67</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">20</td>
-<td style="text-align: right;">0.035</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.037</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.026</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: left;">NA</td>
@@ -2055,75 +2109,21 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">NA</td>
 <td style="text-align: left;">NA</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">Oceania</td>
-<td style="text-align: left;">AUS</td>
-<td style="text-align: left;">Australia</td>
-<td style="text-align: left;">Victoria</td>
-<td style="text-align: right;">57</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">0.034</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.011</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
 <tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">VNM</td>
-<td style="text-align: left;">Vietnam</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">56</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">16</td>
-<td style="text-align: right;">0.033</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.021</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">SVK</td>
 <td style="text-align: left;">Slovakia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">54</td>
+<td style="text-align: right;">63</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.032</td>
+<td style="text-align: right;">0.035</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">PAK</td>
-<td style="text-align: left;">Pakistan</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">53</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0.032</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.003</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -2132,10 +2132,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">ZAF</td>
 <td style="text-align: left;">South Africa</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">51</td>
+<td style="text-align: right;">62</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.030</td>
+<td style="text-align: right;">0.034</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AFR</td>
@@ -2146,52 +2146,34 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">BGR</td>
-<td style="text-align: left;">Bulgaria</td>
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">VNM</td>
+<td style="text-align: left;">Vietnam</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">51</td>
-<td style="text-align: right;">2</td>
+<td style="text-align: right;">61</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.030</td>
-<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0.034</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: right;">0.020</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">BRN</td>
-<td style="text-align: left;">Brunei</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">50</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.030</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">HRV</td>
 <td style="text-align: left;">Croatia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">49</td>
+<td style="text-align: right;">57</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.031</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -2199,21 +2181,39 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">Alberta</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
 <tr class="even">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">DZA</td>
-<td style="text-align: left;">Algeria</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">ARG</td>
+<td style="text-align: left;">Argentina</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">48</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">0.029</td>
-<td style="text-align: right;">0.062</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -2222,86 +2222,14 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">SRB</td>
 <td style="text-align: left;">Serbia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">48</td>
+<td style="text-align: right;">55</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.030</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Diamond Princess</td>
-<td style="text-align: right;">46</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.027</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">ARG</td>
-<td style="text-align: left;">Argentina</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">45</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.027</td>
-<td style="text-align: right;">0.031</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Virginia</td>
-<td style="text-align: right;">45</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.027</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">PER</td>
-<td style="text-align: left;">Peru</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">43</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.026</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">Upper middle income</td>
 <td style="text-align: left;">WB_UMI</td>
 <td style="text-align: left;">2017</td>
@@ -2312,11 +2240,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">PAN</td>
 <td style="text-align: left;">Panama</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">43</td>
+<td style="text-align: right;">55</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.026</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.030</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -2326,128 +2254,20 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">ALB</td>
-<td style="text-align: left;">Albania</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">DZA</td>
+<td style="text-align: left;">Algeria</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">42</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.025</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">MEX</td>
-<td style="text-align: left;">Mexico</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">41</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">54</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">0.024</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.005</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.030</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.015</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
 <td style="text-align: left;">Upper middle income</td>
 <td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">Alberta</td>
-<td style="text-align: right;">39</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.023</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Tennessee</td>
-<td style="text-align: right;">39</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.023</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Ohio</td>
-<td style="text-align: right;">37</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.022</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Oregon</td>
-<td style="text-align: right;">36</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.021</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Minnesota</td>
-<td style="text-align: right;">35</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.021</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -2456,10 +2276,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">COL</td>
 <td style="text-align: left;">Colombia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">34</td>
+<td style="text-align: right;">54</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.020</td>
+<td style="text-align: right;">0.030</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -2471,19 +2291,19 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
-<td style="text-align: left;">GEO</td>
-<td style="text-align: left;">Georgia</td>
+<td style="text-align: left;">BRN</td>
+<td style="text-align: left;">Brunei</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">33</td>
+<td style="text-align: right;">54</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.020</td>
+<td style="text-align: right;">0.030</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -2491,11 +2311,155 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">North Carolina</td>
-<td style="text-align: right;">33</td>
+<td style="text-align: left;">Minnesota</td>
+<td style="text-align: right;">54</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.020</td>
+<td style="text-align: right;">0.030</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">MEX</td>
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Michigan</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">ARM</td>
+<td style="text-align: left;">Armenia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">BGR</td>
+<td style="text-align: left;">Bulgaria</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Tennessee</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">ALB</td>
+<td style="text-align: left;">Albania</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">Quebec</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Ohio</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.028</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -2509,13 +2473,85 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Michigan</td>
-<td style="text-align: right;">33</td>
+<td style="text-align: left;">Virginia</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.027</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Diamond Princess</td>
+<td style="text-align: right;">47</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.020</td>
+<td style="text-align: right;">0.026</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Wisconsin</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.026</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Nevada</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.025</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Maryland</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.023</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.004</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
@@ -2528,11 +2564,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">HUN</td>
 <td style="text-align: left;">Hungary</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">32</td>
+<td style="text-align: right;">39</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0.019</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.021</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
@@ -2545,12 +2581,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Maryland</td>
-<td style="text-align: right;">32</td>
+<td style="text-align: left;">Oregon</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.019</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.021</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -2563,13 +2599,13 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Wisconsin</td>
-<td style="text-align: right;">32</td>
+<td style="text-align: left;">Utah</td>
+<td style="text-align: right;">39</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.019</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.021</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
@@ -2578,18 +2614,18 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">LVA</td>
-<td style="text-align: left;">Latvia</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">30</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">North Carolina</td>
+<td style="text-align: right;">38</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.018</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.021</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -2600,11 +2636,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">ECU</td>
 <td style="text-align: left;">Ecuador</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">28</td>
+<td style="text-align: right;">37</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.017</td>
-<td style="text-align: right;">0.031</td>
+<td style="text-align: right;">0.020</td>
+<td style="text-align: right;">0.028</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -2614,68 +2650,14 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">MAR</td>
-<td style="text-align: left;">Morocco</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">28</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.017</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">South Carolina</td>
-<td style="text-align: right;">28</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.017</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Utah</td>
-<td style="text-align: right;">28</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.017</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">BLR</td>
 <td style="text-align: left;">Belarus</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">27</td>
+<td style="text-align: right;">36</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">3</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.020</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.004</td>
 <td style="text-align: left;">EUR</td>
@@ -2685,15 +2667,15 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">CRI</td>
 <td style="text-align: left;">Costa Rica</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">27</td>
+<td style="text-align: right;">35</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.019</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -2703,21 +2685,39 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">ARM</td>
-<td style="text-align: left;">Armenia</td>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">LVA</td>
+<td style="text-align: left;">Latvia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">26</td>
+<td style="text-align: right;">34</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.019</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">GEO</td>
+<td style="text-align: left;">Georgia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.018</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -2726,10 +2726,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">CYP</td>
 <td style="text-align: left;">Cyprus</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">26</td>
+<td style="text-align: right;">33</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.018</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
@@ -2740,72 +2740,36 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">Quebec</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.014</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">SEN</td>
-<td style="text-align: left;">Senegal</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.014</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Low income</td>
-<td style="text-align: left;">WB_LI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">BIH</td>
-<td style="text-align: left;">Bosnia and Herzegovina</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.014</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Nevada</td>
-<td style="text-align: right;">24</td>
+<td style="text-align: left;">South Carolina</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.018</td>
 <td style="text-align: right;">0.014</td>
-<td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">MLT</td>
+<td style="text-align: left;">Malta</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.017</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -2816,10 +2780,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">Connecticut</td>
-<td style="text-align: right;">24</td>
+<td style="text-align: right;">30</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.017</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -2830,20 +2794,164 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">AZE</td>
-<td style="text-align: left;">Azerbaijan</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">23</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">0.014</td>
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">AUS</td>
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">South Australia</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">MAR</td>
+<td style="text-align: left;">Morocco</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Alabama</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">AUS</td>
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">Western Australia</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.015</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">LKA</td>
+<td style="text-align: left;">Sri Lanka</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.015</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">SEAR</td>
+<td style="text-align: left;">South-East Asia</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">BIH</td>
+<td style="text-align: left;">Bosnia and Herzegovina</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">Upper middle income</td>
 <td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Indiana</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">SEN</td>
+<td style="text-align: left;">Senegal</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.013</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Iowa</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.013</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -2855,7 +2963,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">23</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.013</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
@@ -2873,229 +2981,13 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">22</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: right;">0.013</td>
+<td style="text-align: right;">0.012</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.012</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">MLT</td>
-<td style="text-align: left;">Malta</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">21</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.013</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Grand Princess</td>
-<td style="text-align: right;">21</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.013</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Oceania</td>
-<td style="text-align: left;">AUS</td>
-<td style="text-align: left;">Australia</td>
-<td style="text-align: left;">South Australia</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">0.012</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.004</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Indiana</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.012</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Kentucky</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.012</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Rhode Island</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.012</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">LKA</td>
-<td style="text-align: left;">Sri Lanka</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.011</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">SEAR</td>
-<td style="text-align: left;">South-East Asia</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">TUN</td>
-<td style="text-align: left;">Tunisia</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.011</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Iowa</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.011</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Oceania</td>
-<td style="text-align: left;">AUS</td>
-<td style="text-align: left;">Australia</td>
-<td style="text-align: left;">Western Australia</td>
-<td style="text-align: right;">17</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.010</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Nebraska</td>
-<td style="text-align: right;">17</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.010</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">AFG</td>
-<td style="text-align: left;">Afghanistan</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">16</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.010</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Low income</td>
-<td style="text-align: left;">WB_LI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3104,10 +2996,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">District of Columbia</td>
-<td style="text-align: right;">16</td>
+<td style="text-align: right;">22</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.010</td>
+<td style="text-align: right;">0.012</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -3122,7 +3014,151 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">Arkansas</td>
-<td style="text-align: right;">16</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.012</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">AFG</td>
+<td style="text-align: left;">Afghanistan</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.012</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Kentucky</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.012</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Rhode Island</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.012</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">TUN</td>
+<td style="text-align: left;">Tunisia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Grand Princess</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">MKD</td>
+<td style="text-align: left;">North Macedonia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.010</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Arizona</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.010</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Nebraska</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.010</td>
@@ -3137,15 +3173,33 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">MKD</td>
-<td style="text-align: left;">North Macedonia</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">14</td>
+<td style="text-align: left;">DNK</td>
+<td style="text-align: left;">Denmark</td>
+<td style="text-align: left;">Faroe Islands</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.010</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">TUR</td>
+<td style="text-align: left;">Turkey</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.010</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">Upper middle income</td>
@@ -3153,19 +3207,37 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">LTU</td>
+<td style="text-align: left;">Lithuania</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.009</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
 <tr class="odd">
 <td style="text-align: left;">Asia</td>
-<td style="text-align: left;">MDV</td>
-<td style="text-align: left;">Maldives</td>
+<td style="text-align: left;">JOR</td>
+<td style="text-align: left;">Jordan</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">13</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.009</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">SEAR</td>
-<td style="text-align: left;">South-East Asia</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
 <td style="text-align: left;">Upper middle income</td>
 <td style="text-align: left;">WB_UMI</td>
 <td style="text-align: left;">2017</td>
@@ -3175,13 +3247,13 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Arizona</td>
-<td style="text-align: right;">13</td>
+<td style="text-align: left;">New Hampshire</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.009</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
@@ -3193,11 +3265,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">New Hampshire</td>
-<td style="text-align: right;">13</td>
+<td style="text-align: left;">Maine</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0.009</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -3212,10 +3284,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">New Mexico</td>
-<td style="text-align: right;">13</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0.009</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -3226,20 +3298,92 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">LTU</td>
-<td style="text-align: left;">Lithuania</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">VEN</td>
+<td style="text-align: left;">Venezuela</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">12</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.009</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">AZE</td>
+<td style="text-align: left;">Azerbaijan</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.008</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">MTQ</td>
+<td style="text-align: left;">Martinique</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">BFA</td>
+<td style="text-align: left;">Burkina Faso</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.008</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Asia</td>
+<td style="text-align: left;">MDV</td>
+<td style="text-align: left;">Maldives</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">SEAR</td>
+<td style="text-align: left;">South-East Asia</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3247,8 +3391,8 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Maine</td>
-<td style="text-align: right;">12</td>
+<td style="text-align: left;">Mississippi</td>
+<td style="text-align: right;">13</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.007</td>
@@ -3265,7 +3409,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Alabama</td>
+<td style="text-align: left;">Vermont</td>
 <td style="text-align: right;">12</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -3287,7 +3431,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">11</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.007</td>
+<td style="text-align: right;">0.006</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -3298,33 +3442,15 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">DNK</td>
-<td style="text-align: left;">Denmark</td>
-<td style="text-align: left;">Faroe Islands</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.007</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Mississippi</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: left;">Kansas</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.006</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -3333,12 +3459,12 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">BOL</td>
 <td style="text-align: left;">Bolivia</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">10</td>
+<td style="text-align: right;">11</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.006</td>
@@ -3351,29 +3477,29 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">JAM</td>
-<td style="text-align: left;">Jamaica</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.006</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">VEN</td>
-<td style="text-align: left;">Venezuela</td>
+<td style="text-align: left;">GUF</td>
+<td style="text-align: left;">French Guiana</td>
 <td style="text-align: left;">NA</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.006</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: left;">US</td>
+<td style="text-align: left;">Oklahoma</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -3382,26 +3508,8 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">MTQ</td>
-<td style="text-align: left;">Martinique</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.005</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3410,11 +3518,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
 <td style="text-align: left;">South Dakota</td>
-<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.005</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.006</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -3424,9 +3532,45 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">JAM</td>
+<td style="text-align: left;">Jamaica</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.006</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">KAZ</td>
 <td style="text-align: left;">Kazakhstan</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.006</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">REU</td>
+<td style="text-align: left;">Reunion</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">0</td>
@@ -3434,10 +3578,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0.005</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3449,7 +3593,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.004</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">WPR</td>
@@ -3461,32 +3605,68 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
-<td style="text-align: left;">JOR</td>
-<td style="text-align: left;">Jordan</td>
+<td style="text-align: left;">BGD</td>
+<td style="text-align: left;">Bangladesh</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.004</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EMR</td>
-<td style="text-align: left;">Eastern Mediterranean</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: left;">SEAR</td>
+<td style="text-align: left;">South-East Asia</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
+<td style="text-align: left;">PRY</td>
+<td style="text-align: left;">Paraguay</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Kansas</td>
+<td style="text-align: left;">Delaware</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.005</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">URY</td>
+<td style="text-align: left;">Uruguay</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -3497,17 +3677,53 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Vermont</td>
-<td style="text-align: right;">8</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">Manitoba</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.004</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">Saskatchewan</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">AUS</td>
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">Tasmania</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -3532,10 +3748,46 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">MCO</td>
+<td style="text-align: left;">Monaco</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">UKR</td>
+<td style="text-align: left;">Ukraine</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Oklahoma</td>
+<td style="text-align: left;">Hawaii</td>
 <td style="text-align: right;">7</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -3550,24 +3802,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Delaware</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -3585,75 +3819,21 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">FRA</td>
-<td style="text-align: left;">France</td>
-<td style="text-align: left;">French Guiana</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">REU</td>
-<td style="text-align: left;">Reunion</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Oceania</td>
-<td style="text-align: left;">AUS</td>
-<td style="text-align: left;">Australia</td>
-<td style="text-align: left;">Tasmania</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">PRY</td>
-<td style="text-align: left;">Paraguay</td>
-<td style="text-align: left;">NA</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">New Brunswick</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3661,11 +3841,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Hawaii</td>
+<td style="text-align: left;">Missouri</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
@@ -3676,20 +3856,56 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">TUR</td>
-<td style="text-align: left;">Turkey</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">HND</td>
+<td style="text-align: left;">Honduras</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">GBR</td>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: left;">Channel Islands</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">GLP</td>
+<td style="text-align: left;">Guadeloupe</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3701,7 +3917,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.004</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AFR</td>
@@ -3713,17 +3929,17 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Asia</td>
-<td style="text-align: left;">BGD</td>
-<td style="text-align: left;">Bangladesh</td>
+<td style="text-align: left;">UZB</td>
+<td style="text-align: left;">Uzbekistan</td>
 <td style="text-align: left;">NA</td>
-<td style="text-align: right;">5</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.003</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">SEAR</td>
-<td style="text-align: left;">South-East Asia</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">Lower middle income</td>
 <td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
@@ -3731,9 +3947,9 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">USA</td>
-<td style="text-align: left;">US</td>
-<td style="text-align: left;">Missouri</td>
+<td style="text-align: left;">CAN</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: left;">Nova Scotia</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -3784,20 +4000,56 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">Manitoba</td>
-<td style="text-align: right;">4</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">FRA</td>
+<td style="text-align: left;">France</td>
+<td style="text-align: left;">French Guiana</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.003</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">ETH</td>
+<td style="text-align: left;">Ethiopia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">Rwanda</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3820,6 +4072,24 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">CMR</td>
+<td style="text-align: left;">Cameroon</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Lower middle income</td>
+<td style="text-align: left;">WB_LMI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">CUB</td>
 <td style="text-align: left;">Cuba</td>
@@ -3837,7 +4107,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">GUY</td>
 <td style="text-align: left;">Guyana</td>
@@ -3846,7 +4116,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.002</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
@@ -3855,10 +4125,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">URY</td>
-<td style="text-align: left;">Uruguay</td>
+<td style="text-align: left;">TTO</td>
+<td style="text-align: left;">Trinidad and Tobago</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0</td>
@@ -3870,24 +4140,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">UKR</td>
-<td style="text-align: left;">Ukraine</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.002</td>
-<td style="text-align: right;">0.016</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3928,20 +4180,20 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">BFA</td>
-<td style="text-align: left;">Burkina Faso</td>
-<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">FRA</td>
+<td style="text-align: left;">France</td>
+<td style="text-align: left;">Saint Barthelemy</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.002</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Low income</td>
-<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">EUR</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -3964,28 +4216,10 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">HND</td>
-<td style="text-align: left;">Honduras</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.002</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">GBR</td>
-<td style="text-align: left;">United Kingdom</td>
-<td style="text-align: left;">Channel Islands</td>
+<td style="text-align: left;">FRA</td>
+<td style="text-align: left;">France</td>
+<td style="text-align: left;">Guadeloupe</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -3996,24 +4230,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">GLP</td>
-<td style="text-align: left;">Guadeloupe</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.002</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -4036,6 +4252,60 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">SYC</td>
+<td style="text-align: left;">Seychelles</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">GUM</td>
+<td style="text-align: left;">Guam</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">PRI</td>
+<td style="text-align: left;">Puerto Rico</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">CAN</td>
 <td style="text-align: left;">Canada</td>
@@ -4053,37 +4323,19 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">New Brunswick</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
 <tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CAN</td>
-<td style="text-align: left;">Canada</td>
-<td style="text-align: left;">Saskatchewan</td>
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: left;">AUS</td>
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">Australian Capital Territory</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">WPR</td>
+<td style="text-align: left;">Western Pacific</td>
 <td style="text-align: left;">High income</td>
 <td style="text-align: left;">WB_HI</td>
 <td style="text-align: left;">2017</td>
@@ -4109,15 +4361,15 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="even">
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">MCO</td>
-<td style="text-align: left;">Monaco</td>
+<td style="text-align: left;">AND</td>
+<td style="text-align: left;">Andorra</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -4126,24 +4378,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">CMR</td>
-<td style="text-align: left;">Cameroon</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Lower middle income</td>
-<td style="text-align: left;">WB_LMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">FRA</td>
 <td style="text-align: left;">France</td>
@@ -4161,7 +4395,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">COD</td>
 <td style="text-align: left;">Congo (Kinshasa)</td>
@@ -4179,7 +4413,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">ABW</td>
 <td style="text-align: left;">Aruba</td>
@@ -4197,7 +4431,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">JEY</td>
 <td style="text-align: left;">Jersey</td>
@@ -4215,7 +4449,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">NA</td>
 <td style="text-align: left;">NA</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">NAM</td>
 <td style="text-align: left;">Namibia</td>
@@ -4233,39 +4467,21 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">SYC</td>
-<td style="text-align: left;">Seychelles</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
 <tr class="even">
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">TTO</td>
-<td style="text-align: left;">Trinidad and Tobago</td>
+<td style="text-align: left;">GTM</td>
+<td style="text-align: left;">Guatemala</td>
 <td style="text-align: left;">NA</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AMR</td>
 <td style="text-align: left;">Americas</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">Upper middle income</td>
+<td style="text-align: left;">WB_UMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
@@ -4378,42 +4594,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Oceania</td>
-<td style="text-align: left;">AUS</td>
-<td style="text-align: left;">Australia</td>
-<td style="text-align: left;">Australian Capital Territory</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">WPR</td>
-<td style="text-align: left;">Western Pacific</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">AND</td>
-<td style="text-align: left;">Andorra</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: left;">EUR</td>
-<td style="text-align: left;">Europe</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">BTN</td>
 <td style="text-align: left;">Bhutan</td>
@@ -4489,7 +4669,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
-<td style="text-align: left;">Virgin Islands, U.S.</td>
+<td style="text-align: left;">Virgin Islands</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -4543,7 +4723,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">FRA</td>
 <td style="text-align: left;">France</td>
-<td style="text-align: left;">Saint Barthelemy</td>
+<td style="text-align: left;">Mayotte</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -4559,15 +4739,15 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Europe</td>
-<td style="text-align: left;">FRA</td>
-<td style="text-align: left;">France</td>
-<td style="text-align: left;">Mayotte</td>
+<td style="text-align: left;">GBR</td>
+<td style="text-align: left;">United Kingdom</td>
+<td style="text-align: left;">Gibraltar</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">0.001</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -4579,13 +4759,13 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">GBR</td>
 <td style="text-align: left;">United Kingdom</td>
-<td style="text-align: left;">Gibraltar</td>
+<td style="text-align: left;">Cayman Islands</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">1</td>
 <td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.001</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
 <td style="text-align: left;">High income</td>
@@ -4612,42 +4792,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CYM</td>
-<td style="text-align: left;">Cayman Islands</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">ETH</td>
-<td style="text-align: left;">Ethiopia</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Low income</td>
-<td style="text-align: left;">WB_LI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">SDN</td>
 <td style="text-align: left;">Sudan</td>
@@ -4656,7 +4800,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.014</td>
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EMR</td>
 <td style="text-align: left;">Eastern Mediterranean</td>
@@ -4702,24 +4846,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">CUW</td>
-<td style="text-align: left;">Curacao</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;">High income</td>
-<td style="text-align: left;">WB_HI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">SWZ</td>
 <td style="text-align: left;">Eswatini</td>
@@ -4737,7 +4863,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">GAB</td>
 <td style="text-align: left;">Gabon</td>
@@ -4750,24 +4876,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">AFR</td>
 <td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Upper middle income</td>
-<td style="text-align: left;">WB_UMI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Americas</td>
-<td style="text-align: left;">GTM</td>
-<td style="text-align: left;">Guatemala</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AMR</td>
-<td style="text-align: left;">Americas</td>
 <td style="text-align: left;">Upper middle income</td>
 <td style="text-align: left;">WB_UMI</td>
 <td style="text-align: left;">2017</td>
@@ -4810,24 +4918,6 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">RWA</td>
-<td style="text-align: left;">Rwanda</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.001</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: right;">0.000</td>
-<td style="text-align: left;">AFR</td>
-<td style="text-align: left;">Africa</td>
-<td style="text-align: left;">Low income</td>
-<td style="text-align: left;">WB_LI</td>
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">2018</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">VCT</td>
 <td style="text-align: left;">Saint Vincent and the Grenadines</td>
@@ -4845,7 +4935,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">SUR</td>
 <td style="text-align: left;">Suriname</td>
@@ -4863,7 +4953,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">CAF</td>
 <td style="text-align: left;">Central African Republic</td>
@@ -4881,7 +4971,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">COG</td>
 <td style="text-align: left;">Congo (Brazzaville)</td>
@@ -4899,7 +4989,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Africa</td>
 <td style="text-align: left;">GNQ</td>
 <td style="text-align: left;">Equatorial Guinea</td>
@@ -4917,11 +5007,11 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Asia</td>
-<td style="text-align: left;">UZB</td>
-<td style="text-align: left;">Uzbekistan</td>
-<td style="text-align: left;">NA</td>
+<tr class="even">
+<td style="text-align: left;">Europe</td>
+<td style="text-align: left;">NLD</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: left;">Curacao</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
@@ -4930,12 +5020,156 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: right;">0.000</td>
 <td style="text-align: left;">EUR</td>
 <td style="text-align: left;">Europe</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">BEN</td>
+<td style="text-align: left;">Benin</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">GRL</td>
+<td style="text-align: left;">Greenland</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">LBR</td>
+<td style="text-align: left;">Liberia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">MYT</td>
+<td style="text-align: left;">Mayotte</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">COG</td>
+<td style="text-align: left;">Republic of the Congo</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
 <td style="text-align: left;">Lower middle income</td>
 <td style="text-align: left;">WB_LMI</td>
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">SOM</td>
+<td style="text-align: left;">Somalia</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">EMR</td>
+<td style="text-align: left;">Eastern Mediterranean</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">TZA</td>
+<td style="text-align: left;">Tanzania</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AFR</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: left;">Low income</td>
+<td style="text-align: left;">WB_LI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">BHS</td>
+<td style="text-align: left;">The Bahamas</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: left;">AMR</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: left;">High income</td>
+<td style="text-align: left;">WB_HI</td>
+<td style="text-align: left;">2017</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Oceania</td>
 <td style="text-align: left;">AUS</td>
 <td style="text-align: left;">Australia</td>
@@ -4953,7 +5187,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -4971,7 +5205,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -4989,7 +5223,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5007,7 +5241,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5025,7 +5259,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5043,7 +5277,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5061,7 +5295,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5079,7 +5313,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5097,7 +5331,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5115,7 +5349,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5133,7 +5367,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5151,7 +5385,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5169,7 +5403,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5187,7 +5421,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5205,7 +5439,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5223,7 +5457,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5241,7 +5475,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5259,7 +5493,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5277,7 +5511,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5295,7 +5529,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5313,7 +5547,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5331,7 +5565,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5349,7 +5583,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5367,7 +5601,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5385,7 +5619,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5403,7 +5637,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5421,7 +5655,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5439,7 +5673,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5457,7 +5691,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5475,7 +5709,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5493,7 +5727,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5511,7 +5745,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5529,7 +5763,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5547,7 +5781,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5565,7 +5799,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5583,7 +5817,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5601,7 +5835,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5619,7 +5853,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5637,7 +5871,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5655,7 +5889,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5673,7 +5907,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5691,7 +5925,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5709,7 +5943,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5727,7 +5961,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5745,7 +5979,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5763,7 +5997,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5781,7 +6015,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5799,7 +6033,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5817,7 +6051,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5835,7 +6069,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5853,7 +6087,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5871,7 +6105,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5889,7 +6123,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5907,7 +6141,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5925,7 +6159,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5943,7 +6177,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5961,7 +6195,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5979,7 +6213,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -5997,7 +6231,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6015,7 +6249,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6033,7 +6267,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6051,7 +6285,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6069,7 +6303,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6087,7 +6321,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6105,7 +6339,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6123,7 +6357,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6141,7 +6375,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6159,7 +6393,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6177,7 +6411,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6195,7 +6429,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6213,7 +6447,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6231,7 +6465,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6249,7 +6483,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6267,7 +6501,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6285,7 +6519,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6303,7 +6537,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6321,7 +6555,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6339,7 +6573,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6357,7 +6591,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6375,7 +6609,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6393,7 +6627,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6411,7 +6645,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6429,7 +6663,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6447,7 +6681,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6465,7 +6699,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6483,7 +6717,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6501,7 +6735,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6519,7 +6753,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6537,7 +6771,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6555,7 +6789,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6573,7 +6807,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6591,7 +6825,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6609,7 +6843,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6627,7 +6861,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6645,7 +6879,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6663,7 +6897,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6681,7 +6915,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6699,7 +6933,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6717,7 +6951,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6735,7 +6969,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6753,7 +6987,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6771,7 +7005,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6789,7 +7023,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6807,7 +7041,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6825,7 +7059,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6843,7 +7077,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6861,7 +7095,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6879,7 +7113,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6897,7 +7131,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6915,7 +7149,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6933,7 +7167,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6951,7 +7185,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6969,7 +7203,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -6987,7 +7221,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7005,7 +7239,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7023,7 +7257,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7041,7 +7275,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7059,7 +7293,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7077,7 +7311,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7095,7 +7329,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7113,7 +7347,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7131,7 +7365,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7149,7 +7383,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7167,7 +7401,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7185,7 +7419,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7203,7 +7437,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7221,7 +7455,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7239,7 +7473,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7257,7 +7491,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7275,7 +7509,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7293,7 +7527,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7311,7 +7545,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7329,7 +7563,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7347,7 +7581,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7365,7 +7599,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7383,7 +7617,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7401,7 +7635,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7419,7 +7653,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7437,7 +7671,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7455,7 +7689,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7473,7 +7707,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7491,7 +7725,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7509,7 +7743,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7527,7 +7761,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7545,7 +7779,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7563,7 +7797,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7581,7 +7815,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7599,7 +7833,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7617,7 +7851,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7635,7 +7869,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7653,7 +7887,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7671,7 +7905,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7689,7 +7923,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7707,7 +7941,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7725,7 +7959,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7743,7 +7977,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7761,7 +7995,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7779,7 +8013,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7797,7 +8031,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7815,7 +8049,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7833,7 +8067,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7851,7 +8085,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7869,7 +8103,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7887,7 +8121,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7905,7 +8139,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7923,7 +8157,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7941,7 +8175,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7959,7 +8193,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7977,7 +8211,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -7995,7 +8229,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8013,7 +8247,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8031,7 +8265,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8049,7 +8283,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8067,7 +8301,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8085,7 +8319,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8103,7 +8337,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8121,7 +8355,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8139,7 +8373,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8157,7 +8391,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8175,7 +8409,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8193,7 +8427,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8211,7 +8445,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8229,7 +8463,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8247,7 +8481,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8265,7 +8499,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8283,7 +8517,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8301,7 +8535,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8319,7 +8553,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8337,7 +8571,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8355,7 +8589,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8373,7 +8607,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8391,7 +8625,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Americas</td>
 <td style="text-align: left;">USA</td>
 <td style="text-align: left;">US</td>
@@ -8409,7 +8643,7 @@ China](https://github.com/jmcastagnetto/covid-19-data-cleanup/blob/master/latest
 <td style="text-align: left;">2017</td>
 <td style="text-align: left;">2018</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Asia</td>
 <td style="text-align: left;">PSE</td>
 <td style="text-align: left;">occupied Palestinian territory</td>
