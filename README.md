@@ -1,10 +1,10 @@
 R scripts to process/cleanup data from the repo:
 <https://github.com/CSSEGISandData/COVID-19> into tidy datasets[1]
 
-**Last updated on** 2020-03-28 19:16:49 UTC
+**Last updated on** 2020-03-29 00:45:05 UTC
 
 **Data source commit reference**:
-[d1ed7ef35690594a918ed5fe1ffb6a75266d2c1f](https://github.com/CSSEGISandData/COVID-19/commit/d1ed7ef35690594a918ed5fe1ffb6a75266d2c1f)
+[63649e417fc6750faaec10a8a3826644aefc9fb6](https://github.com/CSSEGISandData/COVID-19/commit/63649e417fc6750faaec10a8a3826644aefc9fb6)
 
 *Notes*
 
@@ -151,7 +151,7 @@ format)
 -   world\_bank\_income\_group\_release\_date: World Bank Income Group
     release year
 
-### World Bank popilation estimate for 2020
+### World Bank population estimate for 2020
 
 **Source**:
 <https://databank.worldbank.org/source/population-estimates-and-projections>

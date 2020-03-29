@@ -107,7 +107,7 @@
 - world_bank_income_group_release_date: World Bank Income Group release year
 
 
-### World Bank popilation estimate for 2020
+### World Bank population estimate for 2020
 
 **Source**: https://databank.worldbank.org/source/population-estimates-and-projections
 
