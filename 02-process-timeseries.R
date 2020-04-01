@@ -36,7 +36,7 @@ tsfiles_df <- tsfiles %>%
   )
 
 #-- utility function to parse the timeseries files
-get_tsdata <- function(csv_url) {
+get_global_tsdata <- function(csv_url) {
   read_csv(csv_url,
            col_types = cols(.default = col_character())) %>%
     pivot_longer(
@@ -76,6 +76,10 @@ get_tsdata <- function(csv_url) {
         ),
       by = c("iso3c" = "iso")
     ) %>%
+    mutate(  # fix manually the case of Kosovo
+      continent <- ifelse(continent == "Kosovo", "Europe", continent),
+      iso3c <- ifelse(iso3c == "Kosovo", "UNK", iso3c)
+    ) %>%
     mutate_at(
       vars(
         continent,
@@ -108,12 +112,19 @@ mk_tsibble <- function(df) {
   )
 }
 
+#-- US data files
+us_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_US"),]$download_url
+#-- global data files
+global_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_global"),]$download_url
+
+# TO DO: code to handle the new US data files
+
 #-- get the data
-ts_confirmed <- get_tsdata(tsfiles_df[1,]$download_url) %>%
+ts_confirmed <- get_global_tsdata(global_urls[str_detect(global_urls, "_confirmed_")]) %>%
   rename(confirmed = var)
-ts_deaths <- get_tsdata(tsfiles_df[2,]$download_url) %>%
+ts_deaths <- get_global_tsdata(global_urls[str_detect(gobal_urls, "_deaths_")]) %>%
   rename(deaths = var)
-ts_recovered <- get_tsdata(tsfiles_df[3,]$download_url) %>%
+ts_recovered <- get_global_tsdata(global_urls[str_detect(global_urls, "_recovered_")]) %>%
   rename(recovered = var)
 
 #-- extract places
