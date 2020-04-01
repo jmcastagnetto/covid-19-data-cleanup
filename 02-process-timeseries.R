@@ -122,7 +122,7 @@ global_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_global"),]$downl
 #-- get the data
 ts_confirmed <- get_global_tsdata(global_urls[str_detect(global_urls, "_confirmed_")]) %>%
   rename(confirmed = var)
-ts_deaths <- get_global_tsdata(global_urls[str_detect(gobal_urls, "_deaths_")]) %>%
+ts_deaths <- get_global_tsdata(global_urls[str_detect(global_urls, "_deaths_")]) %>%
   rename(deaths = var)
 ts_recovered <- get_global_tsdata(global_urls[str_detect(global_urls, "_recovered_")]) %>%
   rename(recovered = var)
