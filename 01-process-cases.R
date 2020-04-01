@@ -244,6 +244,7 @@ cases_raw <- cases_raw %>%
     confirmed,
     dead,
     recovered,
+    active,
     lat,
     lon,
     data_update
@@ -259,7 +260,21 @@ cases_raw <- cases_raw %>%
                             nomatch = NULL)
   ) %>%
   select(
-    11, 10, 1:9
+    continent,
+    country_region,
+    iso3c,
+    province_state,
+    fips,
+    admin2,
+    combined_key,
+    lat,
+    lon,
+    update,
+    confirmed,
+    dead,
+    recovered,
+    active,
+    data_update
   ) %>%
   left_join(
     who_metadata %>%
