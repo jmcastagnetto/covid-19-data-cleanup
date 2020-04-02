@@ -27,16 +27,79 @@
 - world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
 - world_bank_income_group_release_date: World Bank Income Group release year
 
-### Timeseries data
+### Global timeseries data
 
 **Files**
 
 - `covid-19_ts_combined.csv`: CSV with combined timeseries data 
 - `covid-19_ts_combined.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+- continent: Geographical continent
+- iso3c: ISO 3166-1 alpha-3 country code
+- country_region: Country (or region)
+- province_state: Province/State/Subnational division
+- ts: UTC date in "YYYY-MM-DD" format
+- status: "confirmed", "deaths", "recovered"
+- number: number of cases
+- lat: Latitude
+- lon: Longitude
+- who_region: WHO region
+- who_region_code: WHO region code
+- world_bank_income_group: World Bank Income Group
+- world_bank_income_group_code: World Bank Income Group code
+- world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
+- world_bank_income_group_release_date: World Bank Income Group release year
+
+**Files**
+
 - `covid-19_ts_confirmed.csv`: CSV file with confirmed cases
 - `covid-19_ts_confirmed.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+- continent: Geographical continent
+- iso3c: ISO 3166-1 alpha-3 country code
+- country_region: Country (or region)
+- province_state: Province/State/Subnational division
+- ts: UTC date in "YYYY-MM-DD" format
+- confirmed: number of confirmed cases
+- lat: Latitude
+- lon: Longitude
+- who_region: WHO region
+- who_region_code: WHO region code
+- world_bank_income_group: World Bank Income Group
+- world_bank_income_group_code: World Bank Income Group code
+- world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
+- world_bank_income_group_release_date: World Bank Income Group release year
+
+
+**Files**
+
 - `covid-19_ts_deaths.csv`: CSV file with deaths
 - `covid-19_ts_deaths.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+- continent: Geographical continent
+- iso3c: ISO 3166-1 alpha-3 country code
+- country_region: Country (or region)
+- province_state: Province/State/Subnational division
+- ts: UTC date in "YYYY-MM-DD" format
+- deaths: number of deaths
+- lat: Latitude
+- lon: Longitude
+- who_region: WHO region
+- who_region_code: WHO region code
+- world_bank_income_group: World Bank Income Group
+- world_bank_income_group_code: World Bank Income Group code
+- world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
+- world_bank_income_group_release_date: World Bank Income Group release year
+
+
+**Files**
+
 - `covid-19_ts_recovered.csv`: CSV file with recovered cases
 - `covid-19_ts_recovered.rds`: RDS version (`tsibble`)
 
@@ -47,9 +110,7 @@
 - country_region: Country (or region)
 - province_state: Province/State/Subnational division
 - ts: UTC date in "YYYY-MM-DD" format
-- confirmed: number of confirmed cases at ts (in combined and confirmed timeseries)
-- deaths: number of deaths at ts (in combined and deaths timeseries)
-- recovered: number of recovered cases at ts (in combined and recovered timeseries)
+- recovered: number of people who recovered
 - lat: Latitude
 - lon: Longitude
 - who_region: WHO region
@@ -58,6 +119,81 @@
 - world_bank_income_group_code: World Bank Income Group code
 - world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
 - world_bank_income_group_release_date: World Bank Income Group release year
+
+
+
+
+
+### US timeseries data
+
+**Files**
+
+- `covid-19_ts_us_combined.csv`: CSV with combined timeseries data 
+- `covid-19_ts_us_combined.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+- continent: Geographical continent
+- iso3c: ISO 3166-1 alpha-3 country code
+- country_region: Country (or region)
+- province_state: Province/State/Subnational division
+- ts: UTC date in "YYYY-MM-DD" format
+- status: "confirmed", "deaths", "recovered"
+- number: number of cases
+- lat: Latitude
+- lon: Longitude
+- who_region: WHO region
+- who_region_code: WHO region code
+- world_bank_income_group: World Bank Income Group
+- world_bank_income_group_code: World Bank Income Group code
+- world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
+- world_bank_income_group_release_date: World Bank Income Group release year
+
+**Files**
+
+- `covid-19_ts_us_confirmed.csv`: CSV file with confirmed cases for US
+- `covid-19_ts_us_confirmed.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+- continent: Geographical continent
+- iso3c: ISO 3166-1 alpha-3 country code
+- country_region: Country (or region)
+- province_state: Province/State/Subnational division
+- ts: UTC date in "YYYY-MM-DD" format
+- confirmed: number of confirmed cases
+- lat: Latitude
+- lon: Longitude
+- who_region: WHO region
+- who_region_code: WHO region code
+- world_bank_income_group: World Bank Income Group
+- world_bank_income_group_code: World Bank Income Group code
+- world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
+- world_bank_income_group_release_date: World Bank Income Group release year
+
+**Files**
+
+- `covid-19_ts_us_deaths.csv`: CSV file with deaths for US
+- `covid-19_ts_us_deaths.rds`: RDS version (`tsibble`)
+
+**Data structure**:
+
+- continent: Geographical continent
+- iso3c: ISO 3166-1 alpha-3 country code
+- country_region: Country (or region)
+- province_state: Province/State/Subnational division
+- ts: UTC date in "YYYY-MM-DD" format
+- deaths: number of deaths
+- lat: Latitude
+- lon: Longitude
+- who_region: WHO region
+- who_region_code: WHO region code
+- world_bank_income_group: World Bank Income Group
+- world_bank_income_group_code: World Bank Income Group code
+- world_bank_income_group_gni_reference_year: World Bank Income Group GNI reference year
+- world_bank_income_group_release_date: World Bank Income Group release year
+
+
 
 ### WHO situation report data:
 
