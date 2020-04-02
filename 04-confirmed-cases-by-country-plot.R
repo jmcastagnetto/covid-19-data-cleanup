@@ -1,6 +1,7 @@
 library(tidyverse)
 library(gh)
 library(countrycode)
+library(rlist)
 
 load("data/wb_population.Rdata")
 
@@ -8,7 +9,12 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
            owner = "CSSEGISandData",
            repo = "COVID-19")
 
-latest_commit_sha <- str_sub(meta[[1]]$object$sha, 1, 7)
+latest_commit_sha <- meta %>%
+  list.filter(str_detect(ref, "master")) %>%
+  list.mapv(object$sha) %>%
+  str_sub(1,7)
+
+print("Master branch, last commit:")
 print(latest_commit_sha)
 
 ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds") %>%
