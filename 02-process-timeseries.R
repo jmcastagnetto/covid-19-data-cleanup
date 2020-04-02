@@ -99,21 +99,21 @@ get_global_tsdata <- function(csv_url) {
 }
 
 #-- convert df to tsibble
-mk_global_tsibble <- function(df) {
-  tsibble::as_tsibble(
-    df,
-    key = c("continent", "who_region", "who_region_code",
-            "world_bank_income_group",
-            "world_bank_income_group_code",
-            "world_bank_income_group_gni_reference_year",
-            "world_bank_income_group_release_date",
-            "country_region", "iso3c",
-            "province_state",
-            "lat", "lon"),
-    index = ts
-  )
-}
-
+# mk_global_tsibble <- function(df) {
+#   tsibble::as_tsibble(
+#     df,
+#     key = c("continent", "who_region", "who_region_code",
+#             "world_bank_income_group",
+#             "world_bank_income_group_code",
+#             "world_bank_income_group_gni_reference_year",
+#             "world_bank_income_group_release_date",
+#             "country_region", "iso3c",
+#             "province_state",
+#             "lat", "lon"),
+#     index = ts
+#   )
+# }
+#
 
 #-- global data files
 global_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_global"),]$download_url
@@ -135,62 +135,29 @@ places <- bind_rows(
   distinct() %>%
   arrange(continent, country_region, iso3c, province_state)
 
-#-- combine all data and make them tsibbles
-ts_combined <- as_tibble(ts_confirmed) %>%
-  select(-lat, -lon) %>%
-  left_join(
-    ts_deaths %>% select(-lat, -lon),
-    by = c("continent",
-           "iso3c", "country_region",
-           "province_state", "ts",
-           "who_region_code", "who_region",
-           "world_bank_income_group",
-           "world_bank_income_group_code",
-           "world_bank_income_group_gni_reference_year",
-           "world_bank_income_group_release_date")
-  ) %>%
-  left_join(
-    ts_recovered %>% select(-lat, -lon),
-    by = c("continent",
-           "iso3c", "country_region",
-           "province_state", "ts",
-           "who_region_code", "who_region",
-           "world_bank_income_group",
-           "world_bank_income_group_code",
-           "world_bank_income_group_gni_reference_year",
-           "world_bank_income_group_release_date")
-  ) %>%
-  left_join(
-    places,
-    by = c("continent",
-           "iso3c", "country_region",
-           "province_state")
-  ) %>%
-  select(
-    continent,
-  	iso3c,
-  	country_region,
-  	province_state,
-  	ts,
-  	confirmed,
-  	deaths,
-  	recovered,
-  	who_region,
-  	who_region_code,
-  	world_bank_income_group,
-  	world_bank_income_group_code,
-  	world_bank_income_group_gni_reference_year,
-  	world_bank_income_group_release_date,
-  	lat,
-  	lon
-  ) %>%
-  mk_global_tsibble()
+#-- combine all data
+ts_combined <- bind_rows(
+  ts_confirmed %>%
+    add_column(
+      status = "confirmed",
+      .before = "confirmed"
+    ) %>%
+    rename(number = confirmed),
+  ts_deaths %>%
+    add_column(
+      status = "deaths",
+      .before = "deaths"
+    ) %>%
+    rename(number = deaths),
+  ts_recovered %>%
+    add_column(
+      status = "recovered",
+      .before = "recovered"
+    ) %>%
+    rename(number = recovered)
+)
 
-ts_confirmed <- mk_global_tsibble(ts_confirmed)
-ts_deaths <- mk_global_tsibble(ts_deaths)
-ts_recovered <- mk_global_tsibble(ts_recovered)
-
-#-- save timeseries
+#-- save global timeseries
 saveRDS(
   ts_confirmed,
   file = "data/covid-19_ts_confirmed.rds"
@@ -313,7 +280,50 @@ ts_us_deaths <- read_csv(
     ts, deaths
   )
 
+#-- extract "Population" from ts_us_deaths
+us_pop <- ts_us_deaths %>%
+  select(fips, population) %>%
+  distinct()
+
+pop_column <- ts_us_confirmed %>%
+  select(ts, fips) %>%
+  left_join(
+    us_pop,
+    by = "fips"
+  ) %>%
+  distinct() %>%
+  pull(population)
+
+ts_us_confirmed <- ts_us_confirmed %>%
+  add_column(
+    pop_column,
+    .after = "lon"
+  ) %>%
+  rename(
+    population = pop_column
+  )
+
+ts_us_combined <- bind_rows(
+  ts_us_confirmed %>%
+    mutate(status = "confirmed") %>%
+    rename(number = confirmed),
+  ts_us_deaths %>%
+    mutate(status = "deaths") %>%
+    rename(number = deaths)
+)
+
 #-- save ts US data
+
+saveRDS(
+  ts_us_combined,
+  file = "data/covid-19_ts_us_combined.rds"
+)
+
+write_csv(
+  ts_us_combined,
+  path = "data/covid-19_ts_us_combined.csv"
+)
+
 saveRDS(
   ts_us_confirmed,
   file = "data/covid-19_ts_us_confirmed.rds"
@@ -428,17 +438,18 @@ ts_who_sitrep <- who_sitrep_raw %>%
       world_bank_income_group_release_date
     ),
     as_factor
-  ) %>%
-  tsibble::as_tsibble(
-    key = c("continent", "who_region", "who_region_code",
-            "world_bank_income_group",
-            "world_bank_income_group_code",
-            "world_bank_income_group_gni_reference_year",
-            "world_bank_income_group_release_date",
-            "country_region", "iso3c",
-            "province_state"),
-    index = ts
   )
+  # ) %>%
+  # tsibble::as_tsibble(
+  #   key = c("continent", "who_region", "who_region_code",
+  #           "world_bank_income_group",
+  #           "world_bank_income_group_code",
+  #           "world_bank_income_group_gni_reference_year",
+  #           "world_bank_income_group_release_date",
+  #           "country_region", "iso3c",
+  #           "province_state"),
+  #   index = ts
+  # )
 
 saveRDS(
   ts_who_sitrep,

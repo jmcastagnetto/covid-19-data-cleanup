@@ -1,6 +1,6 @@
 library(tidyverse)
 
-world <- readRDS("data/covid-19_ts_combined.rds") %>%
+world <- readRDS("data/covid-19_ts_confirmed.rds") %>%
   filter(confirmed > 2) %>%
   as_tibble()
 
@@ -9,13 +9,11 @@ mk_plots <- function(data, continent_str) {
     filter(continent == continent_str) %>%
     group_by(continent, who_region, world_bank_income_group, iso3c, country_region, ts) %>%
     summarise(
-      confirmed = sum(confirmed, na.rm = TRUE),
-      recovered = sum(recovered, na.rm = TRUE),
-      deaths = sum(deaths, na.rma = TRUE)
+      confirmed = sum(confirmed, na.rm = TRUE)
     ) %>%
     mutate(
-      wk_before_confirmed = lag(confirmed, 7) - (lag(recovered, 7) + lag(deaths, 7)),
-      new_confirmed = (confirmed - (recovered + deaths)) - wk_before_confirmed,  # 7 days lag,
+      wk_before_confirmed = lag(confirmed, 7),
+      new_confirmed = confirmed - wk_before_confirmed,  # 7 days lag,
       max_confirmed = max(confirmed, na.rm = TRUE),
       max_new_confirmed = max(new_confirmed, na.rm = TRUE),
       world_bank_income_group = fct_relevel(

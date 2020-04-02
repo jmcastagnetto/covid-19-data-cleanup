@@ -11,15 +11,13 @@ meta <- gh("GET /repos/:owner/:repo/git/refs",
 latest_commit_sha <- str_sub(meta[[1]]$object$sha, 1, 7)
 print(latest_commit_sha)
 
-ts_combined <- readRDS("data/covid-19_ts_combined.rds") %>%
+ts_confirmed <- readRDS("data/covid-19_ts_confirmed.rds") %>%
   filter(!is.na(confirmed))
 
-country_df <- as_tibble(ts_combined) %>%
+country_df <- as_tibble(ts_confirmed) %>%
   group_by(country_region, ts) %>%
   summarise(
-    confirmed = sum(confirmed, na.rm = TRUE),
-    deaths = sum(deaths, na.rm = TRUE),
-    recovered = sum(recovered, na.rm = TRUE)
+    confirmed = sum(confirmed, na.rm = TRUE)
   ) %>%
   ungroup() %>%
   mutate(
@@ -41,9 +39,7 @@ country_df <- as_tibble(ts_combined) %>%
     by = c("iso3c" = "country_code")
   ) %>%
   mutate(
-    confirmed_pm = confirmed * 1e6 / population_2020,
-    deaths_pm = deaths * 1e6 / population_2020,
-    recovered_pm = recovered * 1e6 / population_2020,
+    confirmed_pm = confirmed * 1e6 / population_2020
   ) %>%
   arrange(country_region, ts)
 
