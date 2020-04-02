@@ -290,8 +290,8 @@ cases_raw <- cases_raw %>%
     by = c("iso3c" = "iso")
   ) %>%
   mutate(  # fix manually the case of Kosovo
-    continent <- ifelse(continent == "Kosovo", "Europe", continent),
-    iso3c <- ifelse(iso3c == "Kosovo", "UNK", iso3c)
+    continent = ifelse(continent == "Kosovo", "Europe", continent),
+    iso3c = ifelse(iso3c == "Kosovo", "UNK", iso3c)
   ) %>%
   mutate_at(
     vars(

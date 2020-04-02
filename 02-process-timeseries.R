@@ -35,6 +35,8 @@ tsfiles_df <- tsfiles %>%
     str_detect(name, "\\.csv")
   )
 
+#-- to parse global timeseries data
+
 #-- utility function to parse the timeseries files
 get_global_tsdata <- function(csv_url) {
   read_csv(csv_url,
@@ -77,8 +79,8 @@ get_global_tsdata <- function(csv_url) {
       by = c("iso3c" = "iso")
     ) %>%
     mutate(  # fix manually the case of Kosovo
-      continent <- ifelse(continent == "Kosovo", "Europe", continent),
-      iso3c <- ifelse(iso3c == "Kosovo", "UNK", iso3c)
+      continent = ifelse(continent == "Kosovo", "Europe", continent),
+      iso3c = ifelse(iso3c == "Kosovo", "UNK", iso3c)
     ) %>%
     mutate_at(
       vars(
@@ -97,7 +99,7 @@ get_global_tsdata <- function(csv_url) {
 }
 
 #-- convert df to tsibble
-mk_tsibble <- function(df) {
+mk_global_tsibble <- function(df) {
   tsibble::as_tsibble(
     df,
     key = c("continent", "who_region", "who_region_code",
@@ -112,14 +114,11 @@ mk_tsibble <- function(df) {
   )
 }
 
-#-- US data files
-us_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_US"),]$download_url
+
 #-- global data files
 global_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_global"),]$download_url
 
-# TO DO: code to handle the new US data files
-
-#-- get the data
+#-- get the global data
 ts_confirmed <- get_global_tsdata(global_urls[str_detect(global_urls, "_confirmed_")]) %>%
   rename(confirmed = var)
 ts_deaths <- get_global_tsdata(global_urls[str_detect(global_urls, "_deaths_")]) %>%
@@ -169,27 +168,27 @@ ts_combined <- as_tibble(ts_confirmed) %>%
   ) %>%
   select(
     continent,
-	iso3c,
-	country_region,
-	province_state,
-	ts,
-	confirmed,
-	deaths,
-	recovered,
-	who_region,
-	who_region_code,
-	world_bank_income_group,
-	world_bank_income_group_code,
-	world_bank_income_group_gni_reference_year,
-	world_bank_income_group_release_date,
-	lat,
-	lon
+  	iso3c,
+  	country_region,
+  	province_state,
+  	ts,
+  	confirmed,
+  	deaths,
+  	recovered,
+  	who_region,
+  	who_region_code,
+  	world_bank_income_group,
+  	world_bank_income_group_code,
+  	world_bank_income_group_gni_reference_year,
+  	world_bank_income_group_release_date,
+  	lat,
+  	lon
   ) %>%
-  mk_tsibble()
+  mk_global_tsibble()
 
-ts_confirmed <- mk_tsibble(ts_confirmed)
-ts_deaths <- mk_tsibble(ts_deaths)
-ts_recovered <- mk_tsibble(ts_recovered)
+ts_confirmed <- mk_global_tsibble(ts_confirmed)
+ts_deaths <- mk_global_tsibble(ts_deaths)
+ts_recovered <- mk_global_tsibble(ts_recovered)
 
 #-- save timeseries
 saveRDS(
@@ -230,6 +229,109 @@ write.csv(
   ts_combined,
   file = "data/covid-19_ts_combined.csv",
   row.names = FALSE
+)
+
+#-- to parse US timeseries data
+# The file with confirmed cases has different columns than the the one
+# with deaths. The latter has a "Population" column.
+
+#-- US data files
+us_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_US"),]$download_url
+
+#-- US confirmed cases
+ts_us_confirmed <- read_csv(
+  us_urls[str_detect(us_urls, "_confirmed_")],
+  col_types = cols(.default = col_character())
+) %>%
+  pivot_longer(
+    -c("UID", "iso2", "iso3", "code3", "FIPS", "Admin2",
+       "Province_State", "Country_Region", "Lat", "Long_",
+       "Combined_Key"),
+    names_to = "ts",
+    values_to = "confirmed"
+  ) %>%
+  janitor::clean_names() %>%
+  rename(
+    lon = long
+  ) %>%
+  mutate(
+    ts = lubridate::mdy(ts),
+    confirmed = as.integer(confirmed),
+    lat = round(as.double(lat), 5),
+    lon = round(as.double(lon), 5),
+    iso3c = countrycode(country_region,
+                        origin = "country.name",
+                        destination = "iso3c",
+                        nomatch = NULL),
+    continent = countrycode(country_region,
+                            origin = "country.name",
+                            destination = "continent",
+                            nomatch = NULL)
+  ) %>%
+  select(
+    continent, country_region, iso3c,
+    province_state, uid, iso2, iso3, code3, fips, admin2, combined_key,
+    lat, lon,
+    ts, confirmed
+  )
+
+#-- US deaths data
+ts_us_deaths <- read_csv(
+  us_urls[str_detect(us_urls, "_deaths_")],
+  col_types = cols(.default = col_character())
+) %>%
+  pivot_longer(
+    -c("UID", "iso2", "iso3", "code3", "FIPS", "Admin2",
+       "Province_State", "Country_Region", "Lat", "Long_",
+       "Combined_Key", "Population"),
+    names_to = "ts",
+    values_to = "deaths"
+  ) %>%
+  janitor::clean_names() %>%
+  rename(
+    lon = long
+  ) %>%
+  mutate(
+    ts = lubridate::mdy(ts),
+    deaths = as.integer(deaths),
+    population = as.integer(population),
+    lat = round(as.double(lat), 5),
+    lon = round(as.double(lon), 5),
+    iso3c = countrycode(country_region,
+                        origin = "country.name",
+                        destination = "iso3c",
+                        nomatch = NULL),
+    continent = countrycode(country_region,
+                            origin = "country.name",
+                            destination = "continent",
+                            nomatch = NULL)
+  ) %>%
+  select(
+    continent, country_region, iso3c,
+    province_state, uid, iso2, iso3, code3, fips, admin2, combined_key,
+    lat, lon, population,
+    ts, deaths
+  )
+
+#-- save ts US data
+saveRDS(
+  ts_us_confirmed,
+  file = "data/covid-19_ts_us_confirmed.rds"
+)
+
+write_csv(
+  ts_us_confirmed,
+  path = "data/covid-19_ts_us_confirmed.csv"
+)
+
+saveRDS(
+  ts_us_deaths,
+  file = "data/covid-19_ts_us_deaths.rds"
+)
+
+write_csv(
+  ts_us_deaths,
+  path = "data/covid-19_ts_us_deaths.csv"
 )
 
 #-- process the WHO sitrep ts

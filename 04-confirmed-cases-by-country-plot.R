@@ -31,7 +31,10 @@ country_df <- as_tibble(ts_combined) %>%
                             origin = "country.name",
                             destination = "continent",
                             nomatch = NULL),
-    country_region = factor(as.character(country_region))
+    country_region = factor(as.character(country_region)),
+    # fix manually the case of Kosovo
+    continent = ifelse(continent == "Kosovo", "Europe", continent),
+    iso3c = ifelse(iso3c == "Kosovo", "UNK", iso3c)
   ) %>%
   left_join(
     wb_pop %>% select(country_code, population_2020),
