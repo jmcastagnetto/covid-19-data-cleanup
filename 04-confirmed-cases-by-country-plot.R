@@ -48,7 +48,7 @@ mk_plot <- function(df, title_extra = "") {
          aes(x = ts, y = confirmed,
              color = country_region)) +
     geom_line(show.legend = FALSE, size = .5) +
-    geom_point(show.legend = FALSE, size = .5) +
+    #geom_point(show.legend = FALSE, size = .5) +
     facet_wrap(~country_region, scales = "free_y") +
     scale_y_continuous(
       labels = scales::label_comma(),
@@ -61,7 +61,7 @@ mk_plot <- function(df, title_extra = "") {
       subtitle = paste0("Data source: https://github.com/CSSEGISandData/COVID-19 (commit: ", latest_commit_sha, ")"),
       caption = paste("Last update: ", format(lubridate::now(tzone = "UTC"), "%F %T %Z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
     ) +
-    ggdark::dark_theme_minimal(12) +
+    ggdark::dark_theme_minimal() +
     theme(
       plot.margin = unit(rep(1, 4), "cm"),
       axis.text.x = element_text(angle = 90),
@@ -74,7 +74,7 @@ mk_plot2 <- function(df, title_extra = "") {
          aes(x = ts, y = confirmed_pm,
              color = country_region)) +
     geom_line(show.legend = FALSE, size = .5) +
-    geom_point(show.legend = FALSE, size = .5) +
+    #geom_point(show.legend = FALSE, size = .5) +
     facet_wrap(~country_region, scales = "free_y") +
     scale_y_continuous(
       labels = scales::label_comma(),
@@ -87,7 +87,7 @@ mk_plot2 <- function(df, title_extra = "") {
       subtitle = paste0("Data source: https://github.com/CSSEGISandData/COVID-19 (commit: ", latest_commit_sha, ")"),
       caption = paste("Last update: ", format(lubridate::now(tzone = "UTC"), "%F %T %Z"), "/ @jmcastagnetto, Jesús M. Castagnetto")
     ) +
-    ggdark::dark_theme_minimal(12) +
+    ggdark::dark_theme_minimal() +
     theme(
       plot.margin = unit(rep(1, 4), "cm"),
       axis.text.x = element_text(angle = 90),
