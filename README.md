@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-04-02 01:25:15 UTC
+**Last updated on** 2020-04-02 01:32:02 UTC
 
 **Data source commit reference**:
 [cf638842b69977d7ce210a3a3aa106d499ce2534](https://github.com/CSSEGISandData/COVID-19/commit/cf638842b69977d7ce210a3a3aa106d499ce2534)
@@ -26,6 +26,10 @@ into tidy datasets[1]
 -   **2020-03-12**: source data no longer has the classification
     “Others” for locations not corresponding to countries (i.e. Cruise
     Ships), so the code has been modified to account for that change.
+-   **2020-04-01**: the new US only timeseries data files from the
+    source, have different number of columns, the file containing the
+    deaths has a `Population` column that is not present in the cofirmed
+    cases file.
 
 ------------------------------------------------------------------------
 
