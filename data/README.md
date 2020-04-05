@@ -3,7 +3,7 @@
 
 **Files**
 
-- `covid-19_cases_raw.csv`: CSV with processed cases file
+- `covid-19_cases_raw.csv.gz`: CSV with processed cases file
 - `covid-19_cases_raw.RDS`: RDS format version
 
 **Data structure**:
@@ -31,7 +31,7 @@
 
 **Files**
 
-- `covid-19_ts_combined.csv`: CSV with combined timeseries data 
+- `covid-19_ts_combined.csv.gz`: CSV with combined timeseries data 
 - `covid-19_ts_combined.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -54,7 +54,7 @@
 
 **Files**
 
-- `covid-19_ts_confirmed.csv`: CSV file with confirmed cases
+- `covid-19_ts_confirmed.csv.gz`: CSV file with confirmed cases
 - `covid-19_ts_confirmed.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -77,7 +77,7 @@
 
 **Files**
 
-- `covid-19_ts_deaths.csv`: CSV file with deaths
+- `covid-19_ts_deaths.csv.gz`: CSV file with deaths
 - `covid-19_ts_deaths.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -100,7 +100,7 @@
 
 **Files**
 
-- `covid-19_ts_recovered.csv`: CSV file with recovered cases
+- `covid-19_ts_recovered.csv.gz`: CSV file with recovered cases
 - `covid-19_ts_recovered.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -128,7 +128,7 @@
 
 **Files**
 
-- `covid-19_ts_us_combined.csv`: CSV with combined timeseries data 
+- `covid-19_ts_us_combined.csv.gz`: CSV with combined timeseries data 
 - `covid-19_ts_us_combined.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -151,7 +151,7 @@
 
 **Files**
 
-- `covid-19_ts_us_confirmed.csv`: CSV file with confirmed cases for US
+- `covid-19_ts_us_confirmed.csv.gz`: CSV file with confirmed cases for US
 - `covid-19_ts_us_confirmed.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -173,7 +173,7 @@
 
 **Files**
 
-- `covid-19_ts_us_deaths.csv`: CSV file with deaths for US
+- `covid-19_ts_us_deaths.csv.gz`: CSV file with deaths for US
 - `covid-19_ts_us_deaths.rds`: RDS version (`tsibble`)
 
 **Data structure**:
@@ -200,7 +200,7 @@
 **Files**:
 
 - `covid-19_who_sitrep_raw.rds`: Lightly cleaned WHO situation report in RDS format
-- `covid-19_ts_who_sitrep.csv`: Timeseries from WHO situation reports
+- `covid-19_ts_who_sitrep.csv.gz`: Timeseries from WHO situation reports
 - `covid-19_ts_who_sitrep.rds`: RDS version (`tsibble`)
 
 **Data structure**:
