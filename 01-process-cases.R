@@ -316,9 +316,7 @@ saveRDS(
   cases_raw,
   file = "data/covid-19_cases_raw.rds"
 )
-
-write.csv(
+write_csv(
   cases_raw,
-  file = "data/covid-19_cases_raw.csv",
-  row.names = FALSE
+  path = "data/covid-19_cases_raw.csv.gz"
 )

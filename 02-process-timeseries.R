@@ -162,40 +162,36 @@ saveRDS(
   ts_confirmed,
   file = "data/covid-19_ts_confirmed.rds"
 )
-write.csv(
+write_csv(
   ts_confirmed,
-  file = "data/covid-19_ts_confirmed.csv",
-  row.names = FALSE
+  path = "data/covid-19_ts_confirmed.csv.gz"
 )
 
 saveRDS(
   ts_deaths,
   file = "data/covid-19_ts_deaths.rds"
 )
-write.csv(
+write_csv(
   ts_deaths,
-  file = "data/covid-19_ts_deaths.csv",
-  row.names = FALSE
+  path = "data/covid-19_ts_deaths.csv.gz"
 )
 
 saveRDS(
   ts_recovered,
   file = "data/covid-19_ts_recovered.rds"
 )
-write.csv(
+write_csv(
   ts_recovered,
-  file = "data/covid-19_ts_recovered.csv",
-  row.names = FALSE
+  path = "data/covid-19_ts_recovered.csv.gz"
 )
 
 saveRDS(
   ts_combined,
   file = "data/covid-19_ts_combined.rds"
 )
-write.csv(
+write_csv(
   ts_combined,
-  file = "data/covid-19_ts_combined.csv",
-  row.names = FALSE
+  path = "data/covid-19_ts_combined.csv.gz"
 )
 
 #-- to parse US timeseries data
@@ -318,30 +314,27 @@ saveRDS(
   ts_us_combined,
   file = "data/covid-19_ts_us_combined.rds"
 )
-
 write_csv(
   ts_us_combined,
-  path = "data/covid-19_ts_us_combined.csv"
+  path = "data/covid-19_ts_us_combined.csv.gz"
 )
 
 saveRDS(
   ts_us_confirmed,
   file = "data/covid-19_ts_us_confirmed.rds"
 )
-
 write_csv(
   ts_us_confirmed,
-  path = "data/covid-19_ts_us_confirmed.csv"
+  path = "data/covid-19_ts_us_confirmed.csv.gz"
 )
 
 saveRDS(
   ts_us_deaths,
   file = "data/covid-19_ts_us_deaths.rds"
 )
-
 write_csv(
   ts_us_deaths,
-  path = "data/covid-19_ts_us_deaths.csv"
+  path = "data/covid-19_ts_us_deaths.csv.gz"
 )
 
 #-- process the WHO sitrep ts
@@ -456,8 +449,7 @@ saveRDS(
   file = "data/covid-19_ts_who_sitrep.rds"
 )
 
-write.csv(
+write_csv(
   ts_who_sitrep,
-  file = "data/covid-19_ts_who_sitrep.csv",
-  row.names = FALSE
+  path = "data/covid-19_ts_who_sitrep.csv.gz"
 )

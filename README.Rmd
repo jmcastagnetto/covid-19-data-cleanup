@@ -36,6 +36,7 @@ R scripts to process/cleanup data from the repo: https://github.com/CSSEGISandDa
 	- Added code to tidy the WHO situation report timeseries
   - **2020-03-12**: source data no longer has the classification "Others" for locations not corresponding to countries (i.e. Cruise Ships), so the code has been modified to account for that change.
   - **2020-04-01**: the new US only timeseries data files from the source, have different number of columns, the file containing the deaths has a `Population` column that is not present in the cofirmed cases file.
+  - **2020-04-05**: csv files are now gzip compressed to avoid hitting github's max file size
 
 -----
 

@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-04-05 02:21:45 UTC
+**Last updated on** 2020-04-05 14:56:02 UTC
 
 **Data source commit reference**:
 [3200a6b24301ff12cf13ac969e3c60c8e245c4ce](https://github.com/CSSEGISandData/COVID-19/commit/3200a6b24301ff12cf13ac969e3c60c8e245c4ce)
@@ -30,6 +30,8 @@ into tidy datasets[1]
     source, have different number of columns, the file containing the
     deaths has a `Population` column that is not present in the cofirmed
     cases file.
+-   **2020-04-05**: csv files are now gzip compressed to avoid hitting
+    github’s max file size
 
 ------------------------------------------------------------------------
 
