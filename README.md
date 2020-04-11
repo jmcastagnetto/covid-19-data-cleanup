@@ -2,7 +2,7 @@ R scripts to process/cleanup data from the repo:
 <a href="https://github.com/CSSEGISandData/COVID-19" class="uri">https://github.com/CSSEGISandData/COVID-19</a>
 into tidy datasets[1]
 
-**Last updated on** 2020-04-11 04:30:43 UTC
+**Last updated on** 2020-04-11 23:08:43 UTC
 
 **Data source commit reference**:
 [3200a6b24301ff12cf13ac969e3c60c8e245c4ce](https://github.com/CSSEGISandData/COVID-19/commit/3200a6b24301ff12cf13ac969e3c60c8e245c4ce)
