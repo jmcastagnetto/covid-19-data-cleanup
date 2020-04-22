@@ -198,145 +198,145 @@ write_csv(
 # The file with confirmed cases has different columns than the the one
 # with deaths. The latter has a "Population" column.
 
-#-- US data files
-us_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_US"),]$download_url
-
-#-- US confirmed cases
-ts_us_confirmed <- read_csv(
-  us_urls[str_detect(us_urls, "_confirmed_")],
-  col_types = cols(.default = col_character())
-) %>%
-  pivot_longer(
-    -c("UID", "iso2", "iso3", "code3", "FIPS", "Admin2",
-       "Province_State", "Country_Region", "Lat", "Long_",
-       "Combined_Key"),
-    names_to = "ts",
-    values_to = "confirmed"
-  ) %>%
-  janitor::clean_names() %>%
-  rename(
-    lon = long
-  ) %>%
-  mutate(
-    ts = lubridate::mdy(ts),
-    confirmed = as.integer(confirmed),
-    lat = round(as.double(lat), 5),
-    lon = round(as.double(lon), 5),
-    iso3c = countrycode(country_region,
-                        origin = "country.name",
-                        destination = "iso3c",
-                        nomatch = NULL),
-    continent = countrycode(country_region,
-                            origin = "country.name",
-                            destination = "continent",
-                            nomatch = NULL)
-  ) %>%
-  select(
-    continent, country_region, iso3c,
-    province_state, uid, iso2, iso3, code3, fips, admin2, combined_key,
-    lat, lon,
-    ts, confirmed
-  )
-
-#-- US deaths data
-ts_us_deaths <- read_csv(
-  us_urls[str_detect(us_urls, "_deaths_")],
-  col_types = cols(.default = col_character())
-) %>%
-  pivot_longer(
-    -c("UID", "iso2", "iso3", "code3", "FIPS", "Admin2",
-       "Province_State", "Country_Region", "Lat", "Long_",
-       "Combined_Key", "Population"),
-    names_to = "ts",
-    values_to = "deaths"
-  ) %>%
-  janitor::clean_names() %>%
-  rename(
-    lon = long
-  ) %>%
-  mutate(
-    ts = lubridate::mdy(ts),
-    deaths = as.integer(deaths),
-    population = as.integer(population),
-    lat = round(as.double(lat), 5),
-    lon = round(as.double(lon), 5),
-    iso3c = countrycode(country_region,
-                        origin = "country.name",
-                        destination = "iso3c",
-                        nomatch = NULL),
-    continent = countrycode(country_region,
-                            origin = "country.name",
-                            destination = "continent",
-                            nomatch = NULL)
-  ) %>%
-  select(
-    continent, country_region, iso3c,
-    province_state, uid, iso2, iso3, code3, fips, admin2, combined_key,
-    lat, lon, population,
-    ts, deaths
-  )
-
-#-- extract "Population" from ts_us_deaths
-us_pop <- ts_us_deaths %>%
-  select(fips, population) %>%
-  distinct()
-
-pop_column <- ts_us_confirmed %>%
-  select(ts, fips) %>%
-  left_join(
-    us_pop,
-    by = "fips"
-  ) %>%
-  distinct() %>%
-  pull(population)
-
-ts_us_confirmed <- ts_us_confirmed %>%
-  add_column(
-    pop_column,
-    .after = "lon"
-  ) %>%
-  rename(
-    population = pop_column
-  )
-
-ts_us_combined <- bind_rows(
-  ts_us_confirmed %>%
-    mutate(status = "confirmed") %>%
-    rename(number = confirmed),
-  ts_us_deaths %>%
-    mutate(status = "deaths") %>%
-    rename(number = deaths)
-)
-
-#-- save ts US data
-
-saveRDS(
-  ts_us_combined,
-  file = "data/covid-19_ts_us_combined.rds"
-)
-write_csv(
-  ts_us_combined,
-  path = "data/covid-19_ts_us_combined.csv.gz"
-)
-
-saveRDS(
-  ts_us_confirmed,
-  file = "data/covid-19_ts_us_confirmed.rds"
-)
-write_csv(
-  ts_us_confirmed,
-  path = "data/covid-19_ts_us_confirmed.csv.gz"
-)
-
-saveRDS(
-  ts_us_deaths,
-  file = "data/covid-19_ts_us_deaths.rds"
-)
-write_csv(
-  ts_us_deaths,
-  path = "data/covid-19_ts_us_deaths.csv.gz"
-)
-
+# #-- US data files
+# us_urls <- tsfiles_df[str_detect(tsfiles_df$download_url, "_US"),]$download_url
+# 
+# #-- US confirmed cases
+# ts_us_confirmed <- read_csv(
+#   us_urls[str_detect(us_urls, "_confirmed_")],
+#   col_types = cols(.default = col_character())
+# ) %>%
+#   pivot_longer(
+#     -c("UID", "iso2", "iso3", "code3", "FIPS", "Admin2",
+#        "Province_State", "Country_Region", "Lat", "Long_",
+#        "Combined_Key"),
+#     names_to = "ts",
+#     values_to = "confirmed"
+#   ) %>%
+#   janitor::clean_names() %>%
+#   rename(
+#     lon = long
+#   ) %>%
+#   mutate(
+#     ts = lubridate::mdy(ts),
+#     confirmed = as.integer(confirmed),
+#     lat = round(as.double(lat), 5),
+#     lon = round(as.double(lon), 5),
+#     iso3c = countrycode(country_region,
+#                         origin = "country.name",
+#                         destination = "iso3c",
+#                         nomatch = NULL),
+#     continent = countrycode(country_region,
+#                             origin = "country.name",
+#                             destination = "continent",
+#                             nomatch = NULL)
+#   ) %>%
+#   select(
+#     continent, country_region, iso3c,
+#     province_state, uid, iso2, iso3, code3, fips, admin2, combined_key,
+#     lat, lon,
+#     ts, confirmed
+#   )
+# 
+# #-- US deaths data
+# ts_us_deaths <- read_csv(
+#   us_urls[str_detect(us_urls, "_deaths_")],
+#   col_types = cols(.default = col_character())
+# ) %>%
+#   pivot_longer(
+#     -c("UID", "iso2", "iso3", "code3", "FIPS", "Admin2",
+#        "Province_State", "Country_Region", "Lat", "Long_",
+#        "Combined_Key", "Population"),
+#     names_to = "ts",
+#     values_to = "deaths"
+#   ) %>%
+#   janitor::clean_names() %>%
+#   rename(
+#     lon = long
+#   ) %>%
+#   mutate(
+#     ts = lubridate::mdy(ts),
+#     deaths = as.integer(deaths),
+#     population = as.integer(population),
+#     lat = round(as.double(lat), 5),
+#     lon = round(as.double(lon), 5),
+#     iso3c = countrycode(country_region,
+#                         origin = "country.name",
+#                         destination = "iso3c",
+#                         nomatch = NULL),
+#     continent = countrycode(country_region,
+#                             origin = "country.name",
+#                             destination = "continent",
+#                             nomatch = NULL)
+#   ) %>%
+#   select(
+#     continent, country_region, iso3c,
+#     province_state, uid, iso2, iso3, code3, fips, admin2, combined_key,
+#     lat, lon, population,
+#     ts, deaths
+#   )
+# 
+# #-- extract "Population" from ts_us_deaths
+# us_pop <- ts_us_deaths %>%
+#   select(fips, population) %>%
+#   distinct()
+# 
+# pop_column <- ts_us_confirmed %>%
+#   select(ts, fips) %>%
+#   left_join(
+#     us_pop,
+#     by = "fips"
+#   ) %>%
+#   distinct() %>%
+#   pull(population)
+# 
+# ts_us_confirmed <- ts_us_confirmed %>%
+#   add_column(
+#     pop_column,
+#     .after = "lon"
+#   ) %>%
+#   rename(
+#     population = pop_column
+#   )
+# 
+# ts_us_combined <- bind_rows(
+#   ts_us_confirmed %>%
+#     mutate(status = "confirmed") %>%
+#     rename(number = confirmed),
+#   ts_us_deaths %>%
+#     mutate(status = "deaths") %>%
+#     rename(number = deaths)
+# )
+# 
+# #-- save ts US data
+# 
+# saveRDS(
+#   ts_us_combined,
+#   file = "data/covid-19_ts_us_combined.rds"
+# )
+# write_csv(
+#   ts_us_combined,
+#   path = "data/covid-19_ts_us_combined.csv.gz"
+# )
+# 
+# saveRDS(
+#   ts_us_confirmed,
+#   file = "data/covid-19_ts_us_confirmed.rds"
+# )
+# write_csv(
+#   ts_us_confirmed,
+#   path = "data/covid-19_ts_us_confirmed.csv.gz"
+# )
+# 
+# saveRDS(
+#   ts_us_deaths,
+#   file = "data/covid-19_ts_us_deaths.rds"
+# )
+# write_csv(
+#   ts_us_deaths,
+#   path = "data/covid-19_ts_us_deaths.csv.gz"
+# )
+# 
 #-- process the WHO sitrep ts
 
 who_tsfiles <- gh("GET /repos/:owner/:repo/contents/:path",
