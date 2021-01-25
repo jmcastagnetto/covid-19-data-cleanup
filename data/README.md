@@ -257,4 +257,4 @@
 - country_code: ISO 3166-1 alpha-3 country code
 - series_name: World Bank variable name
 - series_code: World Bank variable code
-- population_2020: Estimated polution for 2020
+- population_2020: Estimated population for 2020
